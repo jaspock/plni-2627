@@ -11,4 +11,7 @@ guia:
 
 github:
   url: https://github.com/jaspock/plni-2627
-  pages: https://jaspock.github.io/plni-2627/
+  pages: 
+    url: https://jaspock.github.io/plni-2627/
+    dir: plni-2627
+    

@@ -82,7 +82,7 @@ El código fuente de estas páginas, escrito en Quarto, está disponible en [Git
 Puedes obtener una copia local de estas páginas (por ejemplo, para poder consultarlas sin conexión) ejecutando:
 
 ```
-wget --mirror --no-parent --convert-links --page-requisites {{< var github.pages >}}
+wget --mirror --no-parent --convert-links --page-requisites {{< var github.pages.url >}}
 ```
 
 ## Declaración de uso de inteligencia artificial
