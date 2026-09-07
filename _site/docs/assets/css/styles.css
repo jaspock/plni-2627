@@ -1,0 +1,11 @@
+.tabla-80 {
+  font-size: 80%;
+}
+
+.tabla-80 table tr:nth-child(even) {
+  background-color: rgba(128, 128, 128, 0.15);
+}
+
+.tabla-80 table tr:nth-child(odd) {
+  background-color: rgba(128, 128, 128, 0.03);
+}

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "skills": {
+    "alt-text": {
+      "source": "posit-dev/skills",
+      "sourceType": "github",
+      "skillPath": "alt-text/SKILL.md",
+      "computedHash": "365666511811e75b8893de28116bb588e00d20a69988ee12cb643fbbd7ebc8cb"
+    },
+    "brand-yml": {
+      "source": "posit-dev/skills",
+      "sourceType": "github",
+      "skillPath": "brand-yml/SKILL.md",
+      "computedHash": "947d07aae381c7d702e0abaa5bc9f589dd94ea43ec19cc36a4e40da85937186d"
+    },
+    "quarto-authoring": {
+      "source": "posit-dev/skills",
+      "sourceType": "github",
+      "skillPath": "quarto/quarto-authoring/SKILL.md",
+      "computedHash": "24ae1cc561222b945dea7b7b6a6be35f19e9238da8699251202c9715efb5d1cc"
+    }
+  }
+}

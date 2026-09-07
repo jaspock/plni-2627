@@ -1,0 +1,10 @@
+---
+title: "Palabras, tokens y embeddings incontextuales"
+---
+
+## Materiales a estudiar antes de la sesión
+
+## Actividades a realizar antes de la sesión
+
+## Contenidos de la sesión 
+

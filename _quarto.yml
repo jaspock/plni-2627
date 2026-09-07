@@ -1,0 +1,77 @@
+project:
+  type: website
+  render:
+    - "*.qmd"
+    - "docs/*.qmd"
+
+website:
+  title: "Procesamiento del Lenguaje Natural I"
+  description: "Materiales de la asignatura Procesamiento del Lenguaje Natural I del Grado en Ingeniería en IA de la Universitat d'Alacant"
+  site-url: "https://jaspock.github.io/plni/"
+
+  search:
+    location: navbar
+    type: overlay
+
+  navbar:
+    title: "{{< var asignatura >}}"
+    left:
+      - text: "Índice"
+        href: index.qmd
+        icon: house-door
+      - text: "Teoría"
+        menu:
+          - text: "Repaso de regresores y redes feedforward"
+            href: docs/repaso.qmd
+          - text: "Palabras, tokens y embeddings incontextuales"
+            href: docs/embeddings.qmd
+      - text: "Prácticas"
+        menu:
+          - text: "Introducción a PyTorch"
+            href: docs/pytorch.qmd
+      - text: "Guía docente"
+        href: "{{< var guia.url >}}"
+        icon: journal-bookmark
+    right:
+      - icon: github
+        href: https://github.com/jaspock/plni-2627
+        aria-label: GitHub repository
+
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - text: "Presentación"
+        href: index.qmd
+      - section: "Sesiones teóricas"
+        contents:
+          - text: "Repaso de regresores y redes feedforward"
+            href: docs/repaso.qmd
+          - text: "Palabras, tokens y embeddings incontextuales"
+            href: docs/embeddings.qmd
+      - section: "Sesiones prácticas"
+        contents:
+          - text: "Introducción a PyTorch"
+            href: docs/pytorch.qmd
+
+  page-footer:
+    left: "{{< var asignatura >}} — Curso {{< var curso >}}"
+    right: "Universitat d'Alacant — Grado en Ingeniería en Inteligencia Artificial"
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    css: docs/assets/css/styles.css
+    toc: true
+    toc-title: "En esta página"
+    toc-depth: 3
+    number-sections: false
+    code-copy: true
+    smooth-scroll: true
+
+editor: 
+  render-on-save: true
+
+

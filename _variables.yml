@@ -1,0 +1,14 @@
+asignatura: "Procesamiento del Lenguaje Natural I"
+curso: 2026-2027
+profesores: "Juan Antonio Pérez Ortiz (coordinador), Borja Navarro Colorado, Antonio Toral Ruiz"
+
+jurafsky:
+  url: https://web.archive.org/web/20260901084053/https://web.stanford.edu/~jurafsky/slp3/
+  fecha: "19 de agosto de 2026"
+
+guia:
+  url: https://cvnet.cpd.ua.es/Guia-Docente/?wlengua=es&wcodasi=33684&scaca=2026-27
+
+github:
+  url: https://github.com/jaspock/plni-2627
+  pages: https://jaspock.github.io/plni-2627/

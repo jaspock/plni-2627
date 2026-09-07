@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Procesamiento del Lenguaje Natural I</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-3bd5803f67b65c6d72b4d529a1543a14.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-6d6d7705558644f2c0f6c01f0994ba42.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-3bd5803f67b65c6d72b4d529a1543a14.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<link rel="stylesheet" href="docs/assets/css/styles.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Procesamiento del Lenguaje Natural I</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> <i class="bi bi-house-door" role="img">
+</i> 
+<span class="menu-text">Índice</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-teoría" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Teoría</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-teoría">    
+        <li>
+    <a class="dropdown-item" href="./docs/repaso.html">
+ <span class="dropdown-text">Repaso de regresores y redes feedforward</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./docs/embeddings.html">
+ <span class="dropdown-text">Palabras, tokens y embeddings incontextuales</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-prácticas" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Prácticas</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-prácticas">    
+        <li>
+    <a class="dropdown-item" href="./docs/pytorch.html">
+ <span class="dropdown-text">Introducción a PyTorch</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="https://cvnet.cpd.ua.es/Guia-Docente/?wlengua=es&amp;wcodasi=33684&amp;scaca=2026-27"> <i class="bi bi-journal-bookmark" role="img">
+</i> 
+<span class="menu-text">Guía docente</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/jaspock/plni-2627"> <i class="bi bi-github" role="img" aria-label="GitHub repository">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Presentación</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Presentación</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Sesiones teóricas</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./docs/repaso.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Repaso de regresores y redes feedforward</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./docs/embeddings.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Palabras, tokens y embeddings incontextuales</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Sesiones prácticas</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./docs/pytorch.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introducción a PyTorch</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">En esta página</h2>
+   
+  <ul>
+  <li><a href="#contenidos" id="toc-contenidos" class="nav-link active" data-scroll-target="#contenidos">Contenidos</a></li>
+  <li><a href="#sesiones" id="toc-sesiones" class="nav-link" data-scroll-target="#sesiones">Sesiones</a></li>
+  <li><a href="#normas-del-curso" id="toc-normas-del-curso" class="nav-link" data-scroll-target="#normas-del-curso">Normas del curso</a></li>
+  <li><a href="#declaración-de-uso-de-inteligencia-artificial" id="toc-declaración-de-uso-de-inteligencia-artificial" class="nav-link" data-scroll-target="#declaración-de-uso-de-inteligencia-artificial">Declaración de uso de inteligencia artificial</a></li>
+  <li><a href="#evaluación" id="toc-evaluación" class="nav-link" data-scroll-target="#evaluación">Evaluación</a></li>
+  <li><a href="#referencias" id="toc-referencias" class="nav-link" data-scroll-target="#referencias">Referencias</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Procesamiento del Lenguaje Natural I</h1>
+<p class="subtitle lead">Curso 2026-2027</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Estos son los materiales de clase del curso de introducción al procesamiento del lenguaje natural del Grado en Ingeniería en Inteligencia Artificial de la Universitat d’Alacant.</p>
+<p>Los profesores del curso 2026-2027 son: Juan Antonio Pérez Ortiz (coordinador), Borja Navarro Colorado, Antonio Toral Ruiz.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Motivación
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>El reconocido filósofo Yuval Noah Harari (autor, entre otros, de “Sapiens”) <a href="https://youtu.be/_V_ed5fuexA?si=WzxwxitZV_clI3JK&amp;t=159">defendía</a> en un evento organizado en julio de 2026 por la multinacional energética EDP que el lenguaje es la base de nuestra evolución y de todo lo que la humanidad ha construido a lo largo de la historia, refiriéndose a él como el “sistema operativo de la civilización”. Y constataba que siendo el lenguaje nuestra más importante herramienta, hemos sido también capaces de crear algo como los LLMs que hoy dominan el arte de las palabras mejor que nosotros y que expandirán el lenguaje por todo el universo. Y siendo este un sueño de la humanidad desde hace milenios, su materialización ha pasado del imaginario de una especia a la realidad en apenas unas décadas, con la evolución de los últimos 10 años representando un salto de una magnitud que no tiene precedentes en ningún otro avance de la historia.</p>
+<p>Esta asignatura pretende introducirte en las técnicas que hacen posible que las máquinas puedan entender y generar el lenguaje humano.</p>
+</div>
+</div>
+</div>
+<section id="contenidos" class="level2">
+<h2 class="anchored" data-anchor-id="contenidos">Contenidos</h2>
+<p>Estos son los contenidos generales del curso. La concreción de los contenidos en temas y sesiones se detalla más adelante.</p>
+<ol type="1">
+<li>Palabras, tokens y subpalabras. Modelos estadísticos de n-gramas y perplejidad.</li>
+<li>Repaso de redes neuronales en el contexto del PLN.</li>
+<li>Embeddings incontextuales.</li>
+<li>Clasificadores neuronales basados en codificador y modelos preentrenados.</li>
+<li>Modelos de lengua basados en descodificador, modelos preentrenados y modelos de razonamiento.</li>
+<li>Modelos codificador-descodificador para procesamiento de secuencias.</li>
+<li>Preprocesamiento de voz, modelos neuronales para voz y modelos preentrenados.</li>
+<li>Interpretabilidad de modelos de PLN.</li>
+<li>Modelos multilingües y multimodales.</li>
+<li>Implementación de modelos con librerías de bajo nivel.</li>
+<li>Las lenguas del mundo: variedad y familias; aspectos básicos del procesamiento lingüístico humano y su modelado computacional.</li>
+<li>Sintaxis; principales formalismos de representación; modelos y estándares; las dependencias universales.</li>
+<li>Semántica léxica; modelos distribucionales; modelos simbólicos; análisis de sentimientos; entidades referenciales.</li>
+<li>Semántica oracional; modelos basado en semántica de eventos.</li>
+<li>Otros temas del PLN: anáforas y semántica textual; metáforas.</li>
+<li>Aspectos éticos del procesamiento del lenguaje natural.</li>
+</ol>
+</section>
+<section id="sesiones" class="level2">
+<h2 class="anchored" data-anchor-id="sesiones">Sesiones</h2>
+<p>La asignatura utiliza la metodología de la clase invertida, por lo que los estudiantes deben preparar los contenidos de cada sesión teórica antes de asistir a la misma. Además, cada sesión tiene un test de evaluación de los conocimientos adquiridos, que habrá que realizar antes de la clase.</p>
+<p>En cada sesión de teoría se hará un resumen de los contenidos más importantes o avanzados, se resolverán dudas y se realizarán actividades de aprendizaje activo.</p>
+<p>La siguiente tabla muestra las 15 semanas del curso, con los contenidos que se tratarán en cada una de las sesiones teóricas y prácticas. Al tratarse del primer curso que se imparte la asignatura, las sesiones futuras pueden sufrir bastantes cambios.</p>
+<div class="tabla-80">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Semana</th>
+<th>Fecha del lunes</th>
+<th>Sesión teórica</th>
+<th>Sesión práctica</th>
+<th>Notas</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>7/09/2026</td>
+<td><a href="./docs/repaso.html">Tema 1</a>: repaso de regresores y redes feedforward para el PLN</td>
+<td><a href="./docs/pytorch.html">Introducción a PyTorch</a></td>
+<td>Las sesiones de teoría y prácticas no serán de mera introducción a la asignatura.</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>14/09/2026</td>
+<td><a href="./docs/embeddings.html">Tema 2</a>: palabras, tokens, embeddings incontextuales</td>
+<td><a href="docs/practica1.qmd">Práctica 1</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>21/09/2026</td>
+<td><a href="docs/transformers.qmd">Tema 3</a>: transformers, preentrenamiento de LLMs</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>28/09/2026</td>
+<td><a href="docs/clasificadores.qmd">Tema 4</a>: codificadores para clasificación, traducción automática</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>05/10/2026</td>
+<td><a href="docs/post.qmd">Tema 5</a>: posentrenamiento de LLMs, aprendizaje por refuerzo</td>
+<td><a href="docs/practica2.qmd">Práctica 2</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>12/10/2026</td>
+<td><a href="docs/interpretabilidad.qmd">Tema 6</a>: interpretabilidad de modelos de PLN</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>19/10/2026</td>
+<td><a href="docs/voz.qmd">Tema 7</a>: voz y multimodalidad</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>26/10/2026</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>02/11/2026</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>09/11/2026</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>16/11/2026</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>23/11/2026</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>30/11/2026</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>07/12/2026</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>14/12/2026</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="normas-del-curso" class="level2">
+<h2 class="anchored" data-anchor-id="normas-del-curso">Normas del curso</h2>
+<p>Para obtener información sobre la evaluación de la asignatura y otros aspectos formales puedes consultar la <a href="https://cvnet.cpd.ua.es/Guia-Docente/?wlengua=es&amp;wcodasi=33684&amp;scaca=2026-27">guía docente</a>. Algunos aspectos adicionales que no están recogidos en la guía son los siguientes:</p>
+<ul>
+<li>La asistencia a prácticas es obligatoria, aunque se puede tener un máximo de 4 faltas no justificadas. Para justificar una falta puntual, envía al profesor el justificante por una tutoría de UACloud o enséñaselo en la siguiente clase. Cada falta no justificada por encima de las permitidas, restará una parte de la nota final de prácticas a razón de un 20% de la nota final de prácticas por cada falta no justificada adicional.</li>
+<li>Es muy recomendable que tengas algunas tutorías presenciales con los profesores, ya que es la oportunidad de recibir supervisión sobre tus conocimientos de la materia o la forma de afrontar el estudio. Escribe al profesor para concertar un cita en un horario que os venga bien a ambos. Las tutorías se pueden realizar también de forma online, aunque es preferible que sean presenciales.</li>
+<li>Las prácticas se realizan individualmente o en pareja, a tu elección. Ten en cuenta que a final de curso hay exámenes individuales tanto de prácticas como de teoría, por lo que es recomendable que cada estudiante sea responsable de todo el trabajo presentado, independientemente de si lo ha hecho individualmente o en pareja.</li>
+<li>Todas las entregas realizadas por los estudiantes deben ser originales. No está vetado el uso de asistentes de inteligencia artificial, pero si realizas una descarga cognitiva excesiva sobre el asistente, es posible que no seas capaz de resolver con solvencia los exámenes finales.</li>
+<li>Es obligatorio identificar claramente cualquier fragmento de tus actividades en la que hayas utilizado un asistente de inteligencia artificial, indicando el nombre del asistente y una etiqueta con el nivel de ayuda recibido como se comenta más abajo. No identificar el uso de un asistente de inteligencia artificial se considera una falta grave de integridad académica. La calificación de las actividades se ajustará en función del nivel de asistencia tecnológica que hayas utilizado. En caso de dudas por parte del profesor, se podrá citar al estudiante para verificar su nivel de conocimiento de los contenidos entregados.</li>
+<li>Cada una de las prácticas contribuye a la nota final según se indica en los respectivos enunciados.</li>
+</ul>
+<p>El código fuente de estas páginas, escrito en Quarto, está disponible en <a href="https://github.com/jaspock/plni-2627">Github</a>.</p>
+<p>Puedes obtener una copia local de estas páginas (por ejemplo, para poder consultarlas sin conexión) ejecutando:</p>
+<pre><code>wget --mirror --no-parent --convert-links --page-requisites https://jaspock.github.io/plni-2627/</code></pre>
+</section>
+<section id="declaración-de-uso-de-inteligencia-artificial" class="level2">
+<h2 class="anchored" data-anchor-id="declaración-de-uso-de-inteligencia-artificial">Declaración de uso de inteligencia artificial</h2>
+<p>En esta asignatura es necesario identificar en cada material, ejercicio o entrega que realices el nivel en el que has utilizado la inteligencia artificial, definido según los niveles de la <a href="https://aiassessmentscale.com/">AIAS</a> (AI Assessment Scale, un marco de referencia diseñado para categorizar de forma transparente el grado de asistencia tecnológica en tareas formativas) ligeramente modificados:</p>
+<ol type="1">
+<li><strong>No AI</strong>: Trabajo desarrollado íntegramente de forma autónoma, sin ninguna intervención de modelos o asistentes de inteligencia artificial.</li>
+<li><strong>AI Planning</strong>: Asistencia centrada en la preparación previa, como la tormenta de ideas inicial, la búsqueda orientativa de enfoques o la estructuración de esquemas, siendo el desarrollo posterior enteramente humano.</li>
+<li><strong>AI Collaboration</strong>: Trabajo interactivo donde la herramienta apoya en la generación de borradores, código o contraste de enfoques, pero el estudiante dirige el flujo, filtra los resultados y aporta el criterio sustancial.</li>
+<li><strong>Full AI</strong>: Uso intensivo de la tecnología para generar el grueso del contenido o la resolución técnica, donde el estudiante centra su labor en el diseño de las instrucciones, la verificación crítica y la evaluación del producto obtenido.</li>
+<li><strong>Autonomous AI</strong>: Uso de la inteligencia artificial para generar contenido o resolver problemas de manera autónoma, con mínima o nula intervención humana en el proceso, sin apenas definir la tarea ni supervisar el resultado.</li>
+<li><strong>AI Exploration</strong>: Uso experimental para explorar los límites de los modelos, probar soluciones no convencionales o abordar problemas abiertos en la materia.</li>
+</ol>
+<p>Para documentar este uso en tus entregas, debes emplear la etiqueta <aias>. Por ejemplo, para un fragmento desarrollado conjuntamente, puedes marcarlo de la siguiente manera:</aias></p>
+<pre><code>&lt;aias level="ai collaboration"&gt;
+Aquí iría el texto redactado en co-creación con la herramienta, revisado y completado posteriormente.
+&lt;/aias&gt;</code></pre>
+<p>Los valores que puede tomar el atributo son los nombres de los niveles en minúsculas: <code>no ai</code>, <code>ai planning</code>, <code>ai collaboration</code>, <code>full ai</code>, <code>autonomous ai</code> y <code>ai exploration</code>. Si no has utilizado inteligencia artificial en un ejercicio o entrega, no es necesario incluir ninguna marca.</p>
+<p>Tienes dos formas de utilizar esta etiqueta en tus documentos de texto:</p>
+<ul>
+<li>Delimitando un bloque específico: envolviendo el fragmento concreto entre la etiqueta de apertura <aias level="..."> y la de cierre </aias>.</li>
+<li>Marcando el resto del documento: colocando únicamente la etiqueta de apertura sin clausura al inicio de una sección o del trabajo para indicar que ese nivel de asistencia aplica a todo el texto que aparece a continuación.</li>
+</ul>
+<p>Las marcas han de estar visibles para el evaluador humano y no aparecer únicamente en los metadatos del documento.</p>
+<p>Estas marcas deben emplearse también en las entregas de código fuente. En este caso, deben incluirse dentro de comentarios del lenguaje de programación correspondiente (por ejemplo, <code># &lt;aias level="..."&gt;</code> en Python), ya sea delimitando una función o bloque específico, o situando la marca sin clausura al principio del fichero para señalar el nivel aplicado a la totalidad del script.</p>
+</section>
+<section id="evaluación" class="level2">
+<h2 class="anchored" data-anchor-id="evaluación">Evaluación</h2>
+<p>Los detalles completos sobre la evaluación de la asignatura se encuentran en la <a href="https://cvnet.cpd.ua.es/Guia-Docente/?wlengua=es&amp;wcodasi=33684&amp;scaca=2026-27">guía docente</a>. Para la convocatoria ordinaria C2, la nota final se calcula a partir de los siguientes componentes:</p>
+<ul>
+<li>Examen final de contenidos teóricos (50%): prueba global de teoría en papel con requisito de nota mínima de 4 sobre 10 para hacer media y aprobar la asignatura.</li>
+<li>Prueba sobre contenidos prácticos (15%): prueba en papel de la parte práctica con requisito de nota mínima de 4 sobre 10 para aprobar la asignatura.</li>
+<li>Prácticas con ordenador (30%): informes de las prácticas realizadas a lo largo del curso.</li>
+<li>Participación activa (5%): se valora las actividades preparatorias previas y las intervenciones en clase.</li>
+</ul>
+</section>
+<section id="referencias" class="level2">
+<h2 class="anchored" data-anchor-id="referencias">Referencias</h2>
+<p>Los materiales principales del curso son los siguientes:</p>
+<ul>
+<li><p>D. Jurafsky, J. H. Martin (2026), <em>Speech and language processing</em> (3.a edición). Ten en cuenta que la segunda edición tiene unos veinte años y está completamente desactualizada. En este curso usaremos la tercera edición, que aún está en desarrollo, pero que se encuentra disponible gratuitamente en línea. Dado que la web donde se van publicando los capítulos de la tercera edición se actualiza cada pocos meses, en este curso nos basaremos en la versión publicada el 19 de agosto de 2026, que puedes consultar <a href="https://web.archive.org/web/20260901084053/https://web.stanford.edu/~jurafsky/slp3/">aquí</a>.</p></li>
+<li><p>S. Raschka (2024), <em>Build a large language model (from scratch)</em> (editorial Manning Publications). El libro puede consultarse en línea en <a href="https://learning-oreilly-com.bua.idm.oclc.org/library/view/build-a-large/9781633437166">este enlace</a> del portal de libros electrónicos de O’Reilly al que tendrás que acceder con tu cuenta de la Universitat d’Alacant. Además, el <a href="https://github.com/rasbt/LLMs-from-scratch">código del libro</a> está disponible en Github y hay un curso con vídeos para cada capítulo en <a href="https://www.youtube.com/playlist?list=PLTKMiZHVd_2IIEsoJrWACkIxLRdfMlw11">YouTube</a>.</p></li>
+</ul>
+<p>Además, una buena referencia para ver qué tipos de contenidos se imparten en otras universidades es el <a href="https://web.stanford.edu/class/cs224n/">curso</a> <em>Natural language processing with deep learning</em> (con código CS224N) de la universidad de Stanford.</p>
+<p>🤖 ⇄ 💬 ⇄ 🤖 ⇄ 💬 ⇄ 🧑 ⇄ 💬 ⇄ 🧑</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jaspock\.github\.io\/plni\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Procesamiento del Lenguaje Natural I — Curso 2026-2027</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Universitat d’Alacant — Grado en Ingeniería en Inteligencia Artificial</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

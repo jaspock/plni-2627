@@ -1,0 +1,24 @@
+name: Publicar en GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: quarto-dev/quarto-actions/setup@v2
+      - name: Renderizar el sitio (usa _freeze/, sin ejecutar Python)
+        run: quarto render
+      - name: Publicar en GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          publish_branch: gh-pages

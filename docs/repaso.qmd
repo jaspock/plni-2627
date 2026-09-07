@@ -1,0 +1,37 @@
+---
+title: "Repaso de regresores y redes feedforward"
+---
+
+En cursos anteriores has estudiado los regresores y las redes neuronales *feedforward* como herramientas básicas del aprendizaje automático. En esta sesión repasaremos estas arquitecturas centrándonos en su aplicación al procesamiento del lenguaje natural (PLN). Aunque las redes neuronales que se utilizan hoy día para el PLN son más complejas (por ejemplo, los transformers), los conceptos fundamentales que se aprenden con estas otras arquitecturas se manifiestan también en las redes neuronales más avanzadas. Por ello, es importante que tengas bien consolidadas estas bases. 
+
+Esta es la única sesión del curso en la que no seguiremos la metodología de la clase invertida, sino que se impartirá de manera tradicional.
+
+## Conceptos fundamentales
+
+El contenido de esta sesión lo puedes encontrar en los siguientes apartados del [libro]({{< var jurafsky.url >}}) de Jurafsky y Martin:
+
+::: {.tabla-80}
+
+|Capítulo|Apartados o páginas|Contenido|
+|---|---|---|
+|logistic regression [§4]({{< var jurafsky.url >}}/4.pdf)|4.1 a 4.11|Regresión binaria y multinomial|
+|neural networks [§6]({{< var jurafsky.url >}}/6.pdf)|6.1 a 6.6|Redes feedforward|
+
+:::
+
+La figura 6.14 y la explicación de la misma en el texto principal es muy importante para prepararte para las sesiones posteriores. En ella se muestra un sencillo modelo de lengua basado en una red neuronal *feedforward* que predice el siguiente token a partir de los tres tokens anteriores. Aunque los modelos de lengua actuales son normalmente mucho más complejos, este ejemplo te ayudará a entender los conceptos fundamentales de los modelos de lengua y su entrenamiento.
+
+## Evaluación asistida por un tutor inteligente
+
+Usa el siguiente prompt para evaluar tu comprensión de los conceptos fundamentales de esta sesión con ayuda de tu chat o agente de inteligencia artificial favorito. 
+
+── 🙐 ── 🙑 ── 🙒 ── 🙓 ── 🙐 ── 🙑 ── 🙒 ── 🙓
+
+<div style="border: 1px solid #888; font-size: 0.9em; padding: 1em;">
+
+{{< include _prompt.md >}}
+
+1. ¿Qué diferencia hay entre un regresor y una red neuronal *feedforward*? ¿Qué ventajas tiene cada uno de ellos?
+2. ...
+
+</div>
