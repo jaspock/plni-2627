@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Procesamiento del Lenguaje Natural I</title>
+<title>Palabras, tokens y embeddings incontextuales – Procesamiento del Lenguaje Natural I</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -29,27 +29,27 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-8b6515388c2c95ca8510e5322adaa30c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-eccc1243ba6c6c5bbb45927180bfd0c2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-8b6515388c2c95ca8510e5322adaa30c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-8b6515388c2c95ca8510e5322adaa30c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-eccc1243ba6c6c5bbb45927180bfd0c2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-8b6515388c2c95ca8510e5322adaa30c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -79,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
 <style>html{ scroll-behavior: smooth; }</style>
 
 
-<link rel="stylesheet" href="docs/assets/css/styles.css">
+<link rel="stylesheet" href="../docs/assets/css/styles.css">
 </head>
 
 <body class="nav-sidebar docked nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -251,7 +251,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Procesamiento del Lenguaje Natural I</span>
     </a>
   </div>
@@ -262,7 +262,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> <i class="bi bi-house-door" role="img">
+    <a class="nav-link active" href="../index.html" aria-current="page"> <i class="bi bi-house-door" role="img">
 </i> 
 <span class="menu-text">Índice</span></a>
   </li>  
@@ -272,11 +272,11 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-teoría">    
         <li>
-    <a class="dropdown-item" href="./docs/repaso.html">
+    <a class="dropdown-item" href="../docs/repaso.html">
  <span class="dropdown-text">Repaso de regresores y redes feedforward</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./docs/embeddings.html">
+    <a class="dropdown-item" href="../docs/embeddings.html">
  <span class="dropdown-text">Palabras, tokens y embeddings incontextuales</span></a>
   </li>  
     </ul>
@@ -287,7 +287,7 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-prácticas">    
         <li>
-    <a class="dropdown-item" href="./docs/pytorch.html">
+    <a class="dropdown-item" href="../docs/pytorch.html">
  <span class="dropdown-text">Introducción a PyTorch</span></a>
   </li>  
     </ul>
@@ -316,7 +316,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Presentación</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../docs/repaso.html">Sesiones teóricas</a></li><li class="breadcrumb-item"><a href="../docs/embeddings.html">Palabras, tokens y embeddings incontextuales</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -338,7 +338,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Presentación</span></a>
   </div>
 </li>
@@ -353,13 +353,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./docs/repaso.html" class="sidebar-item-text sidebar-link">
+  <a href="../docs/repaso.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Repaso de regresores y redes feedforward</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./docs/embeddings.html" class="sidebar-item-text sidebar-link">
+  <a href="../docs/embeddings.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Palabras, tokens y embeddings incontextuales</span></a>
   </div>
 </li>
@@ -376,7 +376,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./docs/pytorch.html" class="sidebar-item-text sidebar-link">
+  <a href="../docs/pytorch.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Introducción a PyTorch</span></a>
   </div>
 </li>
@@ -392,12 +392,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#contenidos" id="toc-contenidos" class="nav-link active" data-scroll-target="#contenidos">Contenidos</a></li>
-  <li><a href="#sesiones" id="toc-sesiones" class="nav-link" data-scroll-target="#sesiones">Sesiones</a></li>
-  <li><a href="#normas-del-curso" id="toc-normas-del-curso" class="nav-link" data-scroll-target="#normas-del-curso">Normas del curso</a></li>
-  <li><a href="#declaración-de-uso-de-inteligencia-artificial" id="toc-declaración-de-uso-de-inteligencia-artificial" class="nav-link" data-scroll-target="#declaración-de-uso-de-inteligencia-artificial">Declaración de uso de inteligencia artificial</a></li>
-  <li><a href="#evaluación" id="toc-evaluación" class="nav-link" data-scroll-target="#evaluación">Evaluación</a></li>
-  <li><a href="#referencias" id="toc-referencias" class="nav-link" data-scroll-target="#referencias">Referencias</a></li>
+  <li><a href="#materiales-a-estudiar-antes-de-la-sesión" id="toc-materiales-a-estudiar-antes-de-la-sesión" class="nav-link active" data-scroll-target="#materiales-a-estudiar-antes-de-la-sesión">Materiales a estudiar antes de la sesión</a></li>
+  <li><a href="#actividades-a-realizar-antes-de-la-sesión" id="toc-actividades-a-realizar-antes-de-la-sesión" class="nav-link" data-scroll-target="#actividades-a-realizar-antes-de-la-sesión">Actividades a realizar antes de la sesión</a></li>
+  <li><a href="#contenidos-de-la-sesión" id="toc-contenidos-de-la-sesión" class="nav-link" data-scroll-target="#contenidos-de-la-sesión">Contenidos de la sesión</a></li>
   </ul>
 </nav>
     </div>
@@ -405,10 +402,9 @@ ul.task-list li input[type="checkbox"] {
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../docs/repaso.html">Sesiones teóricas</a></li><li class="breadcrumb-item"><a href="../docs/embeddings.html">Palabras, tokens y embeddings incontextuales</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Procesamiento del Lenguaje Natural I</h1>
-<p class="subtitle lead">Curso 2026-2027</p>
+<h1 class="title">Palabras, tokens y embeddings incontextuales</h1>
 </div>
 
 
@@ -425,231 +421,14 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Estos son los materiales de clase del curso de introducción al procesamiento del lenguaje natural del Grado en Ingeniería en Inteligencia Artificial de la Universitat d’Alacant.</p>
-<p>Los profesores del curso 2026-2027 son: Juan Antonio Pérez Ortiz (coordinador), Borja Navarro Colorado, Antonio Toral Ruiz.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Motivación
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse show">
-<div class="callout-body-container callout-body">
-<p>El reconocido filósofo Yuval Noah Harari (autor, entre otros, de “Sapiens”) <a href="https://youtu.be/_V_ed5fuexA?si=WzxwxitZV_clI3JK&amp;t=159">defendía</a> en un evento organizado en julio de 2026 por la multinacional energética EDP que el lenguaje es la base de nuestra evolución y de todo lo que la humanidad ha construido a lo largo de la historia, refiriéndose a él como el “sistema operativo de la civilización”. Y constataba que siendo el lenguaje nuestra más importante herramienta, hemos sido también capaces de crear algo como los LLMs que hoy dominan el arte de las palabras mejor que nosotros y que expandirán el lenguaje por todo el universo. Y siendo este un sueño de la humanidad desde hace milenios, su materialización ha pasado del imaginario de una especia a la realidad en apenas unas décadas, con la evolución de los últimos 10 años representando un salto de una magnitud que no tiene precedentes en ningún otro avance de la historia.</p>
-<p>Esta asignatura pretende introducirte en las técnicas que hacen posible que las máquinas puedan entender y generar el lenguaje humano.</p>
-</div>
-</div>
-</div>
-<section id="contenidos" class="level2">
-<h2 class="anchored" data-anchor-id="contenidos">Contenidos</h2>
-<p>Estos son los contenidos generales del curso. La concreción de los contenidos en temas y sesiones se detalla más adelante.</p>
-<ol type="1">
-<li>Palabras, tokens y subpalabras. Modelos estadísticos de n-gramas y perplejidad.</li>
-<li>Repaso de redes neuronales en el contexto del PLN.</li>
-<li>Embeddings incontextuales.</li>
-<li>Clasificadores neuronales basados en codificador y modelos preentrenados.</li>
-<li>Modelos de lengua basados en descodificador, modelos preentrenados y modelos de razonamiento.</li>
-<li>Modelos codificador-descodificador para procesamiento de secuencias.</li>
-<li>Preprocesamiento de voz, modelos neuronales para voz y modelos preentrenados.</li>
-<li>Interpretabilidad de modelos de PLN.</li>
-<li>Modelos multilingües y multimodales.</li>
-<li>Implementación de modelos con librerías de bajo nivel.</li>
-<li>Las lenguas del mundo: variedad y familias; aspectos básicos del procesamiento lingüístico humano y su modelado computacional.</li>
-<li>Sintaxis; principales formalismos de representación; modelos y estándares; las dependencias universales.</li>
-<li>Semántica léxica; modelos distribucionales; modelos simbólicos; análisis de sentimientos; entidades referenciales.</li>
-<li>Semántica oracional; modelos basado en semántica de eventos.</li>
-<li>Otros temas del PLN: anáforas y semántica textual; metáforas.</li>
-<li>Aspectos éticos del procesamiento del lenguaje natural.</li>
-</ol>
+<section id="materiales-a-estudiar-antes-de-la-sesión" class="level2">
+<h2 class="anchored" data-anchor-id="materiales-a-estudiar-antes-de-la-sesión">Materiales a estudiar antes de la sesión</h2>
 </section>
-<section id="sesiones" class="level2">
-<h2 class="anchored" data-anchor-id="sesiones">Sesiones</h2>
-<p>La asignatura utiliza la metodología de la clase invertida, por lo que los estudiantes deben preparar los contenidos de cada sesión teórica antes de asistir a la misma. Además, cada sesión tiene un test de evaluación de los conocimientos adquiridos, que habrá que realizar antes de la clase.</p>
-<p>En cada sesión de teoría se hará un resumen de los contenidos más importantes o avanzados, se resolverán dudas y se realizarán actividades de aprendizaje activo.</p>
-<p>La siguiente tabla muestra las 15 semanas del curso, con los contenidos que se tratarán en cada una de las sesiones teóricas y prácticas. Al tratarse del primer curso que se imparte la asignatura, las sesiones futuras pueden sufrir bastantes cambios.</p>
-<div class="tabla-80">
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Semana</th>
-<th>Fecha del lunes</th>
-<th>Sesión teórica</th>
-<th>Sesión práctica</th>
-<th>Notas</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>7/09/2026</td>
-<td><a href="./docs/repaso.html">Tema 1</a>: repaso de regresores y redes feedforward para el PLN</td>
-<td><a href="./docs/pytorch.html">Introducción a PyTorch</a></td>
-<td>Las sesiones de teoría y prácticas no serán de mera introducción a la asignatura.</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>14/09/2026</td>
-<td><a href="./docs/embeddings.html">Tema 2</a>: palabras, tokens, embeddings incontextuales</td>
-<td><a href="docs/practica1.qmd">Práctica 1</a></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>21/09/2026</td>
-<td><a href="docs/transformers.qmd">Tema 3</a>: transformers, preentrenamiento de LLMs</td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td>28/09/2026</td>
-<td><a href="docs/clasificadores.qmd">Tema 4</a>: codificadores para clasificación, traducción automática</td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>5</td>
-<td>05/10/2026</td>
-<td><a href="docs/post.qmd">Tema 5</a>: posentrenamiento de LLMs, aprendizaje por refuerzo</td>
-<td><a href="docs/practica2.qmd">Práctica 2</a></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>6</td>
-<td>12/10/2026</td>
-<td><a href="docs/interpretabilidad.qmd">Tema 6</a>: interpretabilidad de modelos de PLN</td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>7</td>
-<td>19/10/2026</td>
-<td><a href="docs/voz.qmd">Tema 7</a>: voz y multimodalidad</td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>8</td>
-<td>26/10/2026</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>9</td>
-<td>02/11/2026</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>10</td>
-<td>09/11/2026</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>11</td>
-<td>16/11/2026</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>12</td>
-<td>23/11/2026</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>13</td>
-<td>30/11/2026</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>14</td>
-<td>07/12/2026</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>15</td>
-<td>14/12/2026</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</div>
+<section id="actividades-a-realizar-antes-de-la-sesión" class="level2">
+<h2 class="anchored" data-anchor-id="actividades-a-realizar-antes-de-la-sesión">Actividades a realizar antes de la sesión</h2>
 </section>
-<section id="normas-del-curso" class="level2">
-<h2 class="anchored" data-anchor-id="normas-del-curso">Normas del curso</h2>
-<p>Para obtener información sobre la evaluación de la asignatura y otros aspectos formales puedes consultar la <a href="https://cvnet.cpd.ua.es/Guia-Docente/?wlengua=es&amp;wcodasi=33684&amp;scaca=2026-27">guía docente</a>. Algunos aspectos adicionales que no están recogidos en la guía son los siguientes:</p>
-<ul>
-<li>La asistencia a prácticas es obligatoria, aunque se puede tener un máximo de 4 faltas no justificadas. Para justificar una falta puntual, envía al profesor el justificante por una tutoría de UACloud o enséñaselo en la siguiente clase. Cada falta no justificada por encima de las permitidas, restará una parte de la nota final de prácticas a razón de un 20% de la nota final de prácticas por cada falta no justificada adicional.</li>
-<li>Es muy recomendable que tengas algunas tutorías presenciales con los profesores, ya que es la oportunidad de recibir supervisión sobre tus conocimientos de la materia o la forma de afrontar el estudio. Escribe al profesor para concertar un cita en un horario que os venga bien a ambos. Las tutorías se pueden realizar también de forma online, aunque es preferible que sean presenciales.</li>
-<li>Las prácticas se realizan individualmente o en pareja, a tu elección. Ten en cuenta que a final de curso hay exámenes individuales tanto de prácticas como de teoría, por lo que es recomendable que cada estudiante sea responsable de todo el trabajo presentado, independientemente de si lo ha hecho individualmente o en pareja.</li>
-<li>Todas las entregas realizadas por los estudiantes deben ser originales. No está vetado el uso de asistentes de inteligencia artificial, pero si realizas una descarga cognitiva excesiva sobre el asistente, es posible que no seas capaz de resolver con solvencia los exámenes finales.</li>
-<li>Es obligatorio identificar claramente cualquier fragmento de tus actividades en la que hayas utilizado un asistente de inteligencia artificial, indicando el nombre del asistente y una etiqueta con el nivel de ayuda recibido como se comenta más abajo. No identificar el uso de un asistente de inteligencia artificial se considera una falta grave de integridad académica. La calificación de las actividades se ajustará en función del nivel de asistencia tecnológica que hayas utilizado. En caso de dudas por parte del profesor, se podrá citar al estudiante para verificar su nivel de conocimiento de los contenidos entregados.</li>
-<li>Cada una de las prácticas contribuye a la nota final según se indica en los respectivos enunciados.</li>
-</ul>
-<p>El código fuente de estas páginas, escrito en Quarto, está disponible en <a href="https://github.com/jaspock/plni-2627">Github</a>.</p>
-<p>Puedes obtener una copia local de estas páginas (por ejemplo, para poder consultarlas sin conexión) ejecutando:</p>
-<pre><code>wget --mirror --no-parent --convert-links --page-requisites https://jaspock.github.io/plni-2627/</code></pre>
-</section>
-<section id="declaración-de-uso-de-inteligencia-artificial" class="level2">
-<h2 class="anchored" data-anchor-id="declaración-de-uso-de-inteligencia-artificial">Declaración de uso de inteligencia artificial</h2>
-<p>En esta asignatura es necesario identificar en cada material, ejercicio o entrega que realices el nivel en el que has utilizado la inteligencia artificial, definido según los niveles de la <a href="https://aiassessmentscale.com/">AIAS</a> (AI Assessment Scale, un marco de referencia diseñado para categorizar de forma transparente el grado de asistencia tecnológica en tareas formativas) ligeramente modificados:</p>
-<ol type="1">
-<li><strong>No AI</strong>: Trabajo desarrollado íntegramente de forma autónoma, sin ninguna intervención de modelos o asistentes de inteligencia artificial.</li>
-<li><strong>AI Planning</strong>: Asistencia centrada en la preparación previa, como la tormenta de ideas inicial, la búsqueda orientativa de enfoques o la estructuración de esquemas, siendo el desarrollo posterior enteramente humano.</li>
-<li><strong>AI Collaboration</strong>: Trabajo interactivo donde la herramienta apoya en la generación de borradores, código o contraste de enfoques, pero el estudiante dirige el flujo, filtra los resultados y aporta el criterio sustancial.</li>
-<li><strong>Full AI</strong>: Uso intensivo de la tecnología para generar el grueso del contenido o la resolución técnica, donde el estudiante centra su labor en el diseño de las instrucciones, la verificación crítica y la evaluación del producto obtenido.</li>
-<li><strong>Autonomous AI</strong>: Uso de la inteligencia artificial para generar contenido o resolver problemas de manera autónoma, con mínima o nula intervención humana en el proceso, sin apenas definir la tarea ni supervisar el resultado.</li>
-<li><strong>AI Exploration</strong>: Uso experimental para explorar los límites de los modelos, probar soluciones no convencionales o abordar problemas abiertos en la materia.</li>
-</ol>
-<p>Para documentar este uso en tus entregas, debes emplear la etiqueta <aias>. Por ejemplo, para un fragmento desarrollado conjuntamente, puedes marcarlo de la siguiente manera:</aias></p>
-<pre><code>&lt;aias level="ai collaboration"&gt;
-Aquí iría el texto redactado en co-creación con la herramienta, revisado y completado posteriormente.
-&lt;/aias&gt;</code></pre>
-<p>Los valores que puede tomar el atributo son los nombres de los niveles en minúsculas: <code>no ai</code>, <code>ai planning</code>, <code>ai collaboration</code>, <code>full ai</code>, <code>autonomous ai</code> y <code>ai exploration</code>. Si no has utilizado inteligencia artificial en un ejercicio o entrega, no es necesario incluir ninguna marca.</p>
-<p>Tienes dos formas de utilizar esta etiqueta en tus documentos de texto:</p>
-<ul>
-<li>Delimitando un bloque específico: envolviendo el fragmento concreto entre la etiqueta de apertura <aias level="..."> y la de cierre </aias>.</li>
-<li>Marcando el resto del documento: colocando únicamente la etiqueta de apertura sin clausura al inicio de una sección o del trabajo para indicar que ese nivel de asistencia aplica a todo el texto que aparece a continuación.</li>
-</ul>
-<p>Las marcas han de estar visibles para el evaluador humano y no aparecer únicamente en los metadatos del documento.</p>
-<p>Estas marcas deben emplearse también en las entregas de código fuente. En este caso, deben incluirse dentro de comentarios del lenguaje de programación correspondiente (por ejemplo, <code># &lt;aias level="..."&gt;</code> en Python), ya sea delimitando una función o bloque específico, o situando la marca sin clausura al principio del fichero para señalar el nivel aplicado a la totalidad del script.</p>
-</section>
-<section id="evaluación" class="level2">
-<h2 class="anchored" data-anchor-id="evaluación">Evaluación</h2>
-<p>Los detalles completos sobre la evaluación de la asignatura se encuentran en la <a href="https://cvnet.cpd.ua.es/Guia-Docente/?wlengua=es&amp;wcodasi=33684&amp;scaca=2026-27">guía docente</a>. Para la convocatoria ordinaria C2, la nota final se calcula a partir de los siguientes componentes:</p>
-<ul>
-<li>Examen final de contenidos teóricos (50%): prueba global de teoría en papel con requisito de nota mínima de 4 sobre 10 para hacer media y aprobar la asignatura.</li>
-<li>Prueba sobre contenidos prácticos (15%): prueba en papel de la parte práctica con requisito de nota mínima de 4 sobre 10 para aprobar la asignatura.</li>
-<li>Prácticas con ordenador (30%): informes de las prácticas realizadas a lo largo del curso.</li>
-<li>Participación activa (5%): se valora las actividades preparatorias previas y las intervenciones en clase.</li>
-</ul>
-</section>
-<section id="referencias" class="level2">
-<h2 class="anchored" data-anchor-id="referencias">Referencias</h2>
-<p>Los materiales principales del curso son los siguientes:</p>
-<ul>
-<li><p>D. Jurafsky, J. H. Martin (2026), <em>Speech and language processing</em> (3.a edición). Ten en cuenta que la segunda edición tiene unos veinte años y está completamente desactualizada. En este curso usaremos la tercera edición, que aún está en desarrollo, pero que se encuentra disponible gratuitamente en línea. Dado que la web donde se van publicando los capítulos de la tercera edición se actualiza cada pocos meses, en este curso nos basaremos en la versión publicada el 19 de agosto de 2026, que puedes consultar <a href="https://web.archive.org/web/20260901084053/https://web.stanford.edu/~jurafsky/slp3/">aquí</a>.</p></li>
-<li><p>S. Raschka (2024), <em>Build a large language model (from scratch)</em> (editorial Manning Publications). El libro puede consultarse en línea en <a href="https://learning-oreilly-com.bua.idm.oclc.org/library/view/build-a-large/9781633437166">este enlace</a> del portal de libros electrónicos de O’Reilly al que tendrás que acceder con tu cuenta de la Universitat d’Alacant. Además, el <a href="https://github.com/rasbt/LLMs-from-scratch">código del libro</a> está disponible en Github y hay un curso con vídeos para cada capítulo en <a href="https://www.youtube.com/playlist?list=PLTKMiZHVd_2IIEsoJrWACkIxLRdfMlw11">YouTube</a>.</p></li>
-</ul>
-<p>Además, una buena referencia para ver qué tipos de contenidos se imparten en otras universidades es el <a href="https://web.stanford.edu/class/cs224n/">curso</a> <em>Natural language processing with deep learning</em> (con código CS224N) de la universidad de Stanford.</p>
-<p>🤖 ⇄ 💬 ⇄ 🤖 ⇄ 💬 ⇄ 🧑 ⇄ 💬 ⇄ 🧑</p>
+<section id="contenidos-de-la-sesión" class="level2">
+<h2 class="anchored" data-anchor-id="contenidos-de-la-sesión">Contenidos de la sesión</h2>
 
 
 </section>
@@ -1086,5 +865,5 @@ Aquí iría el texto redactado en co-creación con la herramienta, revisado y co
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
