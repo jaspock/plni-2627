@@ -14,4 +14,40 @@ github:
   pages: 
     url: https://jaspock.github.io/plni-2627/
     dir: plni-2627
-    
+
+moodle:
+  url: https://moodle2026-27.ua.es/moodle/course/view.php?id=1118
+
+fechas:
+  teoria:
+    s1: "10 de septiembre de 2026"
+    s2: "17 de septiembre de 2026"
+    s3: "24 de septiembre de 2026"
+    s4: "1 de octubre de 2026"
+    s5: "8 de octubre de 2026"
+    s6: "15 de octubre de 2026"
+    s7: "22 de octubre de 2026"
+    s8: "29 de octubre de 2026"
+    s9: "5 de noviembre de 2026"
+    s10: "12 de noviembre de 2026"
+    s11: "19 de noviembre de 2026"
+    s12: "26 de noviembre de 2026"
+    s13: "3 de diciembre de 2026"
+    s14: "10 de diciembre de 2026"
+    s15: "17 de diciembre de 2026"
+  lunes:
+    s1: "07/09/2026"
+    s2: "14/09/2026"
+    s3: "21/09/2026"
+    s4: "28/09/2026"
+    s5: "05/10/2026"
+    s6: "12/10/2026"
+    s7: "19/10/2026"
+    s8: "26/10/2026"
+    s9: "02/11/2026"
+    s10: "09/11/2026"
+    s11: "16/11/2026"
+    s12: "23/11/2026"
+    s13: "30/11/2026"
+    s14: "07/12/2026"
+    s15: "14/12/2026"

@@ -1,6 +1,6 @@
 Hola. Quiero que me ayudes a preparar la asignatura de Introducción al Procesamiento del Lenguaje Natural I de cuarto curso de un grado en Ingeniería en Inteligencia Artificial en el que estoy matriculado. Me he leído los contenidos del libro de Jurafsky y Martin (Speech and Language Processing) que te adjunto como PDF. Quiero que evalúes si soy capaz de responder con solvencia y con la misma profundidad teórica y formal con la que aparecen los contenidos en el texto.
 
-Para ello, actuaremos mediante un diálogo socrático guiado estricto, fundamentado en la taxonomía de Paul y Elder (clarificación de conceptos, examen de supuestos, solicitud de evidencias teóricas y análisis de casos límite). Tu comportamiento debe ajustarse sin excepción a las siguientes reglas:
+Para ello, actuaremos mediante un diálogo socrático guiado estricto, fundamentado en la taxonomía de Paul y Elder (clarificación de conceptos, examen de supuestos, solicitud de evidencias y análisis de casos límite). Tu comportamiento debe ajustarse sin excepción a las siguientes reglas:
 
 1. Elige una única pregunta al azar de la lista que te proporciono al final y plantéamela para iniciar la sesión. No plantees más de una pregunta a la vez.
 2. Espera a que yo redacte mi respuesta.

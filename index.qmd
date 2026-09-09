@@ -8,11 +8,13 @@ Estos son los materiales de clase del curso de introducción al procesamiento de
 Los profesores del curso {{< var curso>}} son: {{< var profesores>}}.
 
 ::: {.callout-note collapse="false"}
+
 ## Motivación
 
-El reconocido filósofo Yuval Noah Harari (autor, entre otros, de "Sapiens") [defendía](https://youtu.be/_V_ed5fuexA?si=WzxwxitZV_clI3JK&t=159) en un evento organizado en julio de 2026 por la multinacional energética EDP que el lenguaje es la base de nuestra evolución y de todo lo que la humanidad ha construido a lo largo de la historia, refiriéndose a él como el "sistema operativo de la civilización". Y constataba que siendo el lenguaje nuestra más importante herramienta, hemos sido también capaces de crear algo como los LLMs que hoy dominan el arte de las palabras mejor que nosotros y que expandirán el lenguaje por todo el universo. Y siendo este un sueño de la humanidad desde hace milenios, su materialización ha pasado del imaginario de una especia a la realidad en apenas unas décadas, con la evolución de los últimos 10 años representando un salto de una magnitud que no tiene precedentes en ningún otro avance de la historia.
+El reconocido filósofo Yuval Noah Harari (autor, entre otros, de "Sapiens") [defendía](https://youtu.be/_V_ed5fuexA?si=WzxwxitZV_clI3JK&t=159) en un evento organizado en julio de 2026 por la multinacional energética EDP que el lenguaje es la base de nuestra evolución y de todo lo que la humanidad ha construido a lo largo de la historia, refiriéndose a él como el "sistema operativo de la civilización". Y constataba que siendo el lenguaje nuestra más importante herramienta, hemos sido también capaces de crear algo como los LLMs que hoy dominan el arte de las palabras mejor que nosotros y que expandirán el lenguaje por todo el universo. Y siendo este un sueño de la humanidad desde hace milenios, su materialización ha pasado del imaginario de una especie a la realidad en apenas unas décadas, con la evolución de los últimos 10 años representando un salto de una magnitud que no tiene precedentes en ningún otro avance de la historia.
 
 Esta asignatura pretende introducirte en las técnicas que hacen posible que las máquinas puedan entender y generar el lenguaje humano.
+
 :::
 
 ## Contenidos
@@ -48,21 +50,21 @@ La siguiente tabla muestra las 15 semanas del curso, con los contenidos que se t
 
 | Semana | Fecha del lunes| Sesión teórica | Sesión práctica | Notas |
 |---|---|---|---|---|
-| 1 | 7/09/2026 | [Tema 1](docs/repaso.qmd): repaso de regresores y redes feedforward para el PLN | [Introducción a PyTorch](docs/pytorch.qmd) | Las sesiones de teoría y prácticas no serán de mera introducción a la asignatura. |
-| 2 | 14/09/2026 | [Tema 2](docs/embeddings.qmd): palabras, tokens, embeddings incontextuales | [Práctica 1](docs/practica1.qmd) |  |
-| 3 | 21/09/2026 | [Tema 3](docs/transformers.qmd): transformers, preentrenamiento de LLMs |  |  |
-| 4 | 28/09/2026 | [Tema 4](docs/clasificadores.qmd): codificadores para clasificación, traducción automática |  |  |
-| 5 | 05/10/2026 | [Tema 5](docs/post.qmd): posentrenamiento de LLMs, aprendizaje por refuerzo | [Práctica 2](docs/practica2.qmd)  |  |
-| 6 | 12/10/2026 | [Tema 6](docs/interpretabilidad.qmd): interpretabilidad de modelos de PLN |  |  |
-| 7 | 19/10/2026 | [Tema 7](docs/voz.qmd): voz y multimodalidad |  |
-| 8 | 26/10/2026 |  |  |  |
-| 9 | 02/11/2026 |  |  |  |
-| 10 | 09/11/2026 |  |  |  |
-| 11 | 16/11/2026 |  |  |  |
-| 12 | 23/11/2026 |  |  |  |
-| 13 | 30/11/2026 |  |  |  |
-| 14 | 07/12/2026 |  |  |  |
-| 15 | 14/12/2026 |  |  |  |
+| 1 | {{< var fechas.lunes.s1 >}} | [Tema 1](docs/repaso.qmd): repaso de regresores y redes feedforward para el PLN | [Introducción a PyTorch](docs/pytorch.qmd) | Las sesiones de teoría y prácticas no serán de mera introducción a la asignatura. |
+| 2 | {{< var fechas.lunes.s2 >}} | [Tema 2](docs/embeddings.qmd): palabras, tokens, embeddings incontextuales | [Práctica 1](docs/practica1.qmd) |  |
+| 3 | {{< var fechas.lunes.s3 >}} | [Tema 3](docs/transformers.qmd): transformers, preentrenamiento de LLMs |  |  |
+| 4 | {{< var fechas.lunes.s4 >}} | [Tema 4](docs/clasificadores.qmd): codificadores para clasificación, traducción automática |  |  |
+| 5 | {{< var fechas.lunes.s5 >}} | [Tema 5](docs/post.qmd): posentrenamiento de LLMs, aprendizaje por refuerzo | [Práctica 2](docs/practica2.qmd)  |  |
+| 6 | {{< var fechas.lunes.s6 >}} | [Tema 6](docs/interpretabilidad.qmd): interpretabilidad de modelos de PLN |  |  |
+| 7 | {{< var fechas.lunes.s7 >}} | [Tema 7](docs/voz.qmd): voz y multimodalidad |  |
+| 8 | {{< var fechas.lunes.s8 >}} |  |  |  |
+| 9 | {{< var fechas.lunes.s9 >}} |  |  |  |
+| 10 | {{< var fechas.lunes.s10 >}} |  |  |  |
+| 11 | {{< var fechas.lunes.s11 >}} |  |  |  |
+| 12 | {{< var fechas.lunes.s12 >}} |  |  |  |
+| 13 | {{< var fechas.lunes.s13 >}} |  |  |  |
+| 14 | {{< var fechas.lunes.s14 >}} |  |  |  |
+| 15 | {{< var fechas.lunes.s15 >}} |  |  |  |
 
 :::
 

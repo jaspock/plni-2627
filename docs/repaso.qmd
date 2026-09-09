@@ -2,6 +2,8 @@
 title: "Repaso de regresores y redes feedforward"
 ---
 
+Fecha de la sesión: {{< var fechas.teoria.s1 >}}
+
 En cursos anteriores has estudiado los regresores y las redes neuronales *feedforward* como herramientas básicas del aprendizaje automático. En esta sesión repasaremos estas arquitecturas centrándonos en su aplicación al procesamiento del lenguaje natural (PLN). Aunque las redes neuronales que se utilizan hoy día para el PLN son más complejas (por ejemplo, los transformers), los conceptos fundamentales que se aprenden con estas otras arquitecturas se manifiestan también en las redes neuronales más avanzadas. Por ello, es importante que tengas bien consolidadas estas bases. 
 
 Esta es la única sesión del curso en la que no seguiremos la metodología de la clase invertida, sino que se impartirá de manera tradicional.
@@ -29,7 +31,7 @@ Usa el siguiente prompt para evaluar tu comprensión de los conceptos fundamenta
 
 <div style="border: 1px solid #888; font-size: 0.9em; padding: 1em;">
 
-{{< include _prompt.md >}}
+{{< include _socratic.md >}}
 
 1. ¿Qué diferencia hay entre un regresor y una red neuronal *feedforward*? ¿Qué ventajas tiene cada uno de ellos?
 2. ...
