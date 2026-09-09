@@ -16,8 +16,8 @@ El contenido de esta sesión lo puedes encontrar en los siguientes apartados del
 
 |Capítulo|Apartados o páginas|Contenido|
 |---|---|---|
-|words and tokens [§2]({{< var jurafsky.url >}}/2.pdf)|2.1 y 2.4|Palabras, tokens y tokenizadores|
-|embeddings [§5]({{< var jurafsky.url >}}/5.pdf)|5.1 a 5.5, 5.8|Embeddings incontextuales neuronales y basados en cuentas|
+|Words and tokens [§2]({{< var jurafsky.url >}}/2.pdf)|2.1 y 2.4|Palabras, tokens y tokenizadores|
+|Embeddings [§5]({{< var jurafsky.url >}}/5.pdf)|5.1 a 5.5, 5.8|Embeddings incontextuales neuronales y basados en cuentas|
 
 :::
 

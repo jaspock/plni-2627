@@ -16,8 +16,8 @@ El contenido de esta sesión lo puedes encontrar en los siguientes apartados del
 
 |Capítulo|Apartados o páginas|Contenido|
 |---|---|---|
-|logistic regression [§4]({{< var jurafsky.url >}}/4.pdf)|4.1 a 4.11|Regresión binaria y multinomial|
-|neural networks [§6]({{< var jurafsky.url >}}/6.pdf)|6.1 a 6.6|Redes feedforward|
+|Logistic regression [§4]({{< var jurafsky.url >}}/4.pdf)|4.1 a 4.11|Regresión binaria y multinomial|
+|Neural networks [§6]({{< var jurafsky.url >}}/6.pdf)|6.1 a 6.6|Redes feedforward|
 
 :::
 

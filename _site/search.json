@@ -129,7 +129,7 @@
     "href": "docs/repaso.html#conceptos-fundamentales",
     "title": "Repaso de regresores y redes feedforward",
     "section": "Conceptos fundamentales",
-    "text": "Conceptos fundamentales\nEl contenido de esta sesión lo puedes encontrar en los siguientes apartados del libro de Jurafsky y Martin:\n\n\n\n\nCapítulo\nApartados o páginas\nContenido\n\n\n\n\nlogistic regression §4\n4.1 a 4.11\nRegresión binaria y multinomial\n\n\nneural networks §6\n6.1 a 6.6\nRedes feedforward\n\n\n\n\nLa figura 6.14 y la explicación de la misma en el texto principal es muy importante para prepararte para las sesiones posteriores. En ella se muestra un sencillo modelo de lengua basado en una red neuronal feedforward que predice el siguiente token a partir de los tres tokens anteriores. Aunque los modelos de lengua actuales son normalmente mucho más complejos, este ejemplo te ayudará a entender los conceptos fundamentales de los modelos de lengua y su entrenamiento.",
+    "text": "Conceptos fundamentales\nEl contenido de esta sesión lo puedes encontrar en los siguientes apartados del libro de Jurafsky y Martin:\n\n\n\n\nCapítulo\nApartados o páginas\nContenido\n\n\n\n\nLogistic regression §4\n4.1 a 4.11\nRegresión binaria y multinomial\n\n\nNeural networks §6\n6.1 a 6.6\nRedes feedforward\n\n\n\n\nLa figura 6.14 y la explicación de la misma en el texto principal es muy importante para prepararte para las sesiones posteriores. En ella se muestra un sencillo modelo de lengua basado en una red neuronal feedforward que predice el siguiente token a partir de los tres tokens anteriores. Aunque los modelos de lengua actuales son normalmente mucho más complejos, este ejemplo te ayudará a entender los conceptos fundamentales de los modelos de lengua y su entrenamiento.",
     "crumbs": [
       "Índice",
       "Sesiones teóricas",
@@ -213,7 +213,7 @@
     "href": "docs/embeddings.html#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7332203e7d7d",
     "title": "Palabras, tokens y embeddings incontextuales",
     "section": "Materiales a estudiar antes de la sesión del 17 de septiembre de 2026",
-    "text": "Materiales a estudiar antes de la sesión del 17 de septiembre de 2026\nEl contenido de esta sesión lo puedes encontrar en los siguientes apartados del libro de Jurafsky y Martin:\n\n\n\n\nCapítulo\nApartados o páginas\nContenido\n\n\n\n\nwords and tokens §2\n2.1 y 2.4\nPalabras, tokens y tokenizadores\n\n\nembeddings §5\n5.1 a 5.5, 5.8\nEmbeddings incontextuales neuronales y basados en cuentas",
+    "text": "Materiales a estudiar antes de la sesión del 17 de septiembre de 2026\nEl contenido de esta sesión lo puedes encontrar en los siguientes apartados del libro de Jurafsky y Martin:\n\n\n\n\nCapítulo\nApartados o páginas\nContenido\n\n\n\n\nWords and tokens §2\n2.1 y 2.4\nPalabras, tokens y tokenizadores\n\n\nEmbeddings §5\n5.1 a 5.5, 5.8\nEmbeddings incontextuales neuronales y basados en cuentas",
     "crumbs": [
       "Índice",
       "Sesiones teóricas",
