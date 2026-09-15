@@ -184,6 +184,13 @@
     "text": "Complejidad técnica y ponderación de la nota\nLa calificación final estará estrechamente ligada a la ambición y complejidad técnica de la modificación elegida. Existe un gradiente claro de dificultad: realizar un cambio mínimo o casi trivial (como limitarse a cambiar una función de activación aislada) difícilmente permitirá alcanzar el aprobado por sí solo; en el extremo opuesto, modificaciones de calado que obliguen a reformular la interacción entre múltiples módulos del transformer, gestionar transformaciones tensoriales complejas y aportar una batería empírica exhaustiva optarán a la máxima calificación."
   },
   {
+    "objectID": "docs/practicallm.html#planificación",
+    "href": "docs/practicallm.html#planificación",
+    "title": "Práctica 1: ampliación de la arquitectura de un modelo de lengua básico",
+    "section": "Planificación",
+    "text": "Planificación\nDedica las dos primeras semanas a familiarizarte con el código base y a decidir qué ampliación implementar. La tercera y cuarta semanas se dedicarán a la implementación y la quinta a la evaluación. La sexta semana se dedicará a la escritura de la memoria."
+  },
+  {
     "objectID": "docs/practicallm.html#escritura-de-la-memoria",
     "href": "docs/practicallm.html#escritura-de-la-memoria",
     "title": "Práctica 1: ampliación de la arquitectura de un modelo de lengua básico",
