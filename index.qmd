@@ -51,10 +51,10 @@ La siguiente tabla muestra las 15 semanas del curso, con los contenidos que se t
 | Semana | Fecha del lunes| Sesión teórica | Sesión práctica | Notas |
 |---|---|---|---|---|
 | 1 | {{< var fechas.lunes.s1 >}} | [Tema 1](docs/repaso.qmd): repaso de regresores y redes feedforward para el PLN | [Introducción a PyTorch](docs/pytorch.qmd) | Las sesiones de teoría y prácticas no serán de mera introducción a la asignatura. |
-| 2 | {{< var fechas.lunes.s2 >}} | [Tema 2](docs/embeddings.qmd): palabras, tokens, embeddings incontextuales | [Práctica 1](docs/practica1.qmd) |  |
+| 2 | {{< var fechas.lunes.s2 >}} | [Tema 2](docs/embeddings.qmd): palabras, tokens, embeddings incontextuales | [Práctica 1](docs/practicallm.qmd) |  |
 | 3 | {{< var fechas.lunes.s3 >}} | [Tema 3](docs/transformers.qmd): transformers, preentrenamiento de LLMs |  |  |
 | 4 | {{< var fechas.lunes.s4 >}} | [Tema 4](docs/clasificadores.qmd): codificadores para clasificación, traducción automática |  |  |
-| 5 | {{< var fechas.lunes.s5 >}} | [Tema 5](docs/post.qmd): posentrenamiento de LLMs, aprendizaje por refuerzo | [Práctica 2](docs/practica2.qmd)  |  |
+| 5 | {{< var fechas.lunes.s5 >}} | [Tema 5](docs/post.qmd): posentrenamiento de LLMs, aprendizaje por refuerzo |  |  |
 | 6 | {{< var fechas.lunes.s6 >}} | [Tema 6](docs/interpretabilidad.qmd): interpretabilidad de modelos de PLN |  |  |
 | 7 | {{< var fechas.lunes.s7 >}} | [Tema 7](docs/voz.qmd): voz y multimodalidad |  |
 | 8 | {{< var fechas.lunes.s8 >}} |  |  |  |
@@ -132,8 +132,8 @@ Los materiales principales del curso son los siguientes:
 
 - D. Jurafsky, J. H. Martin (2026), *Speech and language processing* (3.a edición). Ten en cuenta que la segunda edición tiene unos veinte años y está completamente desactualizada. En este curso usaremos la tercera edición, que aún está en desarrollo, pero que se encuentra disponible gratuitamente en línea. Dado que la web donde se van publicando los capítulos de la tercera edición se actualiza cada pocos meses, en este curso nos basaremos en la versión publicada el 19 de agosto de 2026, que puedes consultar [aquí]({{< var jurafsky.url >}}).
 
-- S. Raschka (2024), *Build a large language model (from scratch)* (editorial Manning Publications). El libro puede consultarse en línea en [este enlace](https://learning-oreilly-com.bua.idm.oclc.org/library/view/build-a-large/9781633437166) del portal de libros electrónicos de O'Reilly al que tendrás que acceder con tu cuenta de la Universitat d'Alacant. Además, el [código del libro](https://github.com/rasbt/LLMs-from-scratch) está disponible en Github y hay un curso con vídeos para cada capítulo en [YouTube](https://www.youtube.com/playlist?list=PLTKMiZHVd_2IIEsoJrWACkIxLRdfMlw11).
-
+- S. Raschka (2024), *Build a large language model (from scratch)* (editorial Manning Publications). El libro puede consultarse en línea en [este enlace](https://learning-oreilly-com.bua.idm.oclc.org/library/view/build-a-large/9781633437166) del portal de libros electrónicos de O'Reilly al que tendrás que acceder con tu cuenta de la Universitat d'Alacant.
+  
 Además, una buena referencia para ver qué tipos de contenidos se imparten en otras universidades es el [curso](https://web.stanford.edu/class/cs224n/) *Natural language processing with deep learning* (con código CS224N) de la universidad de Stanford.
 
 🤖 ⇄ 💬 ⇄ 🤖 ⇄ 💬 ⇄ 🧑 ⇄ 💬 ⇄ 🧑

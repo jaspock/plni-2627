@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://jaspock.github.io/plni/index.html</loc>
-    <lastmod>2026-09-09T17:31:14.637Z</lastmod>
+    <lastmod>2026-09-15T12:12:48.861Z</lastmod>
   </url>
   <url>
     <loc>https://jaspock.github.io/plni/docs/pytorch.html</loc>
@@ -15,5 +15,9 @@
   <url>
     <loc>https://jaspock.github.io/plni/docs/repaso.html</loc>
     <lastmod>2026-09-09T19:23:40.684Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jaspock.github.io/plni/docs/practicallm.html</loc>
+    <lastmod>2026-09-15T12:47:41.635Z</lastmod>
   </url>
 </urlset>
