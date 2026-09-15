@@ -55,6 +55,8 @@ website:
         contents:
           - text: "Introducción a PyTorch"
             href: docs/pytorch.qmd
+          - text: "Práctica 1"
+            href: docs/practicallm.qmd
 
   page-footer:
     left: "{{< var asignatura >}} — Curso {{< var curso >}}"
