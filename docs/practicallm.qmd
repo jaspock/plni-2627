@@ -38,6 +38,10 @@ El posible entrenamiento de modelos usará conjuntos de datos reducidos, como el
 
 La calificación final estará estrechamente ligada a la ambición y complejidad técnica de la modificación elegida. Existe un gradiente claro de dificultad: realizar un cambio mínimo o casi trivial (como limitarse a cambiar una función de activación aislada) difícilmente permitirá alcanzar el aprobado por sí solo; en el extremo opuesto, modificaciones de calado que obliguen a reformular la interacción entre múltiples módulos del transformer, gestionar transformaciones tensoriales complejas y aportar una batería empírica exhaustiva optarán a la máxima calificación.
 
+## Planificación
+
+Dedica las dos primeras semanas a familiarizarte con el código base y a decidir qué ampliación implementar. La tercera y cuarta semanas se dedicarán a la implementación y la quinta a la evaluación. La sexta semana se dedicará a la escritura de la memoria.
+
 ## Escritura de la memoria
 
 Tenéis que entregar una memoria de la práctica en la que se describa la ampliación implementada, la forma de evaluarla y los resultados obtenidos. La memoria ha de seguir el [formato](https://acl-org.github.io/ACLPUB/formatting.html) de los artículos de la ACL (Association for Computational Linguistics). Aunque hay una versión en formato [DOCX](https://2023.aclweb.org/downloads/acl2023.docx), es recomendable que uses la plantilla para [LaTeX](https://github.com/acl-org/acl-style-files). 

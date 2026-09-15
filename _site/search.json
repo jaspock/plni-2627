@@ -268,5 +268,12 @@
     "title": "Práctica 1: ampliación de la arquitectura de un modelo de lengua básico",
     "section": "Entrega",
     "text": "Entrega\nTenéis que entregar únicamente el PDF a través del Moodle de la asignatura. La fecha límite de entrega es el 22 de octubre de 2026."
+  },
+  {
+    "objectID": "docs/practicallm.html#planificación",
+    "href": "docs/practicallm.html#planificación",
+    "title": "Práctica 1: ampliación de la arquitectura de un modelo de lengua básico",
+    "section": "Planificación",
+    "text": "Planificación\nDedica las dos primeras semanas a familiarizarte con el código base y a decidir qué ampliación implementar. La tercera y cuarta semanas se dedicarán a la implementación y la quinta a la evaluación. La sexta semana se dedicará a la escritura de la memoria."
   }
 ]
