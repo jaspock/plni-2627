@@ -25,6 +25,8 @@ website:
             href: docs/repaso.qmd
           - text: "Palabras, tokens y embeddings incontextuales"
             href: docs/embeddings.qmd
+          - text: "Transformers y preentrenamiento de modelos de lengua"
+            href: docs/pretraining.qmd
       - text: "Prácticas"
         menu:
           - text: "Introducción a PyTorch"
@@ -49,6 +51,8 @@ website:
             href: docs/repaso.qmd
           - text: "Palabras, tokens y embeddings incontextuales"
             href: docs/embeddings.qmd
+          - text: "Transformers y preentrenamiento de modelos de lengua"
+            href: docs/pretraining.qmd
       - section: "Sesiones prácticas"
         contents:
           - text: "Introducción a PyTorch"
