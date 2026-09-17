@@ -31,6 +31,8 @@ website:
         menu:
           - text: "Introducción a PyTorch"
             href: docs/pytorch.qmd
+          - text: "Práctica 1"
+            href: docs/practicallm.qmd
       - text: "Guía docente"
         href: "{{< var guia.url >}}"
         icon: journal-bookmark
@@ -57,6 +59,8 @@ website:
         contents:
           - text: "Introducción a PyTorch"
             href: docs/pytorch.qmd
+          - text: "Práctica 1"
+            href: docs/practicallm.qmd
 
   page-footer:
     left: "{{< var asignatura >}} — Curso {{< var curso >}}"

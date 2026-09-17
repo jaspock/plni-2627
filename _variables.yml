@@ -51,3 +51,7 @@ fechas:
     s13: "30/11/2026"
     s14: "07/12/2026"
     s15: "14/12/2026"
+
+practicas:
+  p1:
+    fecha: "22 de octubre de 2026"

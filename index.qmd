@@ -51,10 +51,10 @@ La siguiente tabla muestra las 15 semanas del curso, con los contenidos que se t
 | Semana | Fecha del lunes| Sesión teórica | Sesión práctica | Notas |
 |---|---|---|---|---|
 | 1 | {{< var fechas.lunes.s1 >}} | [Tema 1](docs/repaso.qmd): repaso de regresores y redes feedforward para el PLN | [Introducción a PyTorch](docs/pytorch.qmd) | Las sesiones de teoría y prácticas no serán de mera introducción a la asignatura. |
-| 2 | {{< var fechas.lunes.s2 >}} | [Tema 2](docs/embeddings.qmd): palabras, tokens, embeddings incontextuales | [Práctica 1](docs/practica1.qmd) |  |
+| 2 | {{< var fechas.lunes.s2 >}} | [Tema 2](docs/embeddings.qmd): palabras, tokens, embeddings incontextuales | [Práctica 1](docs/practicallm.qmd) |  |
 | 3 | {{< var fechas.lunes.s3 >}} | [Tema 3](docs/transformers.qmd): transformers, preentrenamiento de LLMs |  |  |
 | 4 | {{< var fechas.lunes.s4 >}} | [Tema 4](docs/clasificadores.qmd): codificadores para clasificación, traducción automática |  |  |
-| 5 | {{< var fechas.lunes.s5 >}} | [Tema 5](docs/post.qmd): posentrenamiento de LLMs, aprendizaje por refuerzo | [Práctica 2](docs/practica2.qmd)  |  |
+| 5 | {{< var fechas.lunes.s5 >}} | [Tema 5](docs/post.qmd): posentrenamiento de LLMs, aprendizaje por refuerzo |  |  |
 | 6 | {{< var fechas.lunes.s6 >}} | [Tema 6](docs/interpretabilidad.qmd): interpretabilidad de modelos de PLN |  |  |
 | 7 | {{< var fechas.lunes.s7 >}} | [Tema 7](docs/voz.qmd): voz y multimodalidad |  |
 | 8 | {{< var fechas.lunes.s8 >}} |  |  |  |
@@ -74,7 +74,7 @@ Para obtener información sobre la evaluación de la asignatura y otros aspectos
 
 - La asistencia a prácticas es obligatoria, aunque se puede tener un máximo de 4 faltas no justificadas. Este requisito se aplica a la convocatoria C2, pero no a la C4. Para justificar una falta puntual por motivos excepcionales (como una cita médica), envía al profesor el justificante por una tutoría de UACloud o enséñaselo en la siguiente clase. Para otro tipo de circunstancias, tendrás que solicitar una [adaptación curricular](https://web.ua.es/es/cae/adaptaciones-discapacidad-neae/adaptaciones-curriculares/guia-adaptaciones-curriculares-para-estudiantes.html), además de hablar con el profesor. Cada falta no justificada, por encima de las permitidas, restará una parte de la nota final de prácticas de la convocatoria C2 a razón de un 20% de la nota por cada falta no justificada adicional.
 - Es muy recomendable que tengas algunas tutorías presenciales con los profesores, ya que es la oportunidad de recibir supervisión sobre tus conocimientos de la materia o la forma de afrontar el estudio. Escribe al profesor para concertar un cita en un horario que os venga bien a ambos. Las tutorías se pueden realizar también de forma online, aunque es preferible que sean presenciales.
-- Las prácticas se realizan individualmente o en pareja, a tu elección. Ten en cuenta que a final de curso hay exámenes individuales tanto de prácticas como de teoría, por lo que es recomendable que cada estudiante sea responsable de todo el trabajo presentado, independientemente de si lo ha hecho individualmente o en pareja.
+- Las prácticas se realizan individualmente, en pareja o en grupo, según se indique en cada una de ellas. Ten en cuenta que a final de curso hay exámenes individuales tanto de prácticas como de teoría, por lo que es recomendable que cada estudiante sea responsable de todo el trabajo presentado, independientemente de si lo ha hecho individualmente o en grupo.
 - Todas las entregas realizadas por los estudiantes deben ser originales. No está vetado el uso de asistentes de inteligencia artificial, pero si realizas una descarga cognitiva excesiva sobre el asistente, es posible que no seas capaz de resolver con solvencia los exámenes finales.
 - Es obligatorio identificar claramente cualquier fragmento de tus actividades en la que hayas utilizado un asistente de inteligencia artificial, indicando el nombre del asistente y una etiqueta con el nivel de ayuda recibido como se comenta más abajo. No identificar el uso de un asistente de inteligencia artificial se considera una falta grave de integridad académica. La calificación de las actividades se ajustará en función del nivel de asistencia tecnológica que hayas utilizado. En caso de dudas por parte del profesor, se podrá citar al estudiante para verificar su nivel de conocimiento de los contenidos entregados.
 - Cada una de las prácticas contribuye a la nota final según se indica en los respectivos enunciados.
@@ -132,8 +132,8 @@ Los materiales principales del curso son los siguientes:
 
 - D. Jurafsky, J. H. Martin (2026), *Speech and language processing* (3.a edición). Ten en cuenta que la segunda edición tiene unos veinte años y está completamente desactualizada. En este curso usaremos la tercera edición, que aún está en desarrollo, pero que se encuentra disponible gratuitamente en línea. Dado que la web donde se van publicando los capítulos de la tercera edición se actualiza cada pocos meses, en este curso nos basaremos en la versión publicada el 19 de agosto de 2026, que puedes consultar [aquí]({{< var jurafsky.url >}}).
 
-- S. Raschka (2024), *Build a large language model (from scratch)* (editorial Manning Publications). El libro puede consultarse en línea en [este enlace](https://learning-oreilly-com.bua.idm.oclc.org/library/view/build-a-large/9781633437166) del portal de libros electrónicos de O'Reilly al que tendrás que acceder con tu cuenta de la Universitat d'Alacant. Además, el [código del libro](https://github.com/rasbt/LLMs-from-scratch) está disponible en Github y hay un curso con vídeos para cada capítulo en [YouTube](https://www.youtube.com/playlist?list=PLTKMiZHVd_2IIEsoJrWACkIxLRdfMlw11).
-
+- S. Raschka (2024), *Build a large language model (from scratch)* (editorial Manning Publications). El libro puede consultarse en línea en [este enlace](https://learning-oreilly-com.bua.idm.oclc.org/library/view/build-a-large/9781633437166) del portal de libros electrónicos de O'Reilly al que tendrás que acceder con tu cuenta de la Universitat d'Alacant.
+  
 Además, una buena referencia para ver qué tipos de contenidos se imparten en otras universidades es el [curso](https://web.stanford.edu/class/cs224n/) *Natural language processing with deep learning* (con código CS224N) de la universidad de Stanford.
 
 🤖 ⇄ 💬 ⇄ 🤖 ⇄ 💬 ⇄ 🧑 ⇄ 💬 ⇄ 🧑
