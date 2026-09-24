@@ -36,7 +36,8 @@ Usa el siguiente prompt para evaluar tu comprensión de los conceptos fundamenta
 {{< include _socratic.md >}}
 
 1. ¿Qué elementos comparte el algoritmo de skip-gram con el entrenamiento de un regresor logístico?
-2. ...
+2. ¿Qué precauciones es necesario tomar al seleccionar las muestras positivas y negativas para entrenar un modelo de skip-gram?
+3. ¿Qué diferencias hay entre un embedding incontextual y un embedding contextual?
 
 </div>
 

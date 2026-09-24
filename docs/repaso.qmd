@@ -27,13 +27,16 @@ La figura 6.14 y la explicación de la misma en el texto principal es muy import
 
 Usa el siguiente prompt para evaluar tu comprensión de los conceptos fundamentales de esta sesión con ayuda de tu chat o agente de inteligencia artificial favorito. 
 
-── 🙐 ── 🙑 ── 🙒 ── 🙓 ── 🙐 ── 🙑 ── 🙒 ── 🙓
-
 <div style="border: 1px solid #888; font-size: 0.9em; padding: 1em;">
 
 {{< include _socratic.md >}}
 
 1. ¿Qué diferencia hay entre un regresor y una red neuronal *feedforward*? ¿Qué ventajas tiene cada uno de ellos?
-2. ...
+2. ¿Qué son la entropía y la entropía cruzada y por qué se usan como función de pérdida en problemas de clasificación?
+3. ¿Qué papel juegan las derivadas parciales y el gradiente en el entrenamiento de una red neuronal? 
+4. ¿Por qué necesitamos evaluar la significancia estadística de los resultados de un modelo de aprendizaje automático y cómo se hace?
+5. ¿Qué medidas se suelen usar para evaluar el rendimiento de un clasificador y por qué no hay una sola?
+6. ¿En qué se diferencia el entrenamiento y uso de un regresor multinomial del de una red neuronal *feedforward* para clasificación?
+7. ¿Cómo se implementa el entrenamiento o la inferencia de regresores y redes *feedforward* con un *mini-batch* de datos y por qué se hace así?
 
 </div>
