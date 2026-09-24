@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Transformers y preentrenamiento de modelos de lengua – Procesamiento del Lenguaje Natural I</title>
+<title>Modelos de lengua para clasificación y traducción automática – Procesamiento del Lenguaje Natural I</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -328,7 +328,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../docs/repaso.html">Sesiones teóricas</a></li><li class="breadcrumb-item"><a href="../docs/pretraining.html">Transformers y preentrenamiento de modelos de lengua</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../docs/repaso.html">Sesiones teóricas</a></li><li class="breadcrumb-item"><a href="../docs/clasificadores.html">Modelos de lengua para clasificación y traducción automática</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -377,13 +377,13 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../docs/pretraining.html" class="sidebar-item-text sidebar-link active">
+  <a href="../docs/pretraining.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Transformers y preentrenamiento de modelos de lengua</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../docs/clasificadores.html" class="sidebar-item-text sidebar-link">
+  <a href="../docs/clasificadores.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Modelos de lengua para clasificación y traducción automática</span></a>
   </div>
 </li>
@@ -422,8 +422,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7333203e7d7d" id="toc-materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7333203e7d7d" class="nav-link active" data-scroll-target="#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7333203e7d7d">Materiales a estudiar antes de la sesión del 24 de septiembre de 2026</a></li>
-  <li><a href="#actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7333203e7d7d" id="toc-actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7333203e7d7d" class="nav-link" data-scroll-target="#actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7333203e7d7d">Actividades previas a la sesión del 24 de septiembre de 2026</a></li>
+  <li><a href="#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7334203e7d7d" id="toc-materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7334203e7d7d" class="nav-link active" data-scroll-target="#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7334203e7d7d">Materiales a estudiar antes de la sesión del 1 de octubre de 2026</a></li>
+  <li><a href="#actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7334203e7d7d" id="toc-actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7334203e7d7d" class="nav-link" data-scroll-target="#actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7334203e7d7d">Actividades previas a la sesión del 1 de octubre de 2026</a></li>
   <li><a href="#evaluación-asistida-por-un-tutor-inteligente" id="toc-evaluación-asistida-por-un-tutor-inteligente" class="nav-link" data-scroll-target="#evaluación-asistida-por-un-tutor-inteligente">Evaluación asistida por un tutor inteligente</a></li>
   <li><a href="#contenidos-de-la-sesión" id="toc-contenidos-de-la-sesión" class="nav-link" data-scroll-target="#contenidos-de-la-sesión">Contenidos de la sesión</a></li>
   </ul>
@@ -433,9 +433,9 @@ ul.task-list li input[type="checkbox"] {
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../docs/repaso.html">Sesiones teóricas</a></li><li class="breadcrumb-item"><a href="../docs/pretraining.html">Transformers y preentrenamiento de modelos de lengua</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../docs/repaso.html">Sesiones teóricas</a></li><li class="breadcrumb-item"><a href="../docs/clasificadores.html">Modelos de lengua para clasificación y traducción automática</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Transformers y preentrenamiento de modelos de lengua</h1>
+<h1 class="title">Modelos de lengua para clasificación y traducción automática</h1>
 </div>
 
 
@@ -452,11 +452,13 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Fecha de la sesión: 24 de septiembre de 2026</p>
-<p>Un modelo de lengua es básicamente un sistema que dado un prefijo de texto, predice las probabilidades que tienen las palabas de un conjunto llamado <em>vocabulario</em> de ser la siguiente palabra del texto. Los modelos de lengua no son una invención reciente. Su origen se puede situar décadas antes de la llegada de los computadores electrónicos, cuando en los primeros años del siglo XX Andréi Márkov modeló los caracteres de un texto como un proceso estocástico. Claude Shannon a finales de los años 40 perfeccionó la formalización de las ideas de Markov usando el concepto de <em>n</em>-grama (modelos probabilísticos en los que la probabilidad de una palabra depende de las <em>n-1</em> palabras anteriores) para estimar la entropía de la lengua inglesa. Ya en el siglo XXI con el auge del aprendizaje profundo los modelos de lengua basados en redes neuronales se consolidan como la alternativa más potente para modelar el lenguaje natural. Aunque ya existían modelos de lengua neuronales mucho antes de la llegada de la arquitectura transformer, es esta arquitectura la que más ha contribuido al entrenamiento masivo y popularización de los modelos de lengua en los llamados <em>modelos de lengua masivos</em> (LLMs, por el inglés, <em>large language models</em>). En esta sesión, repasarás los elementos fundamentales del transformer y estudiarás cómo se entrenan y usan los LLMs.</p>
-<p>Recuerda que esta asignatura sigue una metodología de clase invertida, por lo que antes de la sesión de teoría debes estudiar los materiales que se indican a continuación y realizar las actividades que se proponen. El tiempo medio estimado para el estudio es de unas 3 horas, aunque puede variar según tu nivel de conocimientos previos y tu experiencia en el estudio de este tipo de contenidos.</p>
-<section id="materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7333203e7d7d" class="level2">
-<h2 class="anchored" data-anchor-id="materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7333203e7d7d">Materiales a estudiar antes de la sesión del 24 de septiembre de 2026</h2>
+<p>Fecha de la sesión: 1 de octubre de 2026</p>
+<p>Una de las reglas básicas a la hora de resolver problemas en el PLN es entender que no siempre es necesario usar modelos gigantescos para resolver ciertas tareas. Es cierto que los LLM tienen la interesante propiedad de poder afrontar tareas de clasificación de texto sin necesidad de ser entrenados específicamente para ello. Así, podemos instruirle mediante <em>few-shot learning</em> para que identifiquen el sentimiento o el tema de un texto, clasifiquen los nombres propios, o determinen las premisas y conclusiones de un argumento. Sin embargo, en muchas ocasiones podemos resolver este tipo de problemas usando una red neuronal más sencilla para obtener representaciones vectoriales de los textos y entrenando un clasificador sencillo sobre estas representaciones. Estos modelos también se denominan <em>modelos de lengua</em>, aunque para distinguirlos de los LLMs se suelen denominar <em>modelos de lengua enmascarados</em> (<em>masked language models</em>, en inglés), basándonos en la forma en que se suelen preentrenar.</p>
+<p>Por otro lado, la traducción automática es una de las tareas más exploradas en el PLN. Ya finales de los años 40 del siglo pasado, cuando los primeros computadores electrónicos acababan de aparecer, se planteó la posibilidad de usarlos para traducir textos de un idioma a otro. Aunque en la siguiente década se desarrollaron los primeros sistemas de traducción automática, no fue hasta la llegada de los modelos neuronales hacia finales de la segunda década del siglo XXI cuando la traducción automática entre lenguas con interés comercial y elevada disponibilidad de datos comenzó a tener la calidad suficiente como para no necesitar la corrección humana. No obstante, pese a estos avances, la traducción automática sigue siendo un reto en dominios como el literario o para miles de lenguas del mundo que no tienen la disponibilidad de datos suficiente para entrenar modelos de IA. La traducción automática puede abordarse con LLMs, pero también con modelos específicos más eficientes entrenados específicamente para esta tarea.</p>
+<p>En esta sesión, estudiaremos tanto los modelos de lengua para clasificación como la traducción automática.</p>
+<p>Recuerda que esta asignatura sigue una metodología de clase invertida, por lo que antes de la sesión de teoría debes estudiar los materiales que se indican a continuación y realizar las actividades que se proponen. El tiempo medio estimado para el estudio es de unas 4 horas, aunque puede variar según tu nivel de conocimientos previos y tu experiencia en el estudio de este tipo de contenidos.</p>
+<section id="materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7334203e7d7d" class="level2">
+<h2 class="anchored" data-anchor-id="materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7334203e7d7d">Materiales a estudiar antes de la sesión del 1 de octubre de 2026</h2>
 <p>El contenido de esta sesión lo puedes encontrar en los siguientes apartados del <a href="https://web.archive.org/web/20260901084053/https://web.stanford.edu/~jurafsky/slp3/">libro</a> de Jurafsky y Martin:</p>
 <div class="tabla-80">
 <table class="caption-top table">
@@ -469,16 +471,21 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>Transformers and pretraining <a href="https://web.archive.org/web/20260901084053/https://web.stanford.edu/~jurafsky/slp3//7.pdf">§7</a></td>
+<td>Masked language models <a href="https://web.archive.org/web/20260901084053/https://web.stanford.edu/~jurafsky/slp3//9.pdf">§9</a></td>
 <td>capítulo completo</td>
-<td>Mecanismo de atención, bloques de un transformer, descodificación</td>
+<td>Codificadores bidireccionales, preentrenamiento y ajuste de modelos de lengua enmascarados</td>
+</tr>
+<tr class="even">
+<td>Machine translation <a href="https://web.archive.org/web/20260901084053/https://web.stanford.edu/~jurafsky/slp3//10.pdf">§10</a></td>
+<td>capítulo completo</td>
+<td>Lenguas del mundo, arquitectura codificador-descodificador, beam-search, evaluación</td>
 </tr>
 </tbody>
 </table>
 </div>
 </section>
-<section id="actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7333203e7d7d" class="level2">
-<h2 class="anchored" data-anchor-id="actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7333203e7d7d">Actividades previas a la sesión del 24 de septiembre de 2026</h2>
+<section id="actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7334203e7d7d" class="level2">
+<h2 class="anchored" data-anchor-id="actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7334203e7d7d">Actividades previas a la sesión del 1 de octubre de 2026</h2>
 <p>Una vez hayas estudiado los materiales, realiza el test que puedes encontrar en el <a href="https://moodle2026-27.ua.es/moodle/course/view.php?id=1118">Moodle de la asignatura</a>.</p>
 <p>El plazo para realizar las actividades previas finaliza el día anterior a la sesión de teoría.</p>
 </section>
@@ -503,12 +510,14 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 <p>Elige una de las siguientes preguntas y comienza:</p>
 <ol type="1">
-<li>¿Por qué el mecanismo de atención se calcula de la forma que se calcula en un transformer y no de otras formas?</li>
-<li>¿Qué efecto tiene en estrategias de descodificación como <em>top-k$ o </em>top-p* el valor del parámetro correspondiente (<em>k</em> o <em>p</em>)? ¿Y el valor de la temperatura?</li>
-<li>¿Puede el contexto de un transformer ser indefinidamente largo? ¿Qué elementos influyen en ello?</li>
-<li>¿Cuál es el propósito de la normalización de capa?</li>
-<li>¿Cuál es el propósito de los embeddings posicionales?</li>
-<li>¿Qué papel juega el flujo residual (<em>residual stream</em>) en el entrenamiento y en la inferencia de un transformer?</li>
+<li>¿Por qué puede interesar entrenar un modelo de lengua enmascarado y no un modelo de lengua causal?</li>
+<li>¿Cuáles son las diferencias a nivel de arquitectura y de la forma de trabajar con la secuencia de entrada entre un modelo de lengua enmascarado y un modelo de lengua causal?</li>
+<li>¿Cómo se usan máscaras a la entrada de un modelo preentrenado y cuál es su objetivo?</li>
+<li>¿Por qué se considera adicionalmente en ciertas ocasiones la tarea de predicción de la siguiente frase en el preentrenamiento de un modelo de lengua enmascarado?</li>
+<li>¿Cómo se aplica un clasificador basado en codificador bidireccional a una tarea de detección de entidades nombradas?</li>
+<li>¿Con qué arquitecturas basadas en el transformer se puede abordar la traducción automática y cuáles son sus diferencias?</li>
+<li>¿Por qué se usa la búsqueda por haz (<em>beam search</em>) en la descodificación de un modelo de traducción automática y no se usa la predicción de la palabra más probable en cada paso o se muestrea la distribución de probabilidad de la siguiente palabra?</li>
+<li>¿Por qué existen métricas neuronales y no neuronales para evaluar la calidad de la traducción automática y cuáles son sus diferencias?</li>
 </ol>
 </div>
 </section>
