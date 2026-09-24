@@ -34,7 +34,10 @@ Usa el siguiente prompt para evaluar tu comprensión de los conceptos fundamenta
 
 {{< include _socratic.md >}}
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> d7e11c38e4c36715bc02e852efef6470f1e18faf
 1. ¿Por qué el mecanismo de atención se calcula de la forma que se calcula en un transformer y no de otras formas?
 2. ¿Qué efecto tiene en estrategias de descodificación como *top-k$ o *top-p* el valor del parámetro correspondiente (*k* o *p*)? ¿Y el valor de la temperatura?
 3. ¿Puede el contexto de un transformer ser indefinidamente largo? ¿Qué elementos influyen en ello?
@@ -47,4 +50,7 @@ Usa el siguiente prompt para evaluar tu comprensión de los conceptos fundamenta
 
 ## Contenidos de la sesión 
 
+<<<<<<< HEAD
 En la sesión de teoría presencial repasaremos los conceptos más complejos del tema y resolveremos las dudas que hayan surgido durante su estudio.
+=======
+>>>>>>> d7e11c38e4c36715bc02e852efef6470f1e18faf

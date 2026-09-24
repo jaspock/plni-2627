@@ -27,8 +27,11 @@ website:
             href: docs/embeddings.qmd
           - text: "Transformers y preentrenamiento de modelos de lengua"
             href: docs/pretraining.qmd
+<<<<<<< HEAD
           - text: "Modelos de lengua para clasificación y traducción automática"
             href: docs/clasificadores.qmd
+=======
+>>>>>>> d7e11c38e4c36715bc02e852efef6470f1e18faf
       - text: "Prácticas"
         menu:
           - text: "Introducción a PyTorch"
@@ -57,8 +60,11 @@ website:
             href: docs/embeddings.qmd
           - text: "Transformers y preentrenamiento de modelos de lengua"
             href: docs/pretraining.qmd
+<<<<<<< HEAD
           - text: "Modelos de lengua para clasificación y traducción automática"
             href: docs/clasificadores.qmd
+=======
+>>>>>>> d7e11c38e4c36715bc02e852efef6470f1e18faf
       - section: "Sesiones prácticas"
         contents:
           - text: "Introducción a PyTorch"
