@@ -21,7 +21,7 @@ El contenido de esta sesión lo puedes encontrar en los siguientes apartados del
 |Capítulo|Apartados o páginas|Contenido|
 |---|---|---|
 |Masked language models [§9]({{< var jurafsky.url >}}/9.pdf)|capítulo completo|Codificadores bidireccionales, preentrenamiento y ajuste de modelos de lengua enmascarados|
-|Machine translation [§10]({{< var jurafsky.url >}}/10.pdf)|capítulo completo|Lenguas del mundo, arquitectura codificador-descodificador, beam-search, evaluación|
+|Machine translation [§13]({{< var jurafsky.url >}}/13.pdf)|capítulo completo|Lenguas del mundo, arquitectura codificador-descodificador, beam-search, evaluación|
 
 :::
 
