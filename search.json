@@ -201,7 +201,7 @@
     "href": "docs/clasificadores.html#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7334203e7d7d",
     "title": "Modelos de lengua para clasificación y traducción automática",
     "section": "Materiales a estudiar antes de la sesión del 1 de octubre de 2026",
-    "text": "Materiales a estudiar antes de la sesión del 1 de octubre de 2026\nEl contenido de esta sesión lo puedes encontrar en los siguientes apartados del libro de Jurafsky y Martin:\n\n\n\n\nCapítulo\nApartados o páginas\nContenido\n\n\n\n\nMasked language models §9\ncapítulo completo\nCodificadores bidireccionales, preentrenamiento y ajuste de modelos de lengua enmascarados\n\n\nMachine translation §10\ncapítulo completo\nLenguas del mundo, arquitectura codificador-descodificador, beam-search, evaluación",
+    "text": "Materiales a estudiar antes de la sesión del 1 de octubre de 2026\nEl contenido de esta sesión lo puedes encontrar en los siguientes apartados del libro de Jurafsky y Martin:\n\n\n\n\nCapítulo\nApartados o páginas\nContenido\n\n\n\n\nMasked language models §9\ncapítulo completo\nCodificadores bidireccionales, preentrenamiento y ajuste de modelos de lengua enmascarados\n\n\nMachine translation §13\ncapítulo completo\nLenguas del mundo, arquitectura codificador-descodificador, beam-search, evaluación",
     "crumbs": [
       "Índice",
       "Sesiones teóricas",
