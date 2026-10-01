@@ -3,7 +3,8 @@ curso: 2026-2027
 profesores: "Juan Antonio Pérez Ortiz (coordinador), Borja Navarro Colorado, Antonio Toral Ruiz"
 
 jurafsky:
-  url: https://web.archive.org/web/20260901084053/https://web.stanford.edu/~jurafsky/slp3/
+  url: https://web.stanford.edu/~jurafsky/slp3/
+  urlback: https://web.archive.org/web/20260901084053/https://web.stanford.edu/~jurafsky/slp3/
   fecha: "19 de agosto de 2026"
 
 guia:

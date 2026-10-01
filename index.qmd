@@ -52,11 +52,11 @@ La siguiente tabla muestra las 15 semanas del curso, con los contenidos que se t
 |---|---|---|---|---|
 | 1 | {{< var fechas.lunes.s1 >}} | [Tema 1](docs/repaso.qmd): repaso de regresores y redes feedforward para el PLN | [Introducción a PyTorch](docs/pytorch.qmd) | Las sesiones de teoría y prácticas no serán de mera introducción a la asignatura. |
 | 2 | {{< var fechas.lunes.s2 >}} | [Tema 2](docs/embeddings.qmd): palabras, tokens, embeddings incontextuales | [Práctica 1](docs/practicallm.qmd) |  |
-| 3 | {{< var fechas.lunes.s3 >}} | [Tema 3](docs/transformers.qmd): transformers, preentrenamiento de LLMs |  |  |
+| 3 | {{< var fechas.lunes.s3 >}} | [Tema 3](docs/pretraining.qmd): transformers, preentrenamiento de LLMs |  |  |
 | 4 | {{< var fechas.lunes.s4 >}} | [Tema 4](docs/clasificadores.qmd): codificadores para clasificación, traducción automática |  |  |
 | 5 | {{< var fechas.lunes.s5 >}} | [Tema 5](docs/post.qmd): posentrenamiento de LLMs, aprendizaje por refuerzo |  |  |
-| 6 | {{< var fechas.lunes.s6 >}} | [Tema 6](docs/interpretabilidad.qmd): interpretabilidad de modelos de PLN |  |  |
-| 7 | {{< var fechas.lunes.s7 >}} | [Tema 7](docs/voz.qmd): voz y multimodalidad |  |
+| 6 | {{< var fechas.lunes.s6 >}} | [Tema 6](docs/voz.qmd): interpretabilidad de modelos de PLN |  |  |
+| 7 | {{< var fechas.lunes.s7 >}} | [Tema 7](docs/interpretabilidad.qmd): voz y multimodalidad |  |
 | 8 | {{< var fechas.lunes.s8 >}} |  |  |  |
 | 9 | {{< var fechas.lunes.s9 >}} |  |  |  |
 | 10 | {{< var fechas.lunes.s10 >}} |  |  |  |
