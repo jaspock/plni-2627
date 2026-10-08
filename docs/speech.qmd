@@ -1,0 +1,45 @@
+---
+title: "Procesamiento de voz"
+---
+
+Fecha de la sesión: {{< var fechas.teoria.s6 >}}
+
+[...]
+
+Recuerda que esta asignatura sigue una metodología de clase invertida, por lo que antes de la sesión de teoría debes estudiar los materiales que se indican a continuación y realizar las actividades que se proponen. El tiempo medio estimado para el estudio es de unas 4 horas, aunque puede variar según tu nivel de conocimientos previos y tu experiencia en el estudio de este tipo de contenidos.
+
+## Materiales a estudiar antes de la sesión del {{< var fechas.teoria.s6 >}} 
+
+El contenido de esta sesión lo puedes encontrar en los apartados del [libro]({{< var jurafsky.url >}}) de Jurafsky y Martin indicados en la siguiente tabla. Además, para entender los fundamentos del aprendizaje por refuerzo, tendrás que estudiar adicionalmente los apartados que se indican de un tutorial introductorio sobre el tema.
+
+::: {.tabla-80}
+
+|Capítulo|Apartados o páginas|Contenido|
+|---|---|---|
+|Phonetics and Speech Feature Extraction [§15]({{< var jurafsky.url >}}/15.pdf)|secciones 15.4 y 15.5|Procesamiento de señales, extracción de características de voz|
+|Automatic Speech Recognition [§16]({{< var jurafsky.url >}}/16.pdf)|secciones 16.3 a 16.6|Modelos speech-to-text,CTC|
+
+:::
+
+## Actividades previas a la sesión del {{< var fechas.teoria.s6 >}}
+
+Una vez hayas estudiado los materiales, realiza el test que puedes encontrar en el [Moodle de la asignatura]({{< var moodle.url >}}).
+
+El plazo para realizar las actividades previas finaliza el día anterior a la sesión de teoría.
+
+## Evaluación asistida por un tutor inteligente
+
+Usa el siguiente prompt para evaluar tu comprensión de los conceptos fundamentales de esta sesión con ayuda de tu chat o agente de inteligencia artificial favorito.
+
+<div style="border: 1px solid #888; font-size: 0.9em; padding: 1em;">
+
+{{< include _socratic.md >}}
+
+1. [...]
+
+</div>
+
+
+## Contenidos de la sesión 
+
+En la sesión de teoría presencial repasaremos los conceptos más complejos del tema y resolveremos las dudas que hayan surgido durante su estudio.

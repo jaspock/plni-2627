@@ -31,6 +31,8 @@ website:
             href: docs/clasificadores.qmd
           - text: "Posentrenamiento de LLMs y aprendizaje por refuerzo"
             href: docs/post.qmd
+          - text: "Procesamiento de voz"
+            href: docs/speech.qmd
       - text: "Prácticas"
         menu:
           - text: "Introducción a PyTorch"
@@ -63,6 +65,8 @@ website:
             href: docs/clasificadores.qmd
           - text: "Posentrenamiento de LLMs y aprendizaje por refuerzo"
             href: docs/post.qmd
+          - text: "Procesamiento de voz"
+            href: docs/speech.qmd
       - section: "Sesiones prácticas"
         contents:
           - text: "Introducción a PyTorch"
