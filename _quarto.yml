@@ -33,6 +33,8 @@ website:
             href: docs/post.qmd
           - text: "Procesamiento de voz"
             href: docs/speech.qmd
+          - text: "Interpretabilidad"
+            href: docs/interpretabilidad.qmd
       - text: "Prácticas"
         menu:
           - text: "Introducción a PyTorch"
@@ -67,6 +69,8 @@ website:
             href: docs/post.qmd
           - text: "Procesamiento de voz"
             href: docs/speech.qmd
+          - text: "Interpretabilidad"
+            href: docs/interpretabilidad.qmd  
       - section: "Sesiones prácticas"
         contents:
           - text: "Introducción a PyTorch"
