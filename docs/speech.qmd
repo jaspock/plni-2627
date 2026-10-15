@@ -4,7 +4,7 @@ title: "Procesamiento de voz"
 
 Fecha de la sesión: {{< var fechas.teoria.s6 >}}
 
-[...]
+El procesamiento de voz es un área de la inteligencia artificial que se ha enmarcado tradicionalmente dentro del procesamiento de lenguaje natural, aunque también comparte muchos aspectos con el procesamiento de señales, especialmente con el análisis y síntesis de audio. En esta sesión estudiaremos los fundamentos del procesamiento de voz, centrándonos en la extracción de características de voz y en los modelos de reconocimiento automático de voz o modelos *speech-to-text*. 
 
 Recuerda que esta asignatura sigue una metodología de clase invertida, por lo que antes de la sesión de teoría debes estudiar los materiales que se indican a continuación y realizar las actividades que se proponen. El tiempo medio estimado para el estudio es de unas 4 horas, aunque puede variar según tu nivel de conocimientos previos y tu experiencia en el estudio de este tipo de contenidos.
 
@@ -35,7 +35,11 @@ Usa el siguiente prompt para evaluar tu comprensión de los conceptos fundamenta
 
 {{< include _socratic.md >}}
 
-1. [...]
+1. ¿Qué representa un espectrograma y cómo se obtiene a partir de una señal de voz?
+2. ¿En qué aspectos el oído humano tiene una respuesta logarítimica y en qué elementos del procesamiento de voz se refleja esta característica?
+3. ¿Qué significa que un modelo de reconocimiento de voz haya sido con datos muestreados a 16 kHz?
+4. ¿Cuáles son las principales diferencias entre un modelo de reconocimiento de voz basado en un codificador (*encoder*) y el basado en un codificador-decodificador (*encoder-decoder*)?
+5. ¿Cuáles son los principios de CTC y cómo se aplican en el entrenamiento de modelos de reconocimiento de voz?
 
 </div>
 

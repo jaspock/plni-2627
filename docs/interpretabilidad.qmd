@@ -1,0 +1,48 @@
+---
+title: "Interpretabilidad"
+---
+
+Fecha de la sesión: {{< var fechas.teoria.s7 >}}
+
+La interpretabilidad estudia cómo los modelos neuronales representan y procesan la información, localizando los circuitos que implementan los *algoritmos* que resuelven una tarea concreta. El conocimiento adquirido permite, en ocasiones, la *intervención* externa en el comportamiento del modelo para inducir cambios en su funcionamiento. Esta sesión es un tanto especial, ya que al no existir ningún documento educativo que integre adecuadamente los conceptos de interpretabilidad, leerás un artículo de investigación que describe un experimento de interpretabilidad en el que se localiza un circuito que implementa la regla de concordancia sujeto-verbo en inglés y español. El objetivo no es solo que leas el artículo, sino que amplíes en otras fuentes los conceptos de interpretabilidad que se presentan en él (parcheo de activaciones, atribución de logits, intervención de activaciones, localización de circuitos, componentes principales, etc.).
+
+Recuerda que esta asignatura sigue una metodología de clase invertida, por lo que antes de la sesión de teoría debes estudiar los materiales que se indican a continuación y realizar las actividades que se proponen. El tiempo medio estimado para el estudio es de unas 3 horas, aunque puede variar según tu nivel de conocimientos previos y tu experiencia en el estudio de este tipo de contenidos.
+
+## Materiales a estudiar antes de la sesión del {{< var fechas.teoria.s7 >}} 
+
+El contenido de esta sesión lo puedes encontrar en el artículo siguiente, que tendrás que ampliar con otras fuentes de información sobre las técnicas de interpretabilidad que se mencionan en él.
+
+::: {.tabla-80}
+
+|Capítulo|Apartados o páginas|Contenido|
+|---|---|---|
+|[On the Similarity of Circuits across Languages: a Case Study on the Subject-verb Agreement Task](https://aclanthology.org/2024.findings-emnlp.591.pdf)|artículo completo|Parcheo de activaciones, atribución de logits, intervención de activaciones|
+
+:::
+
+## Actividades previas a la sesión del {{< var fechas.teoria.s7 >}}
+
+Una vez hayas estudiado los materiales, realiza el test que puedes encontrar en el [Moodle de la asignatura]({{< var moodle.url >}}).
+
+El plazo para realizar las actividades previas finaliza el día anterior a la sesión de teoría.
+
+## Evaluación asistida por un tutor inteligente
+
+Usa el siguiente prompt para evaluar tu comprensión de los conceptos fundamentales de esta sesión con ayuda de tu chat o agente de inteligencia artificial favorito.
+
+<div style="border: 1px solid #888; font-size: 0.9em; padding: 1em;">
+
+{{< include _socratic.md >}}
+
+1. ¿Qué es la interpretabilidad en el contexto de los modelos de PLN?
+2. ¿En qué consiste el parcheo de activaciones y qué nos permite aprender sobre el comportamiento de un modelo?
+3. ¿Qué es la atribución de logits y cómo se utiliza para entender las decisiones de un modelo?
+4. ¿Cómo se puede intervenir en las activaciones de un modelo y cómo determinamos dónde realizar dicha intervención?
+5. ¿Qué circuito se localiza en el artículo y por qué coincide en español e inglés? 
+
+</div>
+
+
+## Contenidos de la sesión 
+
+En la sesión de teoría presencial repasaremos los conceptos más complejos del tema y resolveremos las dudas que hayan surgido durante su estudio.
