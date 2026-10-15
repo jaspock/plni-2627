@@ -26,7 +26,7 @@
     "href": "index.html#sesiones",
     "title": "Procesamiento del Lenguaje Natural I",
     "section": "Sesiones",
-    "text": "Sesiones\nLa asignatura utiliza la metodología de la clase invertida, por lo que los estudiantes deben preparar los contenidos de cada sesión teórica antes de asistir a la misma. Además, cada sesión tiene un test de evaluación de los conocimientos adquiridos, que habrá que realizar antes de la clase.\nEn cada sesión de teoría se hará un resumen de los contenidos más importantes o avanzados, se resolverán dudas y se realizarán actividades de aprendizaje activo.\nLa siguiente tabla muestra las 15 semanas del curso, con los contenidos que se tratarán en cada una de las sesiones teóricas y prácticas. Al tratarse del primer curso que se imparte la asignatura, las sesiones futuras pueden sufrir bastantes cambios.\n\n\n\n\nSemana\nFecha del lunes\nSesión teórica\nSesión práctica\nNotas\n\n\n\n\n1\n07/09/2026\nTema 1: repaso de regresores y redes feedforward para el PLN\nIntroducción a PyTorch\nLas sesiones de teoría y prácticas no serán de mera introducción a la asignatura.\n\n\n2\n14/09/2026\nTema 2: palabras, tokens, embeddings incontextuales\nPráctica 1\n\n\n\n3\n21/09/2026\nTema 3: transformers, preentrenamiento de LLMs\n\n\n\n\n4\n28/09/2026\nTema 4: codificadores para clasificación, traducción automática\n\n\n\n\n5\n05/10/2026\nTema 5: posentrenamiento de LLMs, aprendizaje por refuerzo\n\n\n\n\n6\n12/10/2026\nTema 6: interpretabilidad de modelos de PLN\n\n\n\n\n7\n19/10/2026\nTema 7: voz y multimodalidad\n\n\n\n\n8\n26/10/2026\n\n\n\n\n\n9\n02/11/2026\n\n\n\n\n\n10\n09/11/2026\n\n\n\n\n\n11\n16/11/2026\n\n\n\n\n\n12\n23/11/2026\n\n\n\n\n\n13\n30/11/2026\n\n\n\n\n\n14\n07/12/2026\n\n\n\n\n\n15\n14/12/2026",
+    "text": "Sesiones\nLa asignatura utiliza la metodología de la clase invertida, por lo que los estudiantes deben preparar los contenidos de cada sesión teórica antes de asistir a la misma. Además, cada sesión tiene un test de evaluación de los conocimientos adquiridos, que habrá que realizar antes de la clase.\nEn cada sesión de teoría se hará un resumen de los contenidos más importantes o avanzados, se resolverán dudas y se realizarán actividades de aprendizaje activo.\nLa siguiente tabla muestra las 15 semanas del curso, con los contenidos que se tratarán en cada una de las sesiones teóricas y prácticas. Al tratarse del primer curso que se imparte la asignatura, las sesiones futuras pueden sufrir bastantes cambios.\n\n\n\n\nSemana\nFecha del lunes\nSesión teórica\nSesión práctica\nNotas\n\n\n\n\n1\n07/09/2026\nTema 1: repaso de regresores y redes feedforward para el PLN\nIntroducción a PyTorch\nLas sesiones de teoría y prácticas no serán de mera introducción a la asignatura.\n\n\n2\n14/09/2026\nTema 2: palabras, tokens, embeddings incontextuales\nPráctica 1\n\n\n\n3\n21/09/2026\nTema 3: transformers, preentrenamiento de LLMs\n\n\n\n\n4\n28/09/2026\nTema 4: codificadores para clasificación, traducción automática\n\n\n\n\n5\n05/10/2026\nTema 5: posentrenamiento de LLMs, aprendizaje por refuerzo\n\n\n\n\n6\n12/10/2026\nTema 6: voz y multimodalidad\n\n\n\n\n7\n19/10/2026\nTema 7: interpretabilidad de modelos de PLN\n\n\n\n\n8\n26/10/2026\n\n\n\n\n\n9\n02/11/2026\n\n\n\n\n\n10\n09/11/2026\n\n\n\n\n\n11\n16/11/2026\n\n\n\n\n\n12\n23/11/2026\n\n\n\n\n\n13\n30/11/2026\n\n\n\n\n\n14\n07/12/2026\n\n\n\n\n\n15\n14/12/2026",
     "crumbs": [
       "Índice",
       "Presentación"
@@ -233,6 +233,66 @@
     ]
   },
   {
+    "objectID": "docs/embeddings.html",
+    "href": "docs/embeddings.html",
+    "title": "Palabras, tokens y embeddings incontextuales",
+    "section": "",
+    "text": "Fecha de la sesión: 17 de septiembre de 2026\nLas redes neuronales que procesan texto son básicamente secuencias de operaciones matemáticas sobre tensores de números. Por ello, el primer paso para que una red neuronal pueda recibir texto a la entrada es convertir las palabras en vectores de números. En esta sesión veremos cómo realizar esta conversión mediante un algoritmo clásico basado en cuentas de palabras y mediante un algoritmo neuronal que aprende a representar las palabras en un espacio vectorial como resultado indirecto de entrenar la red para una tarea de clasificación de palabras. Además, como paso previo, estudiarás por qué en procesamiento del lenguaje natural no se suele trabajar con palabras, sino con tokens, y cómo se implementa un tokenizador que transforma un texto en una secuencia de tokens.\nRecuerda que esta asignatura sigue una metodología de clase invertida, por lo que antes de la sesión de teoría debes estudiar los materiales que se indican a continuación y realizar las actividades que se proponen. El tiempo medio estimado para el estudio es de unas 3 horas, aunque puede variar según tu nivel de conocimientos previos y tu experiencia en el estudio de este tipo de contenidos.",
+    "crumbs": [
+      "Índice",
+      "Sesiones teóricas",
+      "Palabras, tokens y embeddings incontextuales"
+    ]
+  },
+  {
+    "objectID": "docs/embeddings.html#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7332203e7d7d",
+    "href": "docs/embeddings.html#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7332203e7d7d",
+    "title": "Palabras, tokens y embeddings incontextuales",
+    "section": "Materiales a estudiar antes de la sesión del 17 de septiembre de 2026",
+    "text": "Materiales a estudiar antes de la sesión del 17 de septiembre de 2026\nEl contenido de esta sesión lo puedes encontrar en los siguientes apartados del libro de Jurafsky y Martin:\n\n\n\n\nCapítulo\nApartados o páginas\nContenido\n\n\n\n\nWords and tokens §2\n2.1 y 2.4\nPalabras, tokens y tokenizadores\n\n\nEmbeddings §5\n5.1 a 5.5, 5.8\nEmbeddings incontextuales neuronales y basados en cuentas",
+    "crumbs": [
+      "Índice",
+      "Sesiones teóricas",
+      "Palabras, tokens y embeddings incontextuales"
+    ]
+  },
+  {
+    "objectID": "docs/embeddings.html#actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7332203e7d7d",
+    "href": "docs/embeddings.html#actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7332203e7d7d",
+    "title": "Palabras, tokens y embeddings incontextuales",
+    "section": "Actividades previas a la sesión del 17 de septiembre de 2026",
+    "text": "Actividades previas a la sesión del 17 de septiembre de 2026\nUna vez hayas estudiado los materiales, realiza el test que puedes encontrar en el Moodle de la asignatura.\nEl plazo para realizar las actividades previas finaliza el día anterior a la sesión de teoría.",
+    "crumbs": [
+      "Índice",
+      "Sesiones teóricas",
+      "Palabras, tokens y embeddings incontextuales"
+    ]
+  },
+  {
+    "objectID": "docs/embeddings.html#evaluación-asistida-por-un-tutor-inteligente",
+    "href": "docs/embeddings.html#evaluación-asistida-por-un-tutor-inteligente",
+    "title": "Palabras, tokens y embeddings incontextuales",
+    "section": "Evaluación asistida por un tutor inteligente",
+    "text": "Evaluación asistida por un tutor inteligente\nUsa el siguiente prompt para evaluar tu comprensión de los conceptos fundamentales de esta sesión con ayuda de tu chat o agente de inteligencia artificial favorito.\n\nHola. Quiero que me ayudes a preparar la asignatura de Introducción al Procesamiento del Lenguaje Natural I de cuarto curso de un grado en Ingeniería en Inteligencia Artificial en el que estoy matriculado. Me he leído los contenidos del libro de Jurafsky y Martin (Speech and Language Processing) que te adjunto como PDF. Quiero que evalúes si soy capaz de responder con solvencia y con la misma profundidad teórica y formal con la que aparecen los contenidos en el texto.\nPara ello, actuaremos mediante un diálogo socrático guiado estricto, fundamentado en la taxonomía de Paul y Elder (clarificación de conceptos, examen de supuestos, solicitud de evidencias y análisis de casos límite). Tu comportamiento debe ajustarse sin excepción a las siguientes reglas:\n\nElige una única pregunta al azar de la lista que te proporciono al final y plantéamela para iniciar la sesión. No plantees más de una pregunta a la vez.\nEspera a que yo redacte mi respuesta.\nAnaliza críticamente mi intervención contrastándola con el contenido del libro de Jurafsky y Martin adjunto:\n\nNunca me des la respuesta correcta ni completes las explicaciones por mí, bajo ninguna circunstancia.\nSi mi respuesta es incompleta o imprecisa, hazme una pregunta de clarificación o señálame qué concepto específico debo revisar en los materiales.\nSi cometo un error conceptual, no lo corrijas directamente: plantéame un contraejemplo, una contradicción lógica en mi argumento o una pregunta sobre las consecuencias de mi razonamiento para que yo mismo descubra el fallo.\nSi mi respuesta es correcta pero superficial, exige mayor rigor formal, detalle matemático o precisión terminológica.\n\nMantén el diálogo de forma iterativa (pregunta, respuesta, repregunta) hasta que concluyas que he cubierto la cuestión con el nivel de dominio y profundidad requerido por el texto.\nSolo cuando el tema haya quedado completamente resuelto y fundamentado por mi parte, haz un breve cierre de validación y selecciona al azar la siguiente pregunta de la lista.\n\nElige una de las siguientes preguntas y comienza:\n\n¿Qué elementos comparte el algoritmo de skip-gram con el entrenamiento de un regresor logístico?\n¿Qué precauciones es necesario tomar al seleccionar las muestras positivas y negativas para entrenar un modelo de skip-gram?\n¿Qué diferencias hay entre un embedding incontextual y un embedding contextual?",
+    "crumbs": [
+      "Índice",
+      "Sesiones teóricas",
+      "Palabras, tokens y embeddings incontextuales"
+    ]
+  },
+  {
+    "objectID": "docs/embeddings.html#contenidos-de-la-sesión",
+    "href": "docs/embeddings.html#contenidos-de-la-sesión",
+    "title": "Palabras, tokens y embeddings incontextuales",
+    "section": "Contenidos de la sesión",
+    "text": "Contenidos de la sesión\nEn la sesión de teoría presencial repasaremos los conceptos más complejos del tema y resolveremos las dudas que hayan surgido durante su estudio.",
+    "crumbs": [
+      "Índice",
+      "Sesiones teóricas",
+      "Palabras, tokens y embeddings incontextuales"
+    ]
+  },
+  {
     "objectID": "docs/clasificadores.html",
     "href": "docs/clasificadores.html",
     "title": "Modelos de lengua para clasificación y traducción automática",
@@ -293,63 +353,63 @@
     ]
   },
   {
-    "objectID": "docs/embeddings.html",
-    "href": "docs/embeddings.html",
-    "title": "Palabras, tokens y embeddings incontextuales",
+    "objectID": "docs/interpretabilidad.html",
+    "href": "docs/interpretabilidad.html",
+    "title": "Interpretabilidad",
     "section": "",
-    "text": "Fecha de la sesión: 17 de septiembre de 2026\nLas redes neuronales que procesan texto son básicamente secuencias de operaciones matemáticas sobre tensores de números. Por ello, el primer paso para que una red neuronal pueda recibir texto a la entrada es convertir las palabras en vectores de números. En esta sesión veremos cómo realizar esta conversión mediante un algoritmo clásico basado en cuentas de palabras y mediante un algoritmo neuronal que aprende a representar las palabras en un espacio vectorial como resultado indirecto de entrenar la red para una tarea de clasificación de palabras. Además, como paso previo, estudiarás por qué en procesamiento del lenguaje natural no se suele trabajar con palabras, sino con tokens, y cómo se implementa un tokenizador que transforma un texto en una secuencia de tokens.\nRecuerda que esta asignatura sigue una metodología de clase invertida, por lo que antes de la sesión de teoría debes estudiar los materiales que se indican a continuación y realizar las actividades que se proponen. El tiempo medio estimado para el estudio es de unas 3 horas, aunque puede variar según tu nivel de conocimientos previos y tu experiencia en el estudio de este tipo de contenidos.",
+    "text": "Fecha de la sesión: 22 de octubre de 2026\nLa interpretabilidad estudia cómo los modelos neuronales representan y procesan la información, localizando los circuitos que implementan los algoritmos que resuelven una tarea concreta. El conocimiento adquirido permite, en ocasiones, la intervención externa en el comportamiento del modelo para inducir cambios en su funcionamiento. Esta sesión es un tanto especial, ya que al no existir ningún documento educativo que integre adecuadamente los conceptos de interpretabilidad, leerás un artículo de investigación que describe un experimento de interpretabilidad en el que se localiza un circuito que implementa la regla de concordancia sujeto-verbo en inglés y español. El objetivo no es solo que leas el artículo, sino que amplíes en otras fuentes los conceptos de interpretabilidad que se presentan en él (parcheo de activaciones, atribución de logits, intervención de activaciones, localización de circuitos, componentes principales, etc.).\nRecuerda que esta asignatura sigue una metodología de clase invertida, por lo que antes de la sesión de teoría debes estudiar los materiales que se indican a continuación y realizar las actividades que se proponen. El tiempo medio estimado para el estudio es de unas 3 horas, aunque puede variar según tu nivel de conocimientos previos y tu experiencia en el estudio de este tipo de contenidos.",
     "crumbs": [
       "Índice",
       "Sesiones teóricas",
-      "Palabras, tokens y embeddings incontextuales"
+      "Interpretabilidad"
     ]
   },
   {
-    "objectID": "docs/embeddings.html#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7332203e7d7d",
-    "href": "docs/embeddings.html#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7332203e7d7d",
-    "title": "Palabras, tokens y embeddings incontextuales",
-    "section": "Materiales a estudiar antes de la sesión del 17 de septiembre de 2026",
-    "text": "Materiales a estudiar antes de la sesión del 17 de septiembre de 2026\nEl contenido de esta sesión lo puedes encontrar en los siguientes apartados del libro de Jurafsky y Martin:\n\n\n\n\nCapítulo\nApartados o páginas\nContenido\n\n\n\n\nWords and tokens §2\n2.1 y 2.4\nPalabras, tokens y tokenizadores\n\n\nEmbeddings §5\n5.1 a 5.5, 5.8\nEmbeddings incontextuales neuronales y basados en cuentas",
+    "objectID": "docs/interpretabilidad.html#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7337203e7d7d",
+    "href": "docs/interpretabilidad.html#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7337203e7d7d",
+    "title": "Interpretabilidad",
+    "section": "Materiales a estudiar antes de la sesión del 22 de octubre de 2026",
+    "text": "Materiales a estudiar antes de la sesión del 22 de octubre de 2026\nEl contenido de esta sesión lo puedes encontrar en el artículo siguiente, que tendrás que ampliar con otras fuentes de información sobre las técnicas de interpretabilidad que se mencionan en él.\n\n\n\n\nCapítulo\nApartados o páginas\nContenido\n\n\n\n\nOn the Similarity of Circuits across Languages: a Case Study on the Subject-verb Agreement Task\nartículo completo\nParcheo de activaciones, atribución de logits, intervención de activaciones",
     "crumbs": [
       "Índice",
       "Sesiones teóricas",
-      "Palabras, tokens y embeddings incontextuales"
+      "Interpretabilidad"
     ]
   },
   {
-    "objectID": "docs/embeddings.html#actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7332203e7d7d",
-    "href": "docs/embeddings.html#actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7332203e7d7d",
-    "title": "Palabras, tokens y embeddings incontextuales",
-    "section": "Actividades previas a la sesión del 17 de septiembre de 2026",
-    "text": "Actividades previas a la sesión del 17 de septiembre de 2026\nUna vez hayas estudiado los materiales, realiza el test que puedes encontrar en el Moodle de la asignatura.\nEl plazo para realizar las actividades previas finaliza el día anterior a la sesión de teoría.",
+    "objectID": "docs/interpretabilidad.html#actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7337203e7d7d",
+    "href": "docs/interpretabilidad.html#actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7337203e7d7d",
+    "title": "Interpretabilidad",
+    "section": "Actividades previas a la sesión del 22 de octubre de 2026",
+    "text": "Actividades previas a la sesión del 22 de octubre de 2026\nUna vez hayas estudiado los materiales, realiza el test que puedes encontrar en el Moodle de la asignatura.\nEl plazo para realizar las actividades previas finaliza el día anterior a la sesión de teoría.",
     "crumbs": [
       "Índice",
       "Sesiones teóricas",
-      "Palabras, tokens y embeddings incontextuales"
+      "Interpretabilidad"
     ]
   },
   {
-    "objectID": "docs/embeddings.html#evaluación-asistida-por-un-tutor-inteligente",
-    "href": "docs/embeddings.html#evaluación-asistida-por-un-tutor-inteligente",
-    "title": "Palabras, tokens y embeddings incontextuales",
+    "objectID": "docs/interpretabilidad.html#evaluación-asistida-por-un-tutor-inteligente",
+    "href": "docs/interpretabilidad.html#evaluación-asistida-por-un-tutor-inteligente",
+    "title": "Interpretabilidad",
     "section": "Evaluación asistida por un tutor inteligente",
-    "text": "Evaluación asistida por un tutor inteligente\nUsa el siguiente prompt para evaluar tu comprensión de los conceptos fundamentales de esta sesión con ayuda de tu chat o agente de inteligencia artificial favorito.\n\nHola. Quiero que me ayudes a preparar la asignatura de Introducción al Procesamiento del Lenguaje Natural I de cuarto curso de un grado en Ingeniería en Inteligencia Artificial en el que estoy matriculado. Me he leído los contenidos del libro de Jurafsky y Martin (Speech and Language Processing) que te adjunto como PDF. Quiero que evalúes si soy capaz de responder con solvencia y con la misma profundidad teórica y formal con la que aparecen los contenidos en el texto.\nPara ello, actuaremos mediante un diálogo socrático guiado estricto, fundamentado en la taxonomía de Paul y Elder (clarificación de conceptos, examen de supuestos, solicitud de evidencias y análisis de casos límite). Tu comportamiento debe ajustarse sin excepción a las siguientes reglas:\n\nElige una única pregunta al azar de la lista que te proporciono al final y plantéamela para iniciar la sesión. No plantees más de una pregunta a la vez.\nEspera a que yo redacte mi respuesta.\nAnaliza críticamente mi intervención contrastándola con el contenido del libro de Jurafsky y Martin adjunto:\n\nNunca me des la respuesta correcta ni completes las explicaciones por mí, bajo ninguna circunstancia.\nSi mi respuesta es incompleta o imprecisa, hazme una pregunta de clarificación o señálame qué concepto específico debo revisar en los materiales.\nSi cometo un error conceptual, no lo corrijas directamente: plantéame un contraejemplo, una contradicción lógica en mi argumento o una pregunta sobre las consecuencias de mi razonamiento para que yo mismo descubra el fallo.\nSi mi respuesta es correcta pero superficial, exige mayor rigor formal, detalle matemático o precisión terminológica.\n\nMantén el diálogo de forma iterativa (pregunta, respuesta, repregunta) hasta que concluyas que he cubierto la cuestión con el nivel de dominio y profundidad requerido por el texto.\nSolo cuando el tema haya quedado completamente resuelto y fundamentado por mi parte, haz un breve cierre de validación y selecciona al azar la siguiente pregunta de la lista.\n\nElige una de las siguientes preguntas y comienza:\n\n¿Qué elementos comparte el algoritmo de skip-gram con el entrenamiento de un regresor logístico?\n¿Qué precauciones es necesario tomar al seleccionar las muestras positivas y negativas para entrenar un modelo de skip-gram?\n¿Qué diferencias hay entre un embedding incontextual y un embedding contextual?",
+    "text": "Evaluación asistida por un tutor inteligente\nUsa el siguiente prompt para evaluar tu comprensión de los conceptos fundamentales de esta sesión con ayuda de tu chat o agente de inteligencia artificial favorito.\n\nHola. Quiero que me ayudes a preparar la asignatura de Introducción al Procesamiento del Lenguaje Natural I de cuarto curso de un grado en Ingeniería en Inteligencia Artificial en el que estoy matriculado. Me he leído los contenidos del libro de Jurafsky y Martin (Speech and Language Processing) que te adjunto como PDF. Quiero que evalúes si soy capaz de responder con solvencia y con la misma profundidad teórica y formal con la que aparecen los contenidos en el texto.\nPara ello, actuaremos mediante un diálogo socrático guiado estricto, fundamentado en la taxonomía de Paul y Elder (clarificación de conceptos, examen de supuestos, solicitud de evidencias y análisis de casos límite). Tu comportamiento debe ajustarse sin excepción a las siguientes reglas:\n\nElige una única pregunta al azar de la lista que te proporciono al final y plantéamela para iniciar la sesión. No plantees más de una pregunta a la vez.\nEspera a que yo redacte mi respuesta.\nAnaliza críticamente mi intervención contrastándola con el contenido del libro de Jurafsky y Martin adjunto:\n\nNunca me des la respuesta correcta ni completes las explicaciones por mí, bajo ninguna circunstancia.\nSi mi respuesta es incompleta o imprecisa, hazme una pregunta de clarificación o señálame qué concepto específico debo revisar en los materiales.\nSi cometo un error conceptual, no lo corrijas directamente: plantéame un contraejemplo, una contradicción lógica en mi argumento o una pregunta sobre las consecuencias de mi razonamiento para que yo mismo descubra el fallo.\nSi mi respuesta es correcta pero superficial, exige mayor rigor formal, detalle matemático o precisión terminológica.\n\nMantén el diálogo de forma iterativa (pregunta, respuesta, repregunta) hasta que concluyas que he cubierto la cuestión con el nivel de dominio y profundidad requerido por el texto.\nSolo cuando el tema haya quedado completamente resuelto y fundamentado por mi parte, haz un breve cierre de validación y selecciona al azar la siguiente pregunta de la lista.\n\nElige una de las siguientes preguntas y comienza:\n\n¿Qué es la interpretabilidad en el contexto de los modelos de PLN?\n¿En qué consiste el parcheo de activaciones y qué nos permite aprender sobre el comportamiento de un modelo?\n¿Qué es la atribución de logits y cómo se utiliza para entender las decisiones de un modelo?\n¿Cómo se puede intervenir en las activaciones de un modelo y cómo determinamos dónde realizar dicha intervención?\n¿Qué circuito se localiza en el artículo y por qué coincide en español e inglés?",
     "crumbs": [
       "Índice",
       "Sesiones teóricas",
-      "Palabras, tokens y embeddings incontextuales"
+      "Interpretabilidad"
     ]
   },
   {
-    "objectID": "docs/embeddings.html#contenidos-de-la-sesión",
-    "href": "docs/embeddings.html#contenidos-de-la-sesión",
-    "title": "Palabras, tokens y embeddings incontextuales",
+    "objectID": "docs/interpretabilidad.html#contenidos-de-la-sesión",
+    "href": "docs/interpretabilidad.html#contenidos-de-la-sesión",
+    "title": "Interpretabilidad",
     "section": "Contenidos de la sesión",
     "text": "Contenidos de la sesión\nEn la sesión de teoría presencial repasaremos los conceptos más complejos del tema y resolveremos las dudas que hayan surgido durante su estudio.",
     "crumbs": [
       "Índice",
       "Sesiones teóricas",
-      "Palabras, tokens y embeddings incontextuales"
+      "Interpretabilidad"
     ]
   },
   {
@@ -465,7 +525,7 @@
     "href": "docs/speech.html",
     "title": "Procesamiento de voz",
     "section": "",
-    "text": "Fecha de la sesión: 15 de octubre de 2026\n[…]\nRecuerda que esta asignatura sigue una metodología de clase invertida, por lo que antes de la sesión de teoría debes estudiar los materiales que se indican a continuación y realizar las actividades que se proponen. El tiempo medio estimado para el estudio es de unas 4 horas, aunque puede variar según tu nivel de conocimientos previos y tu experiencia en el estudio de este tipo de contenidos.",
+    "text": "Fecha de la sesión: 15 de octubre de 2026\nEl procesamiento de voz es un área de la inteligencia artificial que se ha enmarcado tradicionalmente dentro del procesamiento de lenguaje natural, aunque también comparte muchos aspectos con el procesamiento de señales, especialmente con el análisis y síntesis de audio. En esta sesión estudiaremos los fundamentos del procesamiento de voz, centrándonos en la extracción de características de voz y en los modelos de reconocimiento automático de voz o modelos speech-to-text.\nRecuerda que esta asignatura sigue una metodología de clase invertida, por lo que antes de la sesión de teoría debes estudiar los materiales que se indican a continuación y realizar las actividades que se proponen. El tiempo medio estimado para el estudio es de unas 4 horas, aunque puede variar según tu nivel de conocimientos previos y tu experiencia en el estudio de este tipo de contenidos.",
     "crumbs": [
       "Índice",
       "Sesiones teóricas",
@@ -501,7 +561,7 @@
     "href": "docs/speech.html#evaluación-asistida-por-un-tutor-inteligente",
     "title": "Procesamiento de voz",
     "section": "Evaluación asistida por un tutor inteligente",
-    "text": "Evaluación asistida por un tutor inteligente\nUsa el siguiente prompt para evaluar tu comprensión de los conceptos fundamentales de esta sesión con ayuda de tu chat o agente de inteligencia artificial favorito.\n\nHola. Quiero que me ayudes a preparar la asignatura de Introducción al Procesamiento del Lenguaje Natural I de cuarto curso de un grado en Ingeniería en Inteligencia Artificial en el que estoy matriculado. Me he leído los contenidos del libro de Jurafsky y Martin (Speech and Language Processing) que te adjunto como PDF. Quiero que evalúes si soy capaz de responder con solvencia y con la misma profundidad teórica y formal con la que aparecen los contenidos en el texto.\nPara ello, actuaremos mediante un diálogo socrático guiado estricto, fundamentado en la taxonomía de Paul y Elder (clarificación de conceptos, examen de supuestos, solicitud de evidencias y análisis de casos límite). Tu comportamiento debe ajustarse sin excepción a las siguientes reglas:\n\nElige una única pregunta al azar de la lista que te proporciono al final y plantéamela para iniciar la sesión. No plantees más de una pregunta a la vez.\nEspera a que yo redacte mi respuesta.\nAnaliza críticamente mi intervención contrastándola con el contenido del libro de Jurafsky y Martin adjunto:\n\nNunca me des la respuesta correcta ni completes las explicaciones por mí, bajo ninguna circunstancia.\nSi mi respuesta es incompleta o imprecisa, hazme una pregunta de clarificación o señálame qué concepto específico debo revisar en los materiales.\nSi cometo un error conceptual, no lo corrijas directamente: plantéame un contraejemplo, una contradicción lógica en mi argumento o una pregunta sobre las consecuencias de mi razonamiento para que yo mismo descubra el fallo.\nSi mi respuesta es correcta pero superficial, exige mayor rigor formal, detalle matemático o precisión terminológica.\n\nMantén el diálogo de forma iterativa (pregunta, respuesta, repregunta) hasta que concluyas que he cubierto la cuestión con el nivel de dominio y profundidad requerido por el texto.\nSolo cuando el tema haya quedado completamente resuelto y fundamentado por mi parte, haz un breve cierre de validación y selecciona al azar la siguiente pregunta de la lista.\n\nElige una de las siguientes preguntas y comienza:\n\n[…]",
+    "text": "Evaluación asistida por un tutor inteligente\nUsa el siguiente prompt para evaluar tu comprensión de los conceptos fundamentales de esta sesión con ayuda de tu chat o agente de inteligencia artificial favorito.\n\nHola. Quiero que me ayudes a preparar la asignatura de Introducción al Procesamiento del Lenguaje Natural I de cuarto curso de un grado en Ingeniería en Inteligencia Artificial en el que estoy matriculado. Me he leído los contenidos del libro de Jurafsky y Martin (Speech and Language Processing) que te adjunto como PDF. Quiero que evalúes si soy capaz de responder con solvencia y con la misma profundidad teórica y formal con la que aparecen los contenidos en el texto.\nPara ello, actuaremos mediante un diálogo socrático guiado estricto, fundamentado en la taxonomía de Paul y Elder (clarificación de conceptos, examen de supuestos, solicitud de evidencias y análisis de casos límite). Tu comportamiento debe ajustarse sin excepción a las siguientes reglas:\n\nElige una única pregunta al azar de la lista que te proporciono al final y plantéamela para iniciar la sesión. No plantees más de una pregunta a la vez.\nEspera a que yo redacte mi respuesta.\nAnaliza críticamente mi intervención contrastándola con el contenido del libro de Jurafsky y Martin adjunto:\n\nNunca me des la respuesta correcta ni completes las explicaciones por mí, bajo ninguna circunstancia.\nSi mi respuesta es incompleta o imprecisa, hazme una pregunta de clarificación o señálame qué concepto específico debo revisar en los materiales.\nSi cometo un error conceptual, no lo corrijas directamente: plantéame un contraejemplo, una contradicción lógica en mi argumento o una pregunta sobre las consecuencias de mi razonamiento para que yo mismo descubra el fallo.\nSi mi respuesta es correcta pero superficial, exige mayor rigor formal, detalle matemático o precisión terminológica.\n\nMantén el diálogo de forma iterativa (pregunta, respuesta, repregunta) hasta que concluyas que he cubierto la cuestión con el nivel de dominio y profundidad requerido por el texto.\nSolo cuando el tema haya quedado completamente resuelto y fundamentado por mi parte, haz un breve cierre de validación y selecciona al azar la siguiente pregunta de la lista.\n\nElige una de las siguientes preguntas y comienza:\n\n¿Qué representa un espectrograma y cómo se obtiene a partir de una señal de voz?\n¿En qué aspectos el oído humano tiene una respuesta logarítimica y en qué elementos del procesamiento de voz se refleja esta característica?\n¿Qué significa que un modelo de reconocimiento de voz haya sido con datos muestreados a 16 kHz?\n¿Cuáles son las principales diferencias entre un modelo de reconocimiento de voz basado en un codificador (encoder) y el basado en un codificador-decodificador (encoder-decoder)?\n¿Cuáles son los principios de CTC y cómo se aplican en el entrenamiento de modelos de reconocimiento de voz?",
     "crumbs": [
       "Índice",
       "Sesiones teóricas",
