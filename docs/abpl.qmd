@@ -1,5 +1,5 @@
 ---
-title: "Aspectos básicos del procesamiento lingüístico"
+title: "Fundamentos lingüísticos del PLN"
 ---
 
 Fecha de la sesión: {{< var fechas.teoria.s8 >}}
