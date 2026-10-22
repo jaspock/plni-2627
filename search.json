@@ -293,6 +293,41 @@
     ]
   },
   {
+    "objectID": "docs/abpl.html",
+    "href": "docs/abpl.html",
+    "title": "Aspectos básicos del procesamiento lingüístico",
+    "section": "",
+    "text": "Fecha de la sesión: 29 de octubre de 2026\nEn este tema se expone un visión histórica del PLN y sus problemas básicos. Se exponenen los principales paradigmas de representación de la información lingüística y las diferentes aproximaciones a su procesamiento automático. Como caso prototípico de análisis lingüístico se estudia el análisis categorial.\nRecuerda que esta asignatura sigue una metodología de clase invertida, por lo que antes de la sesión de teoría debes estudiar los materiales que se indican a continuación y realizar las actividades que se proponen. El tiempo medio estimado para el estudio es de unas 3 horas, aunque puede variar según tu nivel de conocimientos previos y tu experiencia en el estudio de este tipo de contenidos."
+  },
+  {
+    "objectID": "docs/abpl.html#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7338203e7d7d",
+    "href": "docs/abpl.html#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7338203e7d7d",
+    "title": "Aspectos básicos del procesamiento lingüístico",
+    "section": "Materiales a estudiar antes de la sesión del 29 de octubre de 2026",
+    "text": "Materiales a estudiar antes de la sesión del 29 de octubre de 2026\nPara estudiar este tema, os propongo dos lecturas. La primera es del libro de Jurafsky y Martin (2026) sobre análisis categorial (parts of speech) y detección de entidades (named entities). La segunda lectura es un esquema con el resto de conceptos del tema que repasaremos en la sesión de teoría.\n\n\n\n\nCapítulo\nApartados o páginas\nContenido\n\n\n\n\nSequence Labeling for Parts of Speech and Named Entities\nIntroducción y secciones de 8.1, 8.2, 8.3 y 8.5\nAnálisis categorial, reconocimiento de entidades\n\n\nFundamentos lingüísticos del PLN: representación y procesamiento.\ncompleto\nConcepto de lengua. Procesamiento del texto. Paradigmas de representación computacional y modelos de procesamiento."
+  },
+  {
+    "objectID": "docs/abpl.html#actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7338203e7d7d",
+    "href": "docs/abpl.html#actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7338203e7d7d",
+    "title": "Aspectos básicos del procesamiento lingüístico",
+    "section": "Actividades previas a la sesión del 29 de octubre de 2026",
+    "text": "Actividades previas a la sesión del 29 de octubre de 2026\nUna vez hayas estudiado los materiales, realiza el test que puedes encontrar en el Moodle de la asignatura.\nEl plazo para realizar las actividades previas finaliza el día anterior a la sesión de teoría."
+  },
+  {
+    "objectID": "docs/abpl.html#evaluación-asistida-por-un-tutor-inteligente",
+    "href": "docs/abpl.html#evaluación-asistida-por-un-tutor-inteligente",
+    "title": "Aspectos básicos del procesamiento lingüístico",
+    "section": "Evaluación asistida por un tutor inteligente",
+    "text": "Evaluación asistida por un tutor inteligente\nUsa el siguiente prompt para evaluar tu comprensión de los conceptos fundamentales de esta sesión con ayuda de tu chat o agente de inteligencia artificial favorito.\n\nHola. Quiero que me ayudes a preparar la asignatura de Introducción al Procesamiento del Lenguaje Natural I de cuarto curso de un grado en Ingeniería en Inteligencia Artificial en el que estoy matriculado. Me he leído los contenidos del libro de Jurafsky y Martin (Speech and Language Processing) que te adjunto como PDF. Quiero que evalúes si soy capaz de responder con solvencia y con la misma profundidad teórica y formal con la que aparecen los contenidos en el texto.\nPara ello, actuaremos mediante un diálogo socrático guiado estricto, fundamentado en la taxonomía de Paul y Elder (clarificación de conceptos, examen de supuestos, solicitud de evidencias y análisis de casos límite). Tu comportamiento debe ajustarse sin excepción a las siguientes reglas:\n\nElige una única pregunta al azar de la lista que te proporciono al final y plantéamela para iniciar la sesión. No plantees más de una pregunta a la vez.\nEspera a que yo redacte mi respuesta.\nAnaliza críticamente mi intervención contrastándola con el contenido del libro de Jurafsky y Martin adjunto:\n\nNunca me des la respuesta correcta ni completes las explicaciones por mí, bajo ninguna circunstancia.\nSi mi respuesta es incompleta o imprecisa, hazme una pregunta de clarificación o señálame qué concepto específico debo revisar en los materiales.\nSi cometo un error conceptual, no lo corrijas directamente: plantéame un contraejemplo, una contradicción lógica en mi argumento o una pregunta sobre las consecuencias de mi razonamiento para que yo mismo descubra el fallo.\nSi mi respuesta es correcta pero superficial, exige mayor rigor formal, detalle matemático o precisión terminológica.\n\nMantén el diálogo de forma iterativa (pregunta, respuesta, repregunta) hasta que concluyas que he cubierto la cuestión con el nivel de dominio y profundidad requerido por el texto.\nSolo cuando el tema haya quedado completamente resuelto y fundamentado por mi parte, haz un breve cierre de validación y selecciona al azar la siguiente pregunta de la lista.\n\nElige una de las siguientes preguntas y comienza:\n\n…\n…\n…\n…\n…"
+  },
+  {
+    "objectID": "docs/abpl.html#contenidos-de-la-sesión",
+    "href": "docs/abpl.html#contenidos-de-la-sesión",
+    "title": "Aspectos básicos del procesamiento lingüístico",
+    "section": "Contenidos de la sesión",
+    "text": "Contenidos de la sesión\nEn la sesión de teoría presencial repasaremos los conceptos más complejos del tema y resolveremos las dudas que hayan surgido durante su estudio."
+  },
+  {
     "objectID": "docs/clasificadores.html",
     "href": "docs/clasificadores.html",
     "title": "Modelos de lengua para clasificación y traducción automática",
