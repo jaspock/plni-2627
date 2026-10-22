@@ -57,7 +57,7 @@ La siguiente tabla muestra las 15 semanas del curso, con los contenidos que se t
 | 5 | {{< var fechas.lunes.s5 >}} | [Tema 5](docs/post.qmd): posentrenamiento de LLMs, aprendizaje por refuerzo |  |  |
 | 6 | {{< var fechas.lunes.s6 >}} | [Tema 6](docs/voz.qmd): voz y multimodalidad |  |  |
 | 7 | {{< var fechas.lunes.s7 >}} | [Tema 7](docs/interpretabilidad.qmd): interpretabilidad de modelos de PLN |  |
-| 8 | {{< var fechas.lunes.s8 >}} |  |  |  |
+| 8 | {{< var fechas.lunes.s8 >}} | [Tema 8](docs/abpl.qmd): fundamentos lingüísticos de PLN |  |  |
 | 9 | {{< var fechas.lunes.s9 >}} |  |  |  |
 | 10 | {{< var fechas.lunes.s10 >}} |  |  |  |
 | 11 | {{< var fechas.lunes.s11 >}} |  |  |  |
