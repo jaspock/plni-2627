@@ -35,6 +35,8 @@ website:
             href: docs/speech.qmd
           - text: "Interpretabilidad"
             href: docs/interpretabilidad.qmd
+          - text: "Fundamentos lingüísticos del PLN"
+            href: docs/abpl.qmd
       - text: "Prácticas"
         menu:
           - text: "Introducción a PyTorch"
@@ -71,6 +73,8 @@ website:
             href: docs/speech.qmd
           - text: "Interpretabilidad"
             href: docs/interpretabilidad.qmd  
+          - text: "Fundamentos lingüísticos del PLN"
+            href: docs/abpl.qmd
       - section: "Sesiones prácticas"
         contents:
           - text: "Introducción a PyTorch"
