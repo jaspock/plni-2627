@@ -43,6 +43,8 @@ website:
             href: docs/pytorch.qmd
           - text: "Práctica 1"
             href: docs/practicallm.qmd
+          - text: "Práctica 2"
+            href: docs/practica2.qmd
       - text: "Guía docente"
         href: "{{< var guia.url >}}"
         icon: journal-bookmark
@@ -81,6 +83,8 @@ website:
             href: docs/pytorch.qmd
           - text: "Práctica 1"
             href: docs/practicallm.qmd
+          - text: "Práctica 2"
+            href: docs/practica2.qmd
 
   page-footer:
     left: "{{< var asignatura >}} — Curso {{< var curso >}}"
