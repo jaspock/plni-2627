@@ -2,46 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://jaspock.github.io/plni/index.html</loc>
-    <lastmod>2026-10-26T14:30:58.251Z</lastmod>
+    <lastmod>2026-10-26T14:43:21.297Z</lastmod>
   </url>
   <url>
     <loc>https://jaspock.github.io/plni/docs/repaso.html</loc>
-    <lastmod>2026-10-26T14:30:58.251Z</lastmod>
+    <lastmod>2026-10-26T14:43:21.297Z</lastmod>
   </url>
   <url>
     <loc>https://jaspock.github.io/plni/docs/pretraining.html</loc>
-    <lastmod>2026-10-26T14:30:58.251Z</lastmod>
+    <lastmod>2026-10-26T14:43:21.297Z</lastmod>
   </url>
   <url>
-    <loc>https://jaspock.github.io/plni/docs/post.html</loc>
-    <lastmod>2026-10-26T14:30:58.251Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jaspock.github.io/plni/docs/embeddings.html</loc>
-    <lastmod>2026-10-26T14:30:58.250Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jaspock.github.io/plni/docs/abpl.html</loc>
-    <lastmod>2026-10-26T14:30:58.243Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jaspock.github.io/plni/docs/clasificadores.html</loc>
-    <lastmod>2026-10-26T14:30:58.250Z</lastmod>
+    <loc>https://jaspock.github.io/plni/docs/practica2.html</loc>
+    <lastmod>2026-10-26T14:43:21.297Z</lastmod>
   </url>
   <url>
     <loc>https://jaspock.github.io/plni/docs/interpretabilidad.html</loc>
-    <lastmod>2026-10-26T14:30:58.251Z</lastmod>
+    <lastmod>2026-10-26T14:43:21.297Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jaspock.github.io/plni/docs/clasificadores.html</loc>
+    <lastmod>2026-10-26T14:43:21.296Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jaspock.github.io/plni/docs/abpl.html</loc>
+    <lastmod>2026-10-26T14:43:21.293Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jaspock.github.io/plni/docs/embeddings.html</loc>
+    <lastmod>2026-10-26T14:43:21.297Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jaspock.github.io/plni/docs/post.html</loc>
+    <lastmod>2026-10-26T14:43:21.297Z</lastmod>
   </url>
   <url>
     <loc>https://jaspock.github.io/plni/docs/practicallm.html</loc>
-    <lastmod>2026-10-26T14:30:58.251Z</lastmod>
+    <lastmod>2026-10-26T14:43:21.297Z</lastmod>
   </url>
   <url>
     <loc>https://jaspock.github.io/plni/docs/pytorch.html</loc>
-    <lastmod>2026-10-26T14:30:58.251Z</lastmod>
+    <lastmod>2026-10-26T14:43:21.297Z</lastmod>
   </url>
   <url>
     <loc>https://jaspock.github.io/plni/docs/speech.html</loc>
-    <lastmod>2026-10-26T14:30:58.251Z</lastmod>
+    <lastmod>2026-10-26T14:43:21.297Z</lastmod>
   </url>
 </urlset>
