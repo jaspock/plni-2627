@@ -22,7 +22,5 @@ La memoria ha de tener una longitud máxima de 4 páginas por reto, excluidas la
 
 El enlace al cuaderno COLAB de cada reto se entregará según se indique en el enunciado.
 
-La memoria final se entregará en formato PDF a través del [Moodle]({{< var moodle.url >}}) de la asignatura.
-
-[La fecha límite de entrega es el **{{< var practicas.p2.fecha >}}**.]: #
+La memoria final se entregará en formato PDF a través del [Moodle]({{< var moodle.url >}}) de la asignatura. La fecha límite de entrega es el **{{< var practicas.p2.fecha >}}**.
 
