@@ -177,28 +177,48 @@
     "href": "docs/practica2.html",
     "title": "Práctica 2: temas complejos de PLN.",
     "section": "",
-    "text": "En esta práctica se proponen diferentes retos de procesamiento lingüístico para los que hoy día no hay una solución satisfatoria. El objetivo general de la práctica es reflexionar sobre estos problemas y proponer soluciones funcionales.\nPara cada reto el alumnado, por equipos, debe crear un script en Python que le dé solución parcial y justificar la aproximación presentada. El script debe funcionar en un cuaderno COLAB y procesar el texto que se indique en el enunciado de cada reto. A modo de ``campaña de evaluación’’, los scripts se evaluarán con respecto a un gold standard marcado a mano por expertos. Además se valorará el grado de madurez y originalidad de la propuesta implementada."
+    "text": "En esta práctica se proponen diferentes retos de procesamiento lingüístico para los que hoy día no hay una solución satisfatoria. El objetivo general de la práctica es reflexionar sobre estos problemas y proponer soluciones funcionales.\nPara cada reto el alumnado, por equipos, debe crear un script en Python que le dé solución parcial y justificar la aproximación presentada. El script debe funcionar en un cuaderno COLAB y procesar el texto que se indique en el enunciado de cada reto. A modo de ``campaña de evaluación’’, los scripts se evaluarán con respecto a un gold standard marcado a mano por expertos. Además se valorará el grado de madurez y originalidad de la propuesta implementada.",
+    "crumbs": [
+      "Índice",
+      "Sesiones prácticas",
+      "Práctica 2"
+    ]
   },
   {
     "objectID": "docs/practica2.html#retos",
     "href": "docs/practica2.html#retos",
     "title": "Práctica 2: temas complejos de PLN.",
     "section": "Retos",
-    "text": "Retos\n\nExtracción de personajes y resolución de correferencias en texto narrativo. Enunciado completo\n…\n…"
+    "text": "Retos\n\nExtracción de personajes y resolución de correferencias en texto narrativo. Enunciado completo\n…\n…",
+    "crumbs": [
+      "Índice",
+      "Sesiones prácticas",
+      "Práctica 2"
+    ]
   },
   {
     "objectID": "docs/practica2.html#escritura-de-la-memoria",
     "href": "docs/practica2.html#escritura-de-la-memoria",
     "title": "Práctica 2: temas complejos de PLN.",
     "section": "Escritura de la memoria",
-    "text": "Escritura de la memoria\nTenéis que entregar una memoria de la práctica en la que se describan los problemas tratados, las soluciones propuestas, los resultados obtenidos e ideas con posibles mejoras futuras. La memoria ha de seguir el formato de los artículos de la ACL (Association for Computational Linguistics). Aunque hay una versión en formato DOCX, es recomendable que uses la plantilla para LaTeX.\nLa memoria ha de tener una longitud máxima de 4 páginas por reto, excluidas las referencias."
+    "text": "Escritura de la memoria\nTenéis que entregar una memoria de la práctica en la que se describan los problemas tratados, las soluciones propuestas, los resultados obtenidos e ideas con posibles mejoras futuras. La memoria ha de seguir el formato de los artículos de la ACL (Association for Computational Linguistics). Aunque hay una versión en formato DOCX, es recomendable que uses la plantilla para LaTeX.\nLa memoria ha de tener una longitud máxima de 4 páginas por reto, excluidas las referencias.",
+    "crumbs": [
+      "Índice",
+      "Sesiones prácticas",
+      "Práctica 2"
+    ]
   },
   {
     "objectID": "docs/practica2.html#entrega",
     "href": "docs/practica2.html#entrega",
     "title": "Práctica 2: temas complejos de PLN.",
     "section": "Entrega",
-    "text": "Entrega\nEl enlace al cuaderno COLAB de cada reto se entregará según se indique en el enunciado.\nLa memoria final se entregará en formato PDF a través del Moodle de la asignatura."
+    "text": "Entrega\nEl enlace al cuaderno COLAB de cada reto se entregará según se indique en el enunciado.\nLa memoria final se entregará en formato PDF a través del Moodle de la asignatura.",
+    "crumbs": [
+      "Índice",
+      "Sesiones prácticas",
+      "Práctica 2"
+    ]
   },
   {
     "objectID": "docs/interpretabilidad.html",
