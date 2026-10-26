@@ -1,0 +1,28 @@
+---
+title: "Práctica 2: temas complejos de PLN."
+---
+
+En esta práctica se proponen diferentes retos de procesamiento lingüístico para los que hoy día no hay una solución satisfatoria. El objetivo general de la práctica es reflexionar sobre estos problemas y proponer soluciones funcionales.
+
+Para cada reto el alumnado, por equipos, debe crear un *script* en Python que le dé solución parcial y justificar la aproximación presentada. El *script* debe funcionar en un cuaderno COLAB y procesar el texto que se indique en el enunciado de cada reto. A modo de ``campaña de evaluación'', los *scripts* se evaluarán con respecto a un *gold standard* marcado a mano por expertos. Además se valorará el grado de madurez y originalidad de la propuesta implementada.
+
+## Retos
+
+1. Extracción de personajes y resolución de correferencias en texto narrativo. [Enunciado completo](assets/pdfs/Reto1.pdf)
+2. ...
+3. ...
+
+## Escritura de la memoria
+
+Tenéis que entregar una memoria de la práctica en la que se describan los problemas tratados, las soluciones propuestas, los resultados obtenidos e ideas con posibles mejoras futuras. La memoria ha de seguir el [formato](https://acl-org.github.io/ACLPUB/formatting.html) de los artículos de la ACL (Association for Computational Linguistics). Aunque hay una versión en formato [DOCX](https://2023.aclweb.org/downloads/acl2023.docx), es recomendable que uses la plantilla para [LaTeX](https://github.com/acl-org/acl-style-files). 
+
+La memoria ha de tener una longitud máxima de 4 páginas por reto, excluidas las referencias. 
+
+## Entrega
+
+El enlace al cuaderno COLAB de cada reto se entregará según se indique en el enunciado.
+
+La memoria final se entregará en formato PDF a través del [Moodle]({{< var moodle.url >}}) de la asignatura.
+
+[La fecha límite de entrega es el **{{< var practicas.p2.fecha >}}**.]: #
+
