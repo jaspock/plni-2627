@@ -56,3 +56,5 @@ fechas:
 practicas:
   p1:
     fecha: "28 de octubre de 2026"
+  p2:
+    fecha: "14 de diciembre de 2026"
