@@ -1,0 +1,45 @@
+---
+title: "Análisis sintáctico"
+---
+
+Fecha de la sesión: {{< var fechas.teoria.s9 >}}
+
+En este tema se expone los conceptos básicos del análisis sintáctico computacional. Se mostrarán los dos paradigmas principales (constituyentes y dependencias), y se profundizará en el modelo de las dependencias universales. Se estudia la formalización de cada uno, algunos problemas lingüísticos y los principales algoritmos de análisis.
+
+Recuerda que esta asignatura sigue una metodología de clase invertida, por lo que antes de la sesión de teoría debes estudiar los materiales que se indican a continuación y realizar las actividades que se proponen. El tiempo medio estimado para el estudio es de unas 3 horas, aunque puede variar según tu nivel de conocimientos previos y tu experiencia en el estudio de este tipo de contenidos.
+
+## Materiales a estudiar antes de la sesión del {{< var fechas.teoria.s8 >}} 
+
+Para estudiar este tema, os propongo una única lectura sobre análisis de dependencias y las dependencias universales. El resto de conceptos se verán en clase.
+
+::: {.tabla-80}
+
+|Capítulo|Apartados o páginas|Contenido|
+|---|---|---|
+|[Dependency Parsing](https://web.stanford.edu/~jurafsky/slp3/20.pdf)|Introducción y secciones de 20.1 a 20.3|Análisis de dependencias, análisis basado en transiciones, análisis basado en grafos|
+
+:::
+
+## Actividades previas a la sesión del {{< var fechas.teoria.s9 >}}
+
+Una vez hayas estudiado los materiales, realiza el test que puedes encontrar en el [Moodle de la asignatura]({{< var moodle.url >}}).
+
+El plazo para realizar las actividades previas finaliza el día anterior a la sesión de teoría.
+
+## Evaluación asistida por un tutor inteligente
+
+Usa el siguiente prompt para evaluar tu comprensión de los conceptos fundamentales de esta sesión con ayuda de tu chat o agente de inteligencia artificial favorito.
+
+<div style="border: 1px solid #888; font-size: 0.9em; padding: 1em;">
+
+{{< include _socratic.md >}}
+
+1. En español y otras derivadas del latín, ¿todos los arcos serán proyectivos, o es probable que haya oraciones con arcos no-proyectvos?
+2. Al entrenar el *oracle* de un analizador basado en transiciones (o de cualquier otro tipo), ¿por qué es relevante utilizar la categoría gramatical (*part of speech*) como rasgo o *feature* de aprendizaje?
+3. Para reflexionar: un LLM estándar basado en *transformers*, ¿sabe sintaxis?
+
+</div>
+
+## Contenidos de la sesión 
+
+En la sesión de teoría presencial repasaremos los conceptos más complejos del tema y resolveremos las dudas que hayan surgido durante su estudio.
