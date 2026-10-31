@@ -79,7 +79,7 @@
   {
     "objectID": "docs/sintaxis.html",
     "href": "docs/sintaxis.html",
-    "title": "Análisis sintáctico",
+    "title": "Análisis sintáctico computacional",
     "section": "",
     "text": "Fecha de la sesión: 5 de noviembre de 2026\nEn este tema se expone los conceptos básicos del análisis sintáctico computacional. Se mostrarán los dos paradigmas principales (constituyentes y dependencias), y se profundizará en el modelo de las dependencias universales. Se estudia la formalización de cada uno, algunos problemas lingüísticos y los principales algoritmos de análisis.\nRecuerda que esta asignatura sigue una metodología de clase invertida, por lo que antes de la sesión de teoría debes estudiar los materiales que se indican a continuación y realizar las actividades que se proponen. El tiempo medio estimado para el estudio es de unas 3 horas, aunque puede variar según tu nivel de conocimientos previos y tu experiencia en el estudio de este tipo de contenidos.",
     "crumbs": [
@@ -91,7 +91,7 @@
   {
     "objectID": "docs/sintaxis.html#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7338203e7d7d",
     "href": "docs/sintaxis.html#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7338203e7d7d",
-    "title": "Análisis sintáctico",
+    "title": "Análisis sintáctico computacional",
     "section": "Materiales a estudiar antes de la sesión del 29 de octubre de 2026",
     "text": "Materiales a estudiar antes de la sesión del 29 de octubre de 2026\nPara estudiar este tema, os propongo una única lectura sobre análisis de dependencias y las dependencias universales. El resto de conceptos se verán en clase.\n\n\n\n\nCapítulo\nApartados o páginas\nContenido\n\n\n\n\nDependency Parsing\nIntroducción y secciones de 20.1 a 20.3\nAnálisis de dependencias, análisis basado en transiciones, análisis basado en grafos",
     "crumbs": [
@@ -103,7 +103,7 @@
   {
     "objectID": "docs/sintaxis.html#actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7339203e7d7d",
     "href": "docs/sintaxis.html#actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7339203e7d7d",
-    "title": "Análisis sintáctico",
+    "title": "Análisis sintáctico computacional",
     "section": "Actividades previas a la sesión del 5 de noviembre de 2026",
     "text": "Actividades previas a la sesión del 5 de noviembre de 2026\nUna vez hayas estudiado los materiales, realiza el test que puedes encontrar en el Moodle de la asignatura.\nEl plazo para realizar las actividades previas finaliza el día anterior a la sesión de teoría.",
     "crumbs": [
@@ -115,7 +115,7 @@
   {
     "objectID": "docs/sintaxis.html#evaluación-asistida-por-un-tutor-inteligente",
     "href": "docs/sintaxis.html#evaluación-asistida-por-un-tutor-inteligente",
-    "title": "Análisis sintáctico",
+    "title": "Análisis sintáctico computacional",
     "section": "Evaluación asistida por un tutor inteligente",
     "text": "Evaluación asistida por un tutor inteligente\nUsa el siguiente prompt para evaluar tu comprensión de los conceptos fundamentales de esta sesión con ayuda de tu chat o agente de inteligencia artificial favorito.\n\nHola. Quiero que me ayudes a preparar la asignatura de Introducción al Procesamiento del Lenguaje Natural I de cuarto curso de un grado en Ingeniería en Inteligencia Artificial en el que estoy matriculado. Me he leído los contenidos del libro de Jurafsky y Martin (Speech and Language Processing) que te adjunto como PDF. Quiero que evalúes si soy capaz de responder con solvencia y con la misma profundidad teórica y formal con la que aparecen los contenidos en el texto.\nPara ello, actuaremos mediante un diálogo socrático guiado estricto, fundamentado en la taxonomía de Paul y Elder (clarificación de conceptos, examen de supuestos, solicitud de evidencias y análisis de casos límite). Tu comportamiento debe ajustarse sin excepción a las siguientes reglas:\n\nElige una única pregunta al azar de la lista que te proporciono al final y plantéamela para iniciar la sesión. No plantees más de una pregunta a la vez.\nEspera a que yo redacte mi respuesta.\nAnaliza críticamente mi intervención contrastándola con el contenido del libro de Jurafsky y Martin adjunto:\n\nNunca me des la respuesta correcta ni completes las explicaciones por mí, bajo ninguna circunstancia.\nSi mi respuesta es incompleta o imprecisa, hazme una pregunta de clarificación o señálame qué concepto específico debo revisar en los materiales.\nSi cometo un error conceptual, no lo corrijas directamente: plantéame un contraejemplo, una contradicción lógica en mi argumento o una pregunta sobre las consecuencias de mi razonamiento para que yo mismo descubra el fallo.\nSi mi respuesta es correcta pero superficial, exige mayor rigor formal, detalle matemático o precisión terminológica.\n\nMantén el diálogo de forma iterativa (pregunta, respuesta, repregunta) hasta que concluyas que he cubierto la cuestión con el nivel de dominio y profundidad requerido por el texto.\nSolo cuando el tema haya quedado completamente resuelto y fundamentado por mi parte, haz un breve cierre de validación y selecciona al azar la siguiente pregunta de la lista.\n\nElige una de las siguientes preguntas y comienza:\n\nEn español y otras derivadas del latín, ¿todos los arcos serán proyectivos, o es probable que haya oraciones con arcos no-proyectvos?\nAl entrenar el oracle de un analizador basado en transiciones (o de cualquier otro tipo), ¿por qué es relevante utilizar la categoría gramatical (part of speech) como rasgo o feature de aprendizaje?\nPara reflexionar: un LLM estándar basado en transformers, ¿sabe sintaxis?",
     "crumbs": [
@@ -127,7 +127,7 @@
   {
     "objectID": "docs/sintaxis.html#contenidos-de-la-sesión",
     "href": "docs/sintaxis.html#contenidos-de-la-sesión",
-    "title": "Análisis sintáctico",
+    "title": "Análisis sintáctico computacional",
     "section": "Contenidos de la sesión",
     "text": "Contenidos de la sesión\nEn la sesión de teoría presencial repasaremos los conceptos más complejos del tema y resolveremos las dudas que hayan surgido durante su estudio.",
     "crumbs": [
