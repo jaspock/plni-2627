@@ -58,7 +58,7 @@ La siguiente tabla muestra las 15 semanas del curso, con los contenidos que se t
 | 6 | {{< var fechas.lunes.s6 >}} | [Tema 6](docs/voz.qmd): voz y multimodalidad |  |  |
 | 7 | {{< var fechas.lunes.s7 >}} | [Tema 7](docs/interpretabilidad.qmd): interpretabilidad de modelos de PLN |  |
 | 8 | {{< var fechas.lunes.s8 >}} | [Tema 8](docs/abpl.qmd): fundamentos lingüísticos de PLN |  |  |
-| 9 | {{< var fechas.lunes.s9 >}} |  |  |  |
+| 9 | {{< var fechas.lunes.s9 >}} | [Tema 9](docs/sintaxis.qmd): sintaxis computacional |  |  |
 | 10 | {{< var fechas.lunes.s10 >}} |  |  |  |
 | 11 | {{< var fechas.lunes.s11 >}} |  |  |  |
 | 12 | {{< var fechas.lunes.s12 >}} |  |  |  |
