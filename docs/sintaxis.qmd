@@ -1,5 +1,5 @@
 ---
-title: "Análisis sintáctico"
+title: "Análisis sintáctico computacional"
 ---
 
 Fecha de la sesión: {{< var fechas.teoria.s9 >}}
