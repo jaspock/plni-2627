@@ -37,6 +37,8 @@ website:
             href: docs/interpretabilidad.qmd
           - text: "Fundamentos lingüísticos del PLN"
             href: docs/abpl.qmd
+          - text: "Sintaxis computacional"
+            href: docs/sintaxis.qmd
       - text: "Prácticas"
         menu:
           - text: "Introducción a PyTorch"
@@ -77,6 +79,8 @@ website:
             href: docs/interpretabilidad.qmd  
           - text: "Fundamentos lingüísticos del PLN"
             href: docs/abpl.qmd
+          - text: "Sintaxis computacional"
+            href: docs/sintaxis.qmd
       - section: "Sesiones prácticas"
         contents:
           - text: "Introducción a PyTorch"
