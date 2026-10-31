@@ -34,7 +34,7 @@ Usa el siguiente prompt para evaluar tu comprensión de los conceptos fundamenta
 
 {{< include _socratic.md >}}
 
-1. En español y otras derivadas del latín, ¿todos los arcos serán proyectivos, o es probable que haya oraciones con arcos no-proyectvos?
+1. En español y otras lenguas derivadas del latín, ¿todos los arcos serán proyectivos, o es probable que haya oraciones con arcos no-proyectvos?
 2. Al entrenar el *oracle* de un analizador basado en transiciones (o de cualquier otro tipo), ¿por qué es relevante utilizar la categoría gramatical (*part of speech*) como rasgo o *feature* de aprendizaje?
 3. Para reflexionar: un LLM estándar basado en *transformers*, ¿sabe sintaxis?
 
