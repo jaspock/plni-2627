@@ -77,447 +77,50 @@
     ]
   },
   {
-    "objectID": "docs/repaso.html",
-    "href": "docs/repaso.html",
-    "title": "Repaso de regresores y redes feedforward",
+    "objectID": "docs/sintaxis.html",
+    "href": "docs/sintaxis.html",
+    "title": "Análisis sintáctico",
     "section": "",
-    "text": "Fecha de la sesión: 10 de septiembre de 2026\nEn cursos anteriores has estudiado los regresores y las redes neuronales feedforward como herramientas básicas del aprendizaje automático. En esta sesión repasaremos estas arquitecturas centrándonos en su aplicación al procesamiento del lenguaje natural (PLN). Aunque las redes neuronales que se utilizan hoy día para el PLN son más complejas (por ejemplo, los transformers), los conceptos fundamentales que se aprenden con estas otras arquitecturas se manifiestan también en las redes neuronales más avanzadas. Por ello, es importante que tengas bien consolidadas estas bases.\nEsta es la única sesión del curso en la que no seguiremos la metodología de la clase invertida, sino que se impartirá de manera tradicional.",
-    "crumbs": [
-      "Índice",
-      "Sesiones teóricas",
-      "Repaso de regresores y redes feedforward"
-    ]
+    "text": "Fecha de la sesión: 5 de noviembre de 2026\nEn este tema se expone los conceptos básicos del análisis sintáctico computacional. Se mostrarán los dos paradigmas principales (constituyentes y dependencias), y se profundizará en el modelo de las dependencias universales. Se estudia la formalización de cada uno, algunos problemas lingüísticos y los principales algoritmos de análisis.\nRecuerda que esta asignatura sigue una metodología de clase invertida, por lo que antes de la sesión de teoría debes estudiar los materiales que se indican a continuación y realizar las actividades que se proponen. El tiempo medio estimado para el estudio es de unas 3 horas, aunque puede variar según tu nivel de conocimientos previos y tu experiencia en el estudio de este tipo de contenidos."
   },
   {
-    "objectID": "docs/repaso.html#conceptos-fundamentales",
-    "href": "docs/repaso.html#conceptos-fundamentales",
-    "title": "Repaso de regresores y redes feedforward",
-    "section": "Conceptos fundamentales",
-    "text": "Conceptos fundamentales\nEl contenido de esta sesión lo puedes encontrar en los siguientes apartados del libro de Jurafsky y Martin:\n\n\n\n\nCapítulo\nApartados o páginas\nContenido\n\n\n\n\nLogistic regression §4\n4.1 a 4.11\nRegresión binaria y multinomial\n\n\nNeural networks §6\n6.1 a 6.6\nRedes feedforward\n\n\n\n\nLa figura 6.14 y la explicación de la misma en el texto principal es muy importante para prepararte para las sesiones posteriores. En ella se muestra un sencillo modelo de lengua basado en una red neuronal feedforward que predice el siguiente token a partir de los tres tokens anteriores. Aunque los modelos de lengua actuales son normalmente mucho más complejos, este ejemplo te ayudará a entender los conceptos fundamentales de los modelos de lengua y su entrenamiento.",
-    "crumbs": [
-      "Índice",
-      "Sesiones teóricas",
-      "Repaso de regresores y redes feedforward"
-    ]
-  },
-  {
-    "objectID": "docs/repaso.html#evaluación-asistida-por-un-tutor-inteligente",
-    "href": "docs/repaso.html#evaluación-asistida-por-un-tutor-inteligente",
-    "title": "Repaso de regresores y redes feedforward",
-    "section": "Evaluación asistida por un tutor inteligente",
-    "text": "Evaluación asistida por un tutor inteligente\nUsa el siguiente prompt para evaluar tu comprensión de los conceptos fundamentales de esta sesión con ayuda de tu chat o agente de inteligencia artificial favorito.\n\nHola. Quiero que me ayudes a preparar la asignatura de Introducción al Procesamiento del Lenguaje Natural I de cuarto curso de un grado en Ingeniería en Inteligencia Artificial en el que estoy matriculado. Me he leído los contenidos del libro de Jurafsky y Martin (Speech and Language Processing) que te adjunto como PDF. Quiero que evalúes si soy capaz de responder con solvencia y con la misma profundidad teórica y formal con la que aparecen los contenidos en el texto.\nPara ello, actuaremos mediante un diálogo socrático guiado estricto, fundamentado en la taxonomía de Paul y Elder (clarificación de conceptos, examen de supuestos, solicitud de evidencias y análisis de casos límite). Tu comportamiento debe ajustarse sin excepción a las siguientes reglas:\n\nElige una única pregunta al azar de la lista que te proporciono al final y plantéamela para iniciar la sesión. No plantees más de una pregunta a la vez.\nEspera a que yo redacte mi respuesta.\nAnaliza críticamente mi intervención contrastándola con el contenido del libro de Jurafsky y Martin adjunto:\n\nNunca me des la respuesta correcta ni completes las explicaciones por mí, bajo ninguna circunstancia.\nSi mi respuesta es incompleta o imprecisa, hazme una pregunta de clarificación o señálame qué concepto específico debo revisar en los materiales.\nSi cometo un error conceptual, no lo corrijas directamente: plantéame un contraejemplo, una contradicción lógica en mi argumento o una pregunta sobre las consecuencias de mi razonamiento para que yo mismo descubra el fallo.\nSi mi respuesta es correcta pero superficial, exige mayor rigor formal, detalle matemático o precisión terminológica.\n\nMantén el diálogo de forma iterativa (pregunta, respuesta, repregunta) hasta que concluyas que he cubierto la cuestión con el nivel de dominio y profundidad requerido por el texto.\nSolo cuando el tema haya quedado completamente resuelto y fundamentado por mi parte, haz un breve cierre de validación y selecciona al azar la siguiente pregunta de la lista.\n\nElige una de las siguientes preguntas y comienza:\n\n¿Qué diferencia hay entre un regresor y una red neuronal feedforward? ¿Qué ventajas tiene cada uno de ellos?\n¿Qué son la entropía y la entropía cruzada y por qué se usan como función de pérdida en problemas de clasificación?\n¿Qué papel juegan las derivadas parciales y el gradiente en el entrenamiento de una red neuronal?\n¿Por qué necesitamos evaluar la significancia estadística de los resultados de un modelo de aprendizaje automático y cómo se hace?\n¿Qué medidas se suelen usar para evaluar el rendimiento de un clasificador y por qué no hay una sola?\n¿En qué se diferencia el entrenamiento y uso de un regresor multinomial del de una red neuronal feedforward para clasificación?\n¿Cómo se implementa el entrenamiento o la inferencia de regresores y redes feedforward con un mini-batch de datos y por qué se hace así?",
-    "crumbs": [
-      "Índice",
-      "Sesiones teóricas",
-      "Repaso de regresores y redes feedforward"
-    ]
-  },
-  {
-    "objectID": "docs/pretraining.html",
-    "href": "docs/pretraining.html",
-    "title": "Transformers y preentrenamiento de modelos de lengua",
-    "section": "",
-    "text": "Fecha de la sesión: 24 de septiembre de 2026\nUn modelo de lengua es básicamente un sistema que dado un prefijo de texto, predice las probabilidades que tienen las palabas de un conjunto llamado vocabulario de ser la siguiente palabra del texto. Los modelos de lengua no son una invención reciente. Su origen se puede situar décadas antes de la llegada de los computadores electrónicos, cuando en los primeros años del siglo XX Andréi Márkov modeló los caracteres de un texto como un proceso estocástico. Claude Shannon a finales de los años 40 perfeccionó la formalización de las ideas de Markov usando el concepto de n-grama (modelos probabilísticos en los que la probabilidad de una palabra depende de las n-1 palabras anteriores) para estimar la entropía de la lengua inglesa. Ya en el siglo XXI con el auge del aprendizaje profundo los modelos de lengua basados en redes neuronales se consolidan como la alternativa más potente para modelar el lenguaje natural. Aunque ya existían modelos de lengua neuronales mucho antes de la llegada de la arquitectura transformer, es esta arquitectura la que más ha contribuido al entrenamiento masivo y popularización de los modelos de lengua en los llamados modelos de lengua masivos (LLMs, por el inglés, large language models). En esta sesión, repasarás los elementos fundamentales del transformer y estudiarás cómo se entrenan y usan los LLMs.\nRecuerda que esta asignatura sigue una metodología de clase invertida, por lo que antes de la sesión de teoría debes estudiar los materiales que se indican a continuación y realizar las actividades que se proponen. El tiempo medio estimado para el estudio es de unas 3 horas, aunque puede variar según tu nivel de conocimientos previos y tu experiencia en el estudio de este tipo de contenidos.",
-    "crumbs": [
-      "Índice",
-      "Sesiones teóricas",
-      "Transformers y preentrenamiento de modelos de lengua"
-    ]
-  },
-  {
-    "objectID": "docs/pretraining.html#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7333203e7d7d",
-    "href": "docs/pretraining.html#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7333203e7d7d",
-    "title": "Transformers y preentrenamiento de modelos de lengua",
-    "section": "Materiales a estudiar antes de la sesión del 24 de septiembre de 2026",
-    "text": "Materiales a estudiar antes de la sesión del 24 de septiembre de 2026\nEl contenido de esta sesión lo puedes encontrar en los siguientes apartados del libro de Jurafsky y Martin:\n\n\n\n\nCapítulo\nApartados o páginas\nContenido\n\n\n\n\nTransformers and pretraining §7\ncapítulo completo\nMecanismo de atención, bloques de un transformer, descodificación",
-    "crumbs": [
-      "Índice",
-      "Sesiones teóricas",
-      "Transformers y preentrenamiento de modelos de lengua"
-    ]
-  },
-  {
-    "objectID": "docs/pretraining.html#actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7333203e7d7d",
-    "href": "docs/pretraining.html#actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7333203e7d7d",
-    "title": "Transformers y preentrenamiento de modelos de lengua",
-    "section": "Actividades previas a la sesión del 24 de septiembre de 2026",
-    "text": "Actividades previas a la sesión del 24 de septiembre de 2026\nUna vez hayas estudiado los materiales, realiza el test que puedes encontrar en el Moodle de la asignatura.\nEl plazo para realizar las actividades previas finaliza el día anterior a la sesión de teoría.",
-    "crumbs": [
-      "Índice",
-      "Sesiones teóricas",
-      "Transformers y preentrenamiento de modelos de lengua"
-    ]
-  },
-  {
-    "objectID": "docs/pretraining.html#evaluación-asistida-por-un-tutor-inteligente",
-    "href": "docs/pretraining.html#evaluación-asistida-por-un-tutor-inteligente",
-    "title": "Transformers y preentrenamiento de modelos de lengua",
-    "section": "Evaluación asistida por un tutor inteligente",
-    "text": "Evaluación asistida por un tutor inteligente\nUsa el siguiente prompt para evaluar tu comprensión de los conceptos fundamentales de esta sesión con ayuda de tu chat o agente de inteligencia artificial favorito.\n\nHola. Quiero que me ayudes a preparar la asignatura de Introducción al Procesamiento del Lenguaje Natural I de cuarto curso de un grado en Ingeniería en Inteligencia Artificial en el que estoy matriculado. Me he leído los contenidos del libro de Jurafsky y Martin (Speech and Language Processing) que te adjunto como PDF. Quiero que evalúes si soy capaz de responder con solvencia y con la misma profundidad teórica y formal con la que aparecen los contenidos en el texto.\nPara ello, actuaremos mediante un diálogo socrático guiado estricto, fundamentado en la taxonomía de Paul y Elder (clarificación de conceptos, examen de supuestos, solicitud de evidencias y análisis de casos límite). Tu comportamiento debe ajustarse sin excepción a las siguientes reglas:\n\nElige una única pregunta al azar de la lista que te proporciono al final y plantéamela para iniciar la sesión. No plantees más de una pregunta a la vez.\nEspera a que yo redacte mi respuesta.\nAnaliza críticamente mi intervención contrastándola con el contenido del libro de Jurafsky y Martin adjunto:\n\nNunca me des la respuesta correcta ni completes las explicaciones por mí, bajo ninguna circunstancia.\nSi mi respuesta es incompleta o imprecisa, hazme una pregunta de clarificación o señálame qué concepto específico debo revisar en los materiales.\nSi cometo un error conceptual, no lo corrijas directamente: plantéame un contraejemplo, una contradicción lógica en mi argumento o una pregunta sobre las consecuencias de mi razonamiento para que yo mismo descubra el fallo.\nSi mi respuesta es correcta pero superficial, exige mayor rigor formal, detalle matemático o precisión terminológica.\n\nMantén el diálogo de forma iterativa (pregunta, respuesta, repregunta) hasta que concluyas que he cubierto la cuestión con el nivel de dominio y profundidad requerido por el texto.\nSolo cuando el tema haya quedado completamente resuelto y fundamentado por mi parte, haz un breve cierre de validación y selecciona al azar la siguiente pregunta de la lista.\n\nElige una de las siguientes preguntas y comienza:\n\n¿Por qué el mecanismo de atención se calcula de la forma que se calcula en un transformer y no de otras formas?\n¿Qué efecto tiene en estrategias de descodificación como top-k$ o top-p* el valor del parámetro correspondiente (k o p)? ¿Y el valor de la temperatura?\n¿Puede el contexto de un transformer ser indefinidamente largo? ¿Qué elementos influyen en ello?\n¿Cuál es el propósito de la normalización de capa?\n¿Cuál es el propósito de los embeddings posicionales?\n¿Qué papel juega el flujo residual (residual stream) en el entrenamiento y en la inferencia de un transformer?",
-    "crumbs": [
-      "Índice",
-      "Sesiones teóricas",
-      "Transformers y preentrenamiento de modelos de lengua"
-    ]
-  },
-  {
-    "objectID": "docs/pretraining.html#contenidos-de-la-sesión",
-    "href": "docs/pretraining.html#contenidos-de-la-sesión",
-    "title": "Transformers y preentrenamiento de modelos de lengua",
-    "section": "Contenidos de la sesión",
-    "text": "Contenidos de la sesión\nEn la sesión de teoría presencial repasaremos los conceptos más complejos del tema y resolveremos las dudas que hayan surgido durante su estudio.",
-    "crumbs": [
-      "Índice",
-      "Sesiones teóricas",
-      "Transformers y preentrenamiento de modelos de lengua"
-    ]
-  },
-  {
-    "objectID": "docs/practica2.html",
-    "href": "docs/practica2.html",
-    "title": "Práctica 2: temas complejos de PLN.",
-    "section": "",
-    "text": "En esta práctica se proponen diferentes retos de procesamiento lingüístico para los que hoy día no hay una solución satisfatoria. El objetivo general de la práctica es reflexionar sobre estos problemas y proponer soluciones funcionales.\nPara cada reto el alumnado, por equipos, debe crear un script en Python que le dé solución parcial y justificar la aproximación presentada. El script debe funcionar en un cuaderno COLAB y procesar el texto que se indique en el enunciado de cada reto. A modo de ``campaña de evaluación’’, los scripts se evaluarán con respecto a un gold standard marcado a mano por expertos. Además se valorará el grado de madurez y originalidad de la propuesta implementada.",
-    "crumbs": [
-      "Índice",
-      "Sesiones prácticas",
-      "Práctica 2"
-    ]
-  },
-  {
-    "objectID": "docs/practica2.html#retos",
-    "href": "docs/practica2.html#retos",
-    "title": "Práctica 2: temas complejos de PLN.",
-    "section": "Retos",
-    "text": "Retos\n\nExtracción de personajes y resolución de correferencias en texto narrativo. Enunciado completo\n…\n…",
-    "crumbs": [
-      "Índice",
-      "Sesiones prácticas",
-      "Práctica 2"
-    ]
-  },
-  {
-    "objectID": "docs/practica2.html#escritura-de-la-memoria",
-    "href": "docs/practica2.html#escritura-de-la-memoria",
-    "title": "Práctica 2: temas complejos de PLN.",
-    "section": "Escritura de la memoria",
-    "text": "Escritura de la memoria\nTenéis que entregar una memoria de la práctica en la que se describan los problemas tratados, las soluciones propuestas, los resultados obtenidos e ideas con posibles mejoras futuras. La memoria ha de seguir el formato de los artículos de la ACL (Association for Computational Linguistics). Aunque hay una versión en formato DOCX, es recomendable que uses la plantilla para LaTeX.\nLa memoria ha de tener una longitud máxima de 4 páginas por reto, excluidas las referencias.",
-    "crumbs": [
-      "Índice",
-      "Sesiones prácticas",
-      "Práctica 2"
-    ]
-  },
-  {
-    "objectID": "docs/practica2.html#entrega",
-    "href": "docs/practica2.html#entrega",
-    "title": "Práctica 2: temas complejos de PLN.",
-    "section": "Entrega",
-    "text": "Entrega\nEl enlace al cuaderno COLAB de cada reto se entregará según se indique en el enunciado.\nLa memoria final se entregará en formato PDF a través del Moodle de la asignatura. La fecha límite de entrega es el 14 de diciembre de 2026.",
-    "crumbs": [
-      "Índice",
-      "Sesiones prácticas",
-      "Práctica 2"
-    ]
-  },
-  {
-    "objectID": "docs/interpretabilidad.html",
-    "href": "docs/interpretabilidad.html",
-    "title": "Interpretabilidad",
-    "section": "",
-    "text": "Fecha de la sesión: 22 de octubre de 2026\nLa interpretabilidad estudia cómo los modelos neuronales representan y procesan la información, localizando los circuitos que implementan los algoritmos que resuelven una tarea concreta. El conocimiento adquirido permite, en ocasiones, la intervención externa en el comportamiento del modelo para inducir cambios en su funcionamiento. Esta sesión es un tanto especial, ya que al no existir ningún documento educativo que integre adecuadamente los conceptos de interpretabilidad, leerás un artículo de investigación que describe un experimento de interpretabilidad en el que se localiza un circuito que implementa la regla de concordancia sujeto-verbo en inglés y español. El objetivo no es solo que leas el artículo, sino que amplíes en otras fuentes los conceptos de interpretabilidad que se presentan en él (parcheo de activaciones, atribución de logits, intervención de activaciones, localización de circuitos, componentes principales, etc.).\nRecuerda que esta asignatura sigue una metodología de clase invertida, por lo que antes de la sesión de teoría debes estudiar los materiales que se indican a continuación y realizar las actividades que se proponen. El tiempo medio estimado para el estudio es de unas 3 horas, aunque puede variar según tu nivel de conocimientos previos y tu experiencia en el estudio de este tipo de contenidos.",
-    "crumbs": [
-      "Índice",
-      "Sesiones teóricas",
-      "Interpretabilidad"
-    ]
-  },
-  {
-    "objectID": "docs/interpretabilidad.html#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7337203e7d7d",
-    "href": "docs/interpretabilidad.html#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7337203e7d7d",
-    "title": "Interpretabilidad",
-    "section": "Materiales a estudiar antes de la sesión del 22 de octubre de 2026",
-    "text": "Materiales a estudiar antes de la sesión del 22 de octubre de 2026\nEl contenido de esta sesión lo puedes encontrar en el artículo siguiente, que tendrás que ampliar con otras fuentes de información sobre las técnicas de interpretabilidad que se mencionan en él.\n\n\n\n\nCapítulo\nApartados o páginas\nContenido\n\n\n\n\nOn the Similarity of Circuits across Languages: a Case Study on the Subject-verb Agreement Task\nartículo completo\nParcheo de activaciones, atribución de logits, intervención de activaciones",
-    "crumbs": [
-      "Índice",
-      "Sesiones teóricas",
-      "Interpretabilidad"
-    ]
-  },
-  {
-    "objectID": "docs/interpretabilidad.html#actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7337203e7d7d",
-    "href": "docs/interpretabilidad.html#actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7337203e7d7d",
-    "title": "Interpretabilidad",
-    "section": "Actividades previas a la sesión del 22 de octubre de 2026",
-    "text": "Actividades previas a la sesión del 22 de octubre de 2026\nUna vez hayas estudiado los materiales, realiza el test que puedes encontrar en el Moodle de la asignatura.\nEl plazo para realizar las actividades previas finaliza el día anterior a la sesión de teoría.",
-    "crumbs": [
-      "Índice",
-      "Sesiones teóricas",
-      "Interpretabilidad"
-    ]
-  },
-  {
-    "objectID": "docs/interpretabilidad.html#evaluación-asistida-por-un-tutor-inteligente",
-    "href": "docs/interpretabilidad.html#evaluación-asistida-por-un-tutor-inteligente",
-    "title": "Interpretabilidad",
-    "section": "Evaluación asistida por un tutor inteligente",
-    "text": "Evaluación asistida por un tutor inteligente\nUsa el siguiente prompt para evaluar tu comprensión de los conceptos fundamentales de esta sesión con ayuda de tu chat o agente de inteligencia artificial favorito.\n\nHola. Quiero que me ayudes a preparar la asignatura de Introducción al Procesamiento del Lenguaje Natural I de cuarto curso de un grado en Ingeniería en Inteligencia Artificial en el que estoy matriculado. Me he leído los contenidos del libro de Jurafsky y Martin (Speech and Language Processing) que te adjunto como PDF. Quiero que evalúes si soy capaz de responder con solvencia y con la misma profundidad teórica y formal con la que aparecen los contenidos en el texto.\nPara ello, actuaremos mediante un diálogo socrático guiado estricto, fundamentado en la taxonomía de Paul y Elder (clarificación de conceptos, examen de supuestos, solicitud de evidencias y análisis de casos límite). Tu comportamiento debe ajustarse sin excepción a las siguientes reglas:\n\nElige una única pregunta al azar de la lista que te proporciono al final y plantéamela para iniciar la sesión. No plantees más de una pregunta a la vez.\nEspera a que yo redacte mi respuesta.\nAnaliza críticamente mi intervención contrastándola con el contenido del libro de Jurafsky y Martin adjunto:\n\nNunca me des la respuesta correcta ni completes las explicaciones por mí, bajo ninguna circunstancia.\nSi mi respuesta es incompleta o imprecisa, hazme una pregunta de clarificación o señálame qué concepto específico debo revisar en los materiales.\nSi cometo un error conceptual, no lo corrijas directamente: plantéame un contraejemplo, una contradicción lógica en mi argumento o una pregunta sobre las consecuencias de mi razonamiento para que yo mismo descubra el fallo.\nSi mi respuesta es correcta pero superficial, exige mayor rigor formal, detalle matemático o precisión terminológica.\n\nMantén el diálogo de forma iterativa (pregunta, respuesta, repregunta) hasta que concluyas que he cubierto la cuestión con el nivel de dominio y profundidad requerido por el texto.\nSolo cuando el tema haya quedado completamente resuelto y fundamentado por mi parte, haz un breve cierre de validación y selecciona al azar la siguiente pregunta de la lista.\n\nElige una de las siguientes preguntas y comienza:\n\n¿Qué es la interpretabilidad en el contexto de los modelos de PLN?\n¿En qué consiste el parcheo de activaciones y qué nos permite aprender sobre el comportamiento de un modelo?\n¿Qué es la atribución de logits y cómo se utiliza para entender las decisiones de un modelo?\n¿Cómo se puede intervenir en las activaciones de un modelo y cómo determinamos dónde realizar dicha intervención?\n¿Qué circuito se localiza en el artículo y por qué coincide en español e inglés?",
-    "crumbs": [
-      "Índice",
-      "Sesiones teóricas",
-      "Interpretabilidad"
-    ]
-  },
-  {
-    "objectID": "docs/interpretabilidad.html#contenidos-de-la-sesión",
-    "href": "docs/interpretabilidad.html#contenidos-de-la-sesión",
-    "title": "Interpretabilidad",
-    "section": "Contenidos de la sesión",
-    "text": "Contenidos de la sesión\nEn la sesión de teoría presencial repasaremos los conceptos más complejos del tema y resolveremos las dudas que hayan surgido durante su estudio.",
-    "crumbs": [
-      "Índice",
-      "Sesiones teóricas",
-      "Interpretabilidad"
-    ]
-  },
-  {
-    "objectID": "docs/clasificadores.html",
-    "href": "docs/clasificadores.html",
-    "title": "Modelos de lengua para clasificación y traducción automática",
-    "section": "",
-    "text": "Fecha de la sesión: 1 de octubre de 2026\nUna de las reglas básicas a la hora de resolver problemas en el PLN es entender que no siempre es necesario usar modelos gigantescos para resolver ciertas tareas. Es cierto que los LLM tienen la interesante propiedad de poder afrontar tareas de clasificación de texto sin necesidad de ser entrenados específicamente para ello. Así, podemos instruirle mediante few-shot learning para que identifiquen el sentimiento o el tema de un texto, clasifiquen los nombres propios, o determinen las premisas y conclusiones de un argumento. Sin embargo, en muchas ocasiones podemos resolver este tipo de problemas usando una red neuronal más sencilla para obtener representaciones vectoriales de los textos y entrenando un clasificador sencillo sobre estas representaciones. Estos modelos también se denominan modelos de lengua, aunque para distinguirlos de los LLMs se suelen denominar modelos de lengua enmascarados (masked language models, en inglés), basándonos en la forma en que se suelen preentrenar.\nPor otro lado, la traducción automática es una de las tareas más exploradas en el PLN. Ya finales de los años 40 del siglo pasado, cuando los primeros computadores electrónicos acababan de aparecer, se planteó la posibilidad de usarlos para traducir textos de un idioma a otro. Aunque en la siguiente década se desarrollaron los primeros sistemas de traducción automática, no fue hasta la llegada de los modelos neuronales hacia finales de la segunda década del siglo XXI cuando la traducción automática entre lenguas con interés comercial y elevada disponibilidad de datos comenzó a tener la calidad suficiente como para no necesitar la corrección humana. No obstante, pese a estos avances, la traducción automática sigue siendo un reto en dominios como el literario o para miles de lenguas del mundo que no tienen la disponibilidad de datos suficiente para entrenar modelos de IA. La traducción automática puede abordarse con LLMs, pero también con modelos específicos más eficientes entrenados específicamente para esta tarea.\nEn esta sesión, estudiaremos tanto los modelos de lengua para clasificación como la traducción automática.\nRecuerda que esta asignatura sigue una metodología de clase invertida, por lo que antes de la sesión de teoría debes estudiar los materiales que se indican a continuación y realizar las actividades que se proponen. El tiempo medio estimado para el estudio es de unas 4 horas, aunque puede variar según tu nivel de conocimientos previos y tu experiencia en el estudio de este tipo de contenidos.",
-    "crumbs": [
-      "Índice",
-      "Sesiones teóricas",
-      "Modelos de lengua para clasificación y traducción automática"
-    ]
-  },
-  {
-    "objectID": "docs/clasificadores.html#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7334203e7d7d",
-    "href": "docs/clasificadores.html#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7334203e7d7d",
-    "title": "Modelos de lengua para clasificación y traducción automática",
-    "section": "Materiales a estudiar antes de la sesión del 1 de octubre de 2026",
-    "text": "Materiales a estudiar antes de la sesión del 1 de octubre de 2026\nEl contenido de esta sesión lo puedes encontrar en los siguientes apartados del libro de Jurafsky y Martin:\n\n\n\n\nCapítulo\nApartados o páginas\nContenido\n\n\n\n\nMasked language models §9\ncapítulo completo\nCodificadores bidireccionales, preentrenamiento y ajuste de modelos de lengua enmascarados\n\n\nMachine translation §13\ncapítulo completo\nLenguas del mundo, arquitectura codificador-descodificador, beam-search, evaluación",
-    "crumbs": [
-      "Índice",
-      "Sesiones teóricas",
-      "Modelos de lengua para clasificación y traducción automática"
-    ]
-  },
-  {
-    "objectID": "docs/clasificadores.html#actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7334203e7d7d",
-    "href": "docs/clasificadores.html#actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7334203e7d7d",
-    "title": "Modelos de lengua para clasificación y traducción automática",
-    "section": "Actividades previas a la sesión del 1 de octubre de 2026",
-    "text": "Actividades previas a la sesión del 1 de octubre de 2026\nUna vez hayas estudiado los materiales, realiza el test que puedes encontrar en el Moodle de la asignatura.\nEl plazo para realizar las actividades previas finaliza el día anterior a la sesión de teoría.",
-    "crumbs": [
-      "Índice",
-      "Sesiones teóricas",
-      "Modelos de lengua para clasificación y traducción automática"
-    ]
-  },
-  {
-    "objectID": "docs/clasificadores.html#evaluación-asistida-por-un-tutor-inteligente",
-    "href": "docs/clasificadores.html#evaluación-asistida-por-un-tutor-inteligente",
-    "title": "Modelos de lengua para clasificación y traducción automática",
-    "section": "Evaluación asistida por un tutor inteligente",
-    "text": "Evaluación asistida por un tutor inteligente\nUsa el siguiente prompt para evaluar tu comprensión de los conceptos fundamentales de esta sesión con ayuda de tu chat o agente de inteligencia artificial favorito.\n\nHola. Quiero que me ayudes a preparar la asignatura de Introducción al Procesamiento del Lenguaje Natural I de cuarto curso de un grado en Ingeniería en Inteligencia Artificial en el que estoy matriculado. Me he leído los contenidos del libro de Jurafsky y Martin (Speech and Language Processing) que te adjunto como PDF. Quiero que evalúes si soy capaz de responder con solvencia y con la misma profundidad teórica y formal con la que aparecen los contenidos en el texto.\nPara ello, actuaremos mediante un diálogo socrático guiado estricto, fundamentado en la taxonomía de Paul y Elder (clarificación de conceptos, examen de supuestos, solicitud de evidencias y análisis de casos límite). Tu comportamiento debe ajustarse sin excepción a las siguientes reglas:\n\nElige una única pregunta al azar de la lista que te proporciono al final y plantéamela para iniciar la sesión. No plantees más de una pregunta a la vez.\nEspera a que yo redacte mi respuesta.\nAnaliza críticamente mi intervención contrastándola con el contenido del libro de Jurafsky y Martin adjunto:\n\nNunca me des la respuesta correcta ni completes las explicaciones por mí, bajo ninguna circunstancia.\nSi mi respuesta es incompleta o imprecisa, hazme una pregunta de clarificación o señálame qué concepto específico debo revisar en los materiales.\nSi cometo un error conceptual, no lo corrijas directamente: plantéame un contraejemplo, una contradicción lógica en mi argumento o una pregunta sobre las consecuencias de mi razonamiento para que yo mismo descubra el fallo.\nSi mi respuesta es correcta pero superficial, exige mayor rigor formal, detalle matemático o precisión terminológica.\n\nMantén el diálogo de forma iterativa (pregunta, respuesta, repregunta) hasta que concluyas que he cubierto la cuestión con el nivel de dominio y profundidad requerido por el texto.\nSolo cuando el tema haya quedado completamente resuelto y fundamentado por mi parte, haz un breve cierre de validación y selecciona al azar la siguiente pregunta de la lista.\n\nElige una de las siguientes preguntas y comienza:\n\n¿Por qué puede interesar entrenar un modelo de lengua enmascarado y no un modelo de lengua causal?\n¿Cuáles son las diferencias a nivel de arquitectura y de la forma de trabajar con la secuencia de entrada entre un modelo de lengua enmascarado y un modelo de lengua causal?\n¿Cómo se usan máscaras a la entrada de un modelo preentrenado y cuál es su objetivo?\n¿Por qué se considera adicionalmente en ciertas ocasiones la tarea de predicción de la siguiente frase en el preentrenamiento de un modelo de lengua enmascarado?\n¿Cómo se aplica un clasificador basado en codificador bidireccional a una tarea de detección de entidades nombradas?\n¿Con qué arquitecturas basadas en el transformer se puede abordar la traducción automática y cuáles son sus diferencias?\n¿Por qué se usa la búsqueda por haz (beam search) en la descodificación de un modelo de traducción automática y no se usa la predicción de la palabra más probable en cada paso o se muestrea la distribución de probabilidad de la siguiente palabra?\n¿Por qué existen métricas neuronales y no neuronales para evaluar la calidad de la traducción automática y cuáles son sus diferencias?",
-    "crumbs": [
-      "Índice",
-      "Sesiones teóricas",
-      "Modelos de lengua para clasificación y traducción automática"
-    ]
-  },
-  {
-    "objectID": "docs/clasificadores.html#contenidos-de-la-sesión",
-    "href": "docs/clasificadores.html#contenidos-de-la-sesión",
-    "title": "Modelos de lengua para clasificación y traducción automática",
-    "section": "Contenidos de la sesión",
-    "text": "Contenidos de la sesión\nEn la sesión de teoría presencial repasaremos los conceptos más complejos del tema y resolveremos las dudas que hayan surgido durante su estudio.",
-    "crumbs": [
-      "Índice",
-      "Sesiones teóricas",
-      "Modelos de lengua para clasificación y traducción automática"
-    ]
-  },
-  {
-    "objectID": "docs/abpl.html",
-    "href": "docs/abpl.html",
-    "title": "Fundamentos lingüísticos del PLN",
-    "section": "",
-    "text": "Fecha de la sesión: 29 de octubre de 2026\nEn este tema se expone un visión histórica del PLN y sus problemas básicos. Se exponenen los principales paradigmas de representación de la información lingüística y las diferentes aproximaciones a su procesamiento automático. Como caso prototípico de análisis lingüístico se estudia el análisis categorial.\nRecuerda que esta asignatura sigue una metodología de clase invertida, por lo que antes de la sesión de teoría debes estudiar los materiales que se indican a continuación y realizar las actividades que se proponen. El tiempo medio estimado para el estudio es de unas 3 horas, aunque puede variar según tu nivel de conocimientos previos y tu experiencia en el estudio de este tipo de contenidos.",
-    "crumbs": [
-      "Índice",
-      "Sesiones teóricas",
-      "Fundamentos lingüísticos del PLN"
-    ]
-  },
-  {
-    "objectID": "docs/abpl.html#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7338203e7d7d",
-    "href": "docs/abpl.html#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7338203e7d7d",
-    "title": "Fundamentos lingüísticos del PLN",
+    "objectID": "docs/sintaxis.html#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7338203e7d7d",
+    "href": "docs/sintaxis.html#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7338203e7d7d",
+    "title": "Análisis sintáctico",
     "section": "Materiales a estudiar antes de la sesión del 29 de octubre de 2026",
-    "text": "Materiales a estudiar antes de la sesión del 29 de octubre de 2026\nPara estudiar este tema, os propongo dos lecturas. La primera es del libro de Jurafsky y Martin (2026) sobre análisis categorial (parts of speech) y detección de entidades (named entities). La segunda lectura es un esquema con el resto de conceptos del tema que repasaremos en la sesión de teoría.\n\n\n\n\nCapítulo\nApartados o páginas\nContenido\n\n\n\n\nSequence Labeling for Parts of Speech and Named Entities\nIntroducción y secciones de 8.1 a 8.5\nAnálisis categorial, reconocimiento de entidades\n\n\nFundamentos lingüísticos del PLN: representación y procesamiento.\nCompleto\nConcepto de lengua. Procesamiento del texto. Paradigmas de representación computacional y modelos de procesamiento.",
-    "crumbs": [
-      "Índice",
-      "Sesiones teóricas",
-      "Fundamentos lingüísticos del PLN"
-    ]
+    "text": "Materiales a estudiar antes de la sesión del 29 de octubre de 2026\nPara estudiar este tema, os propongo una única lectura sobre análisis de dependencias y las dependencias universales. El resto de conceptos se verán en clase.\n\n\n\n\nCapítulo\nApartados o páginas\nContenido\n\n\n\n\nDependency Parsing\nIntroducción y secciones de 20.1 a 20.3\nAnálisis de dependencias, análisis basado en transiciones, análisis basado en grafos"
   },
   {
-    "objectID": "docs/abpl.html#actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7338203e7d7d",
-    "href": "docs/abpl.html#actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7338203e7d7d",
-    "title": "Fundamentos lingüísticos del PLN",
-    "section": "Actividades previas a la sesión del 29 de octubre de 2026",
-    "text": "Actividades previas a la sesión del 29 de octubre de 2026\nUna vez hayas estudiado los materiales, realiza el test que puedes encontrar en el Moodle de la asignatura.\nEl plazo para realizar las actividades previas finaliza el día anterior a la sesión de teoría.",
-    "crumbs": [
-      "Índice",
-      "Sesiones teóricas",
-      "Fundamentos lingüísticos del PLN"
-    ]
+    "objectID": "docs/sintaxis.html#actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7339203e7d7d",
+    "href": "docs/sintaxis.html#actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7339203e7d7d",
+    "title": "Análisis sintáctico",
+    "section": "Actividades previas a la sesión del 5 de noviembre de 2026",
+    "text": "Actividades previas a la sesión del 5 de noviembre de 2026\nUna vez hayas estudiado los materiales, realiza el test que puedes encontrar en el Moodle de la asignatura.\nEl plazo para realizar las actividades previas finaliza el día anterior a la sesión de teoría."
   },
   {
-    "objectID": "docs/abpl.html#evaluación-asistida-por-un-tutor-inteligente",
-    "href": "docs/abpl.html#evaluación-asistida-por-un-tutor-inteligente",
-    "title": "Fundamentos lingüísticos del PLN",
+    "objectID": "docs/sintaxis.html#evaluación-asistida-por-un-tutor-inteligente",
+    "href": "docs/sintaxis.html#evaluación-asistida-por-un-tutor-inteligente",
+    "title": "Análisis sintáctico",
     "section": "Evaluación asistida por un tutor inteligente",
-    "text": "Evaluación asistida por un tutor inteligente\nUsa el siguiente prompt para evaluar tu comprensión de los conceptos fundamentales de esta sesión con ayuda de tu chat o agente de inteligencia artificial favorito.\n\nHola. Quiero que me ayudes a preparar la asignatura de Introducción al Procesamiento del Lenguaje Natural I de cuarto curso de un grado en Ingeniería en Inteligencia Artificial en el que estoy matriculado. Me he leído los contenidos del libro de Jurafsky y Martin (Speech and Language Processing) que te adjunto como PDF. Quiero que evalúes si soy capaz de responder con solvencia y con la misma profundidad teórica y formal con la que aparecen los contenidos en el texto.\nPara ello, actuaremos mediante un diálogo socrático guiado estricto, fundamentado en la taxonomía de Paul y Elder (clarificación de conceptos, examen de supuestos, solicitud de evidencias y análisis de casos límite). Tu comportamiento debe ajustarse sin excepción a las siguientes reglas:\n\nElige una única pregunta al azar de la lista que te proporciono al final y plantéamela para iniciar la sesión. No plantees más de una pregunta a la vez.\nEspera a que yo redacte mi respuesta.\nAnaliza críticamente mi intervención contrastándola con el contenido del libro de Jurafsky y Martin adjunto:\n\nNunca me des la respuesta correcta ni completes las explicaciones por mí, bajo ninguna circunstancia.\nSi mi respuesta es incompleta o imprecisa, hazme una pregunta de clarificación o señálame qué concepto específico debo revisar en los materiales.\nSi cometo un error conceptual, no lo corrijas directamente: plantéame un contraejemplo, una contradicción lógica en mi argumento o una pregunta sobre las consecuencias de mi razonamiento para que yo mismo descubra el fallo.\nSi mi respuesta es correcta pero superficial, exige mayor rigor formal, detalle matemático o precisión terminológica.\n\nMantén el diálogo de forma iterativa (pregunta, respuesta, repregunta) hasta que concluyas que he cubierto la cuestión con el nivel de dominio y profundidad requerido por el texto.\nSolo cuando el tema haya quedado completamente resuelto y fundamentado por mi parte, haz un breve cierre de validación y selecciona al azar la siguiente pregunta de la lista.\n\nElige una de las siguientes preguntas y comienza:\n\nExplica qué es el part of specch tagging o análisis categorial y cuál es el problema (lingüístico) más complejo que debe resolver.\nExplica en qué consiste la tarea denominada NER (Named Entity Recognition) y cuáles son los problemas que debe resolver.\nIndica cuál es la característica básica del modelo oculto de Markov (Hidden Markov Model) y cómo se adapta al Part of Speech tagging.\nExplica en qué se diferencian el modelo CRF (Conditional Random Field) con respecto al HMM en su aplicación a la anotación de secuencias lineales.",
-    "crumbs": [
-      "Índice",
-      "Sesiones teóricas",
-      "Fundamentos lingüísticos del PLN"
-    ]
+    "text": "Evaluación asistida por un tutor inteligente\nUsa el siguiente prompt para evaluar tu comprensión de los conceptos fundamentales de esta sesión con ayuda de tu chat o agente de inteligencia artificial favorito.\n\nHola. Quiero que me ayudes a preparar la asignatura de Introducción al Procesamiento del Lenguaje Natural I de cuarto curso de un grado en Ingeniería en Inteligencia Artificial en el que estoy matriculado. Me he leído los contenidos del libro de Jurafsky y Martin (Speech and Language Processing) que te adjunto como PDF. Quiero que evalúes si soy capaz de responder con solvencia y con la misma profundidad teórica y formal con la que aparecen los contenidos en el texto.\nPara ello, actuaremos mediante un diálogo socrático guiado estricto, fundamentado en la taxonomía de Paul y Elder (clarificación de conceptos, examen de supuestos, solicitud de evidencias y análisis de casos límite). Tu comportamiento debe ajustarse sin excepción a las siguientes reglas:\n\nElige una única pregunta al azar de la lista que te proporciono al final y plantéamela para iniciar la sesión. No plantees más de una pregunta a la vez.\nEspera a que yo redacte mi respuesta.\nAnaliza críticamente mi intervención contrastándola con el contenido del libro de Jurafsky y Martin adjunto:\n\nNunca me des la respuesta correcta ni completes las explicaciones por mí, bajo ninguna circunstancia.\nSi mi respuesta es incompleta o imprecisa, hazme una pregunta de clarificación o señálame qué concepto específico debo revisar en los materiales.\nSi cometo un error conceptual, no lo corrijas directamente: plantéame un contraejemplo, una contradicción lógica en mi argumento o una pregunta sobre las consecuencias de mi razonamiento para que yo mismo descubra el fallo.\nSi mi respuesta es correcta pero superficial, exige mayor rigor formal, detalle matemático o precisión terminológica.\n\nMantén el diálogo de forma iterativa (pregunta, respuesta, repregunta) hasta que concluyas que he cubierto la cuestión con el nivel de dominio y profundidad requerido por el texto.\nSolo cuando el tema haya quedado completamente resuelto y fundamentado por mi parte, haz un breve cierre de validación y selecciona al azar la siguiente pregunta de la lista.\n\nElige una de las siguientes preguntas y comienza:\n\nEn español y otras derivadas del latín, ¿todos los arcos serán proyectivos, o es probable que haya oraciones con arcos no-proyectvos?\nAl entrenar el oracle de un analizador basado en transiciones (o de cualquier otro tipo), ¿por qué es relevante utilizar la categoría gramatical (part of speech) como rasgo o feature de aprendizaje?\nPara reflexionar: un LLM estándar basado en transformers, ¿sabe sintaxis?"
   },
   {
-    "objectID": "docs/abpl.html#contenidos-de-la-sesión",
-    "href": "docs/abpl.html#contenidos-de-la-sesión",
-    "title": "Fundamentos lingüísticos del PLN",
+    "objectID": "docs/sintaxis.html#contenidos-de-la-sesión",
+    "href": "docs/sintaxis.html#contenidos-de-la-sesión",
+    "title": "Análisis sintáctico",
     "section": "Contenidos de la sesión",
-    "text": "Contenidos de la sesión\nEn la sesión de teoría presencial repasaremos los conceptos más complejos del tema y resolveremos las dudas que hayan surgido durante su estudio.",
-    "crumbs": [
-      "Índice",
-      "Sesiones teóricas",
-      "Fundamentos lingüísticos del PLN"
-    ]
+    "text": "Contenidos de la sesión\nEn la sesión de teoría presencial repasaremos los conceptos más complejos del tema y resolveremos las dudas que hayan surgido durante su estudio."
   },
   {
-    "objectID": "docs/embeddings.html",
-    "href": "docs/embeddings.html",
-    "title": "Palabras, tokens y embeddings incontextuales",
+    "objectID": "docs/pytorch.html",
+    "href": "docs/pytorch.html",
+    "title": "Introducción a PyTorch",
     "section": "",
-    "text": "Fecha de la sesión: 17 de septiembre de 2026\nLas redes neuronales que procesan texto son básicamente secuencias de operaciones matemáticas sobre tensores de números. Por ello, el primer paso para que una red neuronal pueda recibir texto a la entrada es convertir las palabras en vectores de números. En esta sesión veremos cómo realizar esta conversión mediante un algoritmo clásico basado en cuentas de palabras y mediante un algoritmo neuronal que aprende a representar las palabras en un espacio vectorial como resultado indirecto de entrenar la red para una tarea de clasificación de palabras. Además, como paso previo, estudiarás por qué en procesamiento del lenguaje natural no se suele trabajar con palabras, sino con tokens, y cómo se implementa un tokenizador que transforma un texto en una secuencia de tokens.\nRecuerda que esta asignatura sigue una metodología de clase invertida, por lo que antes de la sesión de teoría debes estudiar los materiales que se indican a continuación y realizar las actividades que se proponen. El tiempo medio estimado para el estudio es de unas 3 horas, aunque puede variar según tu nivel de conocimientos previos y tu experiencia en el estudio de este tipo de contenidos.",
+    "text": "En esta asignatura, utilizaremos PyTorch como framework principal para el desarrollo de modelos neuronales de PLN. Aunque en algunos elementos PyTorch bebe de la API de NumPy, a diferencia de NumPy, PyTorch permite la ejecución de operaciones en GPU, lo que acelera significativamente el entrenamiento de modelos complejos.\nLa introducción a PyTorch se realizará en la primera sesión de prácticas siguiendo para ello el cuaderno usado en la asignatura CS224N de Stanford, que puedes abrir directamente en Google Colab usando el siguiente botón. El cuaderno incluye una segunda parte con una demo de un modelo de clasificación de palabras que, aunque muy interesante para ver un ejemplo de aplicación de PyTorch, puedes saltarte si lo deseas.",
     "crumbs": [
       "Índice",
-      "Sesiones teóricas",
-      "Palabras, tokens y embeddings incontextuales"
-    ]
-  },
-  {
-    "objectID": "docs/embeddings.html#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7332203e7d7d",
-    "href": "docs/embeddings.html#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7332203e7d7d",
-    "title": "Palabras, tokens y embeddings incontextuales",
-    "section": "Materiales a estudiar antes de la sesión del 17 de septiembre de 2026",
-    "text": "Materiales a estudiar antes de la sesión del 17 de septiembre de 2026\nEl contenido de esta sesión lo puedes encontrar en los siguientes apartados del libro de Jurafsky y Martin:\n\n\n\n\nCapítulo\nApartados o páginas\nContenido\n\n\n\n\nWords and tokens §2\n2.1 y 2.4\nPalabras, tokens y tokenizadores\n\n\nEmbeddings §5\n5.1 a 5.5, 5.8\nEmbeddings incontextuales neuronales y basados en cuentas",
-    "crumbs": [
-      "Índice",
-      "Sesiones teóricas",
-      "Palabras, tokens y embeddings incontextuales"
-    ]
-  },
-  {
-    "objectID": "docs/embeddings.html#actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7332203e7d7d",
-    "href": "docs/embeddings.html#actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7332203e7d7d",
-    "title": "Palabras, tokens y embeddings incontextuales",
-    "section": "Actividades previas a la sesión del 17 de septiembre de 2026",
-    "text": "Actividades previas a la sesión del 17 de septiembre de 2026\nUna vez hayas estudiado los materiales, realiza el test que puedes encontrar en el Moodle de la asignatura.\nEl plazo para realizar las actividades previas finaliza el día anterior a la sesión de teoría.",
-    "crumbs": [
-      "Índice",
-      "Sesiones teóricas",
-      "Palabras, tokens y embeddings incontextuales"
-    ]
-  },
-  {
-    "objectID": "docs/embeddings.html#evaluación-asistida-por-un-tutor-inteligente",
-    "href": "docs/embeddings.html#evaluación-asistida-por-un-tutor-inteligente",
-    "title": "Palabras, tokens y embeddings incontextuales",
-    "section": "Evaluación asistida por un tutor inteligente",
-    "text": "Evaluación asistida por un tutor inteligente\nUsa el siguiente prompt para evaluar tu comprensión de los conceptos fundamentales de esta sesión con ayuda de tu chat o agente de inteligencia artificial favorito.\n\nHola. Quiero que me ayudes a preparar la asignatura de Introducción al Procesamiento del Lenguaje Natural I de cuarto curso de un grado en Ingeniería en Inteligencia Artificial en el que estoy matriculado. Me he leído los contenidos del libro de Jurafsky y Martin (Speech and Language Processing) que te adjunto como PDF. Quiero que evalúes si soy capaz de responder con solvencia y con la misma profundidad teórica y formal con la que aparecen los contenidos en el texto.\nPara ello, actuaremos mediante un diálogo socrático guiado estricto, fundamentado en la taxonomía de Paul y Elder (clarificación de conceptos, examen de supuestos, solicitud de evidencias y análisis de casos límite). Tu comportamiento debe ajustarse sin excepción a las siguientes reglas:\n\nElige una única pregunta al azar de la lista que te proporciono al final y plantéamela para iniciar la sesión. No plantees más de una pregunta a la vez.\nEspera a que yo redacte mi respuesta.\nAnaliza críticamente mi intervención contrastándola con el contenido del libro de Jurafsky y Martin adjunto:\n\nNunca me des la respuesta correcta ni completes las explicaciones por mí, bajo ninguna circunstancia.\nSi mi respuesta es incompleta o imprecisa, hazme una pregunta de clarificación o señálame qué concepto específico debo revisar en los materiales.\nSi cometo un error conceptual, no lo corrijas directamente: plantéame un contraejemplo, una contradicción lógica en mi argumento o una pregunta sobre las consecuencias de mi razonamiento para que yo mismo descubra el fallo.\nSi mi respuesta es correcta pero superficial, exige mayor rigor formal, detalle matemático o precisión terminológica.\n\nMantén el diálogo de forma iterativa (pregunta, respuesta, repregunta) hasta que concluyas que he cubierto la cuestión con el nivel de dominio y profundidad requerido por el texto.\nSolo cuando el tema haya quedado completamente resuelto y fundamentado por mi parte, haz un breve cierre de validación y selecciona al azar la siguiente pregunta de la lista.\n\nElige una de las siguientes preguntas y comienza:\n\n¿Qué elementos comparte el algoritmo de skip-gram con el entrenamiento de un regresor logístico?\n¿Qué precauciones es necesario tomar al seleccionar las muestras positivas y negativas para entrenar un modelo de skip-gram?\n¿Qué diferencias hay entre un embedding incontextual y un embedding contextual?",
-    "crumbs": [
-      "Índice",
-      "Sesiones teóricas",
-      "Palabras, tokens y embeddings incontextuales"
-    ]
-  },
-  {
-    "objectID": "docs/embeddings.html#contenidos-de-la-sesión",
-    "href": "docs/embeddings.html#contenidos-de-la-sesión",
-    "title": "Palabras, tokens y embeddings incontextuales",
-    "section": "Contenidos de la sesión",
-    "text": "Contenidos de la sesión\nEn la sesión de teoría presencial repasaremos los conceptos más complejos del tema y resolveremos las dudas que hayan surgido durante su estudio.",
-    "crumbs": [
-      "Índice",
-      "Sesiones teóricas",
-      "Palabras, tokens y embeddings incontextuales"
-    ]
-  },
-  {
-    "objectID": "docs/post.html",
-    "href": "docs/post.html",
-    "title": "Posentrenamiento de LLMs y aprendizaje por refuerzo",
-    "section": "",
-    "text": "Fecha de la sesión: 8 de octubre de 2026\nUn LLM entrenado para predecir la siguiente palabra de un texto puede ser útil para muchas tareas, pero no permite obtener modelos de la calidad de muchos LLMs actuales. Así, cuando se pide a un LLM preentrenado que continúe el texto “¿Cuál es la capital de Francia?” bien puede responder “París”, pero también pueden ser relativamente probables continuaciones como “A. Londres. B. Berlín. C. París.” o “¿Y cuál es la capital de Italia?”, todo ello en base a los datos a los que haya sido expuesto durante su preentrenamiento. Para obtener modelos más alineados con las expectativas de los usuarios, es necesario realizar una serie de pasos adicionales de entrenamiento, que se suelen agrupar bajo el nombre de posentrenamiento. En esta sesión, estudiarás los pasos de posentrenamiento más habituales y cómo se aplican a los LLMs. Dentro de este posentrenamiento, el aprendizaje por refuerzo resulta ser, por motivos que estudiarás, una de las técnicas más potentes usadas actualmente.\nRecuerda que esta asignatura sigue una metodología de clase invertida, por lo que antes de la sesión de teoría debes estudiar los materiales que se indican a continuación y realizar las actividades que se proponen. El tiempo medio estimado para el estudio es de unas 4 horas, aunque puede variar según tu nivel de conocimientos previos y tu experiencia en el estudio de este tipo de contenidos.",
-    "crumbs": [
-      "Índice",
-      "Sesiones teóricas",
-      "Posentrenamiento de LLMs y aprendizaje por refuerzo"
-    ]
-  },
-  {
-    "objectID": "docs/post.html#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7335203e7d7d",
-    "href": "docs/post.html#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7335203e7d7d",
-    "title": "Posentrenamiento de LLMs y aprendizaje por refuerzo",
-    "section": "Materiales a estudiar antes de la sesión del 8 de octubre de 2026",
-    "text": "Materiales a estudiar antes de la sesión del 8 de octubre de 2026\nEl contenido de esta sesión lo puedes encontrar en los apartados del libro de Jurafsky y Martin indicados en la siguiente tabla. Además, para entender los fundamentos del aprendizaje por refuerzo, tendrás que estudiar adicionalmente los apartados que se indican de un tutorial introductorio sobre el tema.\n\n\n\n\nCapítulo\nApartados o páginas\nContenido\n\n\n\n\nPost-training §8\ncapítulo completo\nAdaptación con instrucciones, entrenamiento eficiente, aprendizaje por refuerzo mediante feedback humano\n\n\nFoundations of Reinforcement Learning in the Context of Fine-Tuning and Distillation of LLMs for Machine Translation (pdf)\napartados 1-6\nEstimación de la esperanza mediante Monte Carlo, muestreo por importancia, GRPO",
-    "crumbs": [
-      "Índice",
-      "Sesiones teóricas",
-      "Posentrenamiento de LLMs y aprendizaje por refuerzo"
-    ]
-  },
-  {
-    "objectID": "docs/post.html#actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7335203e7d7d",
-    "href": "docs/post.html#actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7335203e7d7d",
-    "title": "Posentrenamiento de LLMs y aprendizaje por refuerzo",
-    "section": "Actividades previas a la sesión del 8 de octubre de 2026",
-    "text": "Actividades previas a la sesión del 8 de octubre de 2026\nUna vez hayas estudiado los materiales, realiza el test que puedes encontrar en el Moodle de la asignatura.\nEl plazo para realizar las actividades previas finaliza el día anterior a la sesión de teoría.",
-    "crumbs": [
-      "Índice",
-      "Sesiones teóricas",
-      "Posentrenamiento de LLMs y aprendizaje por refuerzo"
-    ]
-  },
-  {
-    "objectID": "docs/post.html#evaluación-asistida-por-un-tutor-inteligente",
-    "href": "docs/post.html#evaluación-asistida-por-un-tutor-inteligente",
-    "title": "Posentrenamiento de LLMs y aprendizaje por refuerzo",
-    "section": "Evaluación asistida por un tutor inteligente",
-    "text": "Evaluación asistida por un tutor inteligente\nUsa el siguiente prompt para evaluar tu comprensión de los conceptos fundamentales de esta sesión con ayuda de tu chat o agente de inteligencia artificial favorito.\n\nHola. Quiero que me ayudes a preparar la asignatura de Introducción al Procesamiento del Lenguaje Natural I de cuarto curso de un grado en Ingeniería en Inteligencia Artificial en el que estoy matriculado. Me he leído los contenidos del libro de Jurafsky y Martin (Speech and Language Processing) que te adjunto como PDF. Quiero que evalúes si soy capaz de responder con solvencia y con la misma profundidad teórica y formal con la que aparecen los contenidos en el texto.\nPara ello, actuaremos mediante un diálogo socrático guiado estricto, fundamentado en la taxonomía de Paul y Elder (clarificación de conceptos, examen de supuestos, solicitud de evidencias y análisis de casos límite). Tu comportamiento debe ajustarse sin excepción a las siguientes reglas:\n\nElige una única pregunta al azar de la lista que te proporciono al final y plantéamela para iniciar la sesión. No plantees más de una pregunta a la vez.\nEspera a que yo redacte mi respuesta.\nAnaliza críticamente mi intervención contrastándola con el contenido del libro de Jurafsky y Martin adjunto:\n\nNunca me des la respuesta correcta ni completes las explicaciones por mí, bajo ninguna circunstancia.\nSi mi respuesta es incompleta o imprecisa, hazme una pregunta de clarificación o señálame qué concepto específico debo revisar en los materiales.\nSi cometo un error conceptual, no lo corrijas directamente: plantéame un contraejemplo, una contradicción lógica en mi argumento o una pregunta sobre las consecuencias de mi razonamiento para que yo mismo descubra el fallo.\nSi mi respuesta es correcta pero superficial, exige mayor rigor formal, detalle matemático o precisión terminológica.\n\nMantén el diálogo de forma iterativa (pregunta, respuesta, repregunta) hasta que concluyas que he cubierto la cuestión con el nivel de dominio y profundidad requerido por el texto.\nSolo cuando el tema haya quedado completamente resuelto y fundamentado por mi parte, haz un breve cierre de validación y selecciona al azar la siguiente pregunta de la lista.\n\nElige una de las siguientes preguntas y comienza:\n\n¿Qué tres pasos de posentrenamiento se suelen aplicar a los LLMs y cuál es el objetivo de cada uno de ellos?\n¿Qué tipo de datos se usan en cada uno de los pasos de posentrenamiento y por qué?\n¿Qué diferencias hay entre el aprendizaje por refuerzo y el aprendizaje supervisado?\n¿Para qué sirve el método de Monte Carlo en el aprendizaje por refuerzo?\n¿Cuál es la ventaja de algoritmos de RLVR como GRPO frente a otros métodos de aprendizaje por refuerzo como RLHF o métodos supervisados como la predicción del siguiente token?\n¿Cuál es la fórmula de GRPO y de dónde sale cada uno de sus términos?",
-    "crumbs": [
-      "Índice",
-      "Sesiones teóricas",
-      "Posentrenamiento de LLMs y aprendizaje por refuerzo"
-    ]
-  },
-  {
-    "objectID": "docs/post.html#contenidos-de-la-sesión",
-    "href": "docs/post.html#contenidos-de-la-sesión",
-    "title": "Posentrenamiento de LLMs y aprendizaje por refuerzo",
-    "section": "Contenidos de la sesión",
-    "text": "Contenidos de la sesión\nEn la sesión de teoría presencial repasaremos los conceptos más complejos del tema y resolveremos las dudas que hayan surgido durante su estudio.",
-    "crumbs": [
-      "Índice",
-      "Sesiones teóricas",
-      "Posentrenamiento de LLMs y aprendizaje por refuerzo"
+      "Sesiones prácticas",
+      "Introducción a PyTorch"
     ]
   },
   {
@@ -617,15 +220,447 @@
     ]
   },
   {
-    "objectID": "docs/pytorch.html",
-    "href": "docs/pytorch.html",
-    "title": "Introducción a PyTorch",
+    "objectID": "docs/post.html",
+    "href": "docs/post.html",
+    "title": "Posentrenamiento de LLMs y aprendizaje por refuerzo",
     "section": "",
-    "text": "En esta asignatura, utilizaremos PyTorch como framework principal para el desarrollo de modelos neuronales de PLN. Aunque en algunos elementos PyTorch bebe de la API de NumPy, a diferencia de NumPy, PyTorch permite la ejecución de operaciones en GPU, lo que acelera significativamente el entrenamiento de modelos complejos.\nLa introducción a PyTorch se realizará en la primera sesión de prácticas siguiendo para ello el cuaderno usado en la asignatura CS224N de Stanford, que puedes abrir directamente en Google Colab usando el siguiente botón. El cuaderno incluye una segunda parte con una demo de un modelo de clasificación de palabras que, aunque muy interesante para ver un ejemplo de aplicación de PyTorch, puedes saltarte si lo deseas.",
+    "text": "Fecha de la sesión: 8 de octubre de 2026\nUn LLM entrenado para predecir la siguiente palabra de un texto puede ser útil para muchas tareas, pero no permite obtener modelos de la calidad de muchos LLMs actuales. Así, cuando se pide a un LLM preentrenado que continúe el texto “¿Cuál es la capital de Francia?” bien puede responder “París”, pero también pueden ser relativamente probables continuaciones como “A. Londres. B. Berlín. C. París.” o “¿Y cuál es la capital de Italia?”, todo ello en base a los datos a los que haya sido expuesto durante su preentrenamiento. Para obtener modelos más alineados con las expectativas de los usuarios, es necesario realizar una serie de pasos adicionales de entrenamiento, que se suelen agrupar bajo el nombre de posentrenamiento. En esta sesión, estudiarás los pasos de posentrenamiento más habituales y cómo se aplican a los LLMs. Dentro de este posentrenamiento, el aprendizaje por refuerzo resulta ser, por motivos que estudiarás, una de las técnicas más potentes usadas actualmente.\nRecuerda que esta asignatura sigue una metodología de clase invertida, por lo que antes de la sesión de teoría debes estudiar los materiales que se indican a continuación y realizar las actividades que se proponen. El tiempo medio estimado para el estudio es de unas 4 horas, aunque puede variar según tu nivel de conocimientos previos y tu experiencia en el estudio de este tipo de contenidos.",
+    "crumbs": [
+      "Índice",
+      "Sesiones teóricas",
+      "Posentrenamiento de LLMs y aprendizaje por refuerzo"
+    ]
+  },
+  {
+    "objectID": "docs/post.html#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7335203e7d7d",
+    "href": "docs/post.html#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7335203e7d7d",
+    "title": "Posentrenamiento de LLMs y aprendizaje por refuerzo",
+    "section": "Materiales a estudiar antes de la sesión del 8 de octubre de 2026",
+    "text": "Materiales a estudiar antes de la sesión del 8 de octubre de 2026\nEl contenido de esta sesión lo puedes encontrar en los apartados del libro de Jurafsky y Martin indicados en la siguiente tabla. Además, para entender los fundamentos del aprendizaje por refuerzo, tendrás que estudiar adicionalmente los apartados que se indican de un tutorial introductorio sobre el tema.\n\n\n\n\nCapítulo\nApartados o páginas\nContenido\n\n\n\n\nPost-training §8\ncapítulo completo\nAdaptación con instrucciones, entrenamiento eficiente, aprendizaje por refuerzo mediante feedback humano\n\n\nFoundations of Reinforcement Learning in the Context of Fine-Tuning and Distillation of LLMs for Machine Translation (pdf)\napartados 1-6\nEstimación de la esperanza mediante Monte Carlo, muestreo por importancia, GRPO",
+    "crumbs": [
+      "Índice",
+      "Sesiones teóricas",
+      "Posentrenamiento de LLMs y aprendizaje por refuerzo"
+    ]
+  },
+  {
+    "objectID": "docs/post.html#actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7335203e7d7d",
+    "href": "docs/post.html#actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7335203e7d7d",
+    "title": "Posentrenamiento de LLMs y aprendizaje por refuerzo",
+    "section": "Actividades previas a la sesión del 8 de octubre de 2026",
+    "text": "Actividades previas a la sesión del 8 de octubre de 2026\nUna vez hayas estudiado los materiales, realiza el test que puedes encontrar en el Moodle de la asignatura.\nEl plazo para realizar las actividades previas finaliza el día anterior a la sesión de teoría.",
+    "crumbs": [
+      "Índice",
+      "Sesiones teóricas",
+      "Posentrenamiento de LLMs y aprendizaje por refuerzo"
+    ]
+  },
+  {
+    "objectID": "docs/post.html#evaluación-asistida-por-un-tutor-inteligente",
+    "href": "docs/post.html#evaluación-asistida-por-un-tutor-inteligente",
+    "title": "Posentrenamiento de LLMs y aprendizaje por refuerzo",
+    "section": "Evaluación asistida por un tutor inteligente",
+    "text": "Evaluación asistida por un tutor inteligente\nUsa el siguiente prompt para evaluar tu comprensión de los conceptos fundamentales de esta sesión con ayuda de tu chat o agente de inteligencia artificial favorito.\n\nHola. Quiero que me ayudes a preparar la asignatura de Introducción al Procesamiento del Lenguaje Natural I de cuarto curso de un grado en Ingeniería en Inteligencia Artificial en el que estoy matriculado. Me he leído los contenidos del libro de Jurafsky y Martin (Speech and Language Processing) que te adjunto como PDF. Quiero que evalúes si soy capaz de responder con solvencia y con la misma profundidad teórica y formal con la que aparecen los contenidos en el texto.\nPara ello, actuaremos mediante un diálogo socrático guiado estricto, fundamentado en la taxonomía de Paul y Elder (clarificación de conceptos, examen de supuestos, solicitud de evidencias y análisis de casos límite). Tu comportamiento debe ajustarse sin excepción a las siguientes reglas:\n\nElige una única pregunta al azar de la lista que te proporciono al final y plantéamela para iniciar la sesión. No plantees más de una pregunta a la vez.\nEspera a que yo redacte mi respuesta.\nAnaliza críticamente mi intervención contrastándola con el contenido del libro de Jurafsky y Martin adjunto:\n\nNunca me des la respuesta correcta ni completes las explicaciones por mí, bajo ninguna circunstancia.\nSi mi respuesta es incompleta o imprecisa, hazme una pregunta de clarificación o señálame qué concepto específico debo revisar en los materiales.\nSi cometo un error conceptual, no lo corrijas directamente: plantéame un contraejemplo, una contradicción lógica en mi argumento o una pregunta sobre las consecuencias de mi razonamiento para que yo mismo descubra el fallo.\nSi mi respuesta es correcta pero superficial, exige mayor rigor formal, detalle matemático o precisión terminológica.\n\nMantén el diálogo de forma iterativa (pregunta, respuesta, repregunta) hasta que concluyas que he cubierto la cuestión con el nivel de dominio y profundidad requerido por el texto.\nSolo cuando el tema haya quedado completamente resuelto y fundamentado por mi parte, haz un breve cierre de validación y selecciona al azar la siguiente pregunta de la lista.\n\nElige una de las siguientes preguntas y comienza:\n\n¿Qué tres pasos de posentrenamiento se suelen aplicar a los LLMs y cuál es el objetivo de cada uno de ellos?\n¿Qué tipo de datos se usan en cada uno de los pasos de posentrenamiento y por qué?\n¿Qué diferencias hay entre el aprendizaje por refuerzo y el aprendizaje supervisado?\n¿Para qué sirve el método de Monte Carlo en el aprendizaje por refuerzo?\n¿Cuál es la ventaja de algoritmos de RLVR como GRPO frente a otros métodos de aprendizaje por refuerzo como RLHF o métodos supervisados como la predicción del siguiente token?\n¿Cuál es la fórmula de GRPO y de dónde sale cada uno de sus términos?",
+    "crumbs": [
+      "Índice",
+      "Sesiones teóricas",
+      "Posentrenamiento de LLMs y aprendizaje por refuerzo"
+    ]
+  },
+  {
+    "objectID": "docs/post.html#contenidos-de-la-sesión",
+    "href": "docs/post.html#contenidos-de-la-sesión",
+    "title": "Posentrenamiento de LLMs y aprendizaje por refuerzo",
+    "section": "Contenidos de la sesión",
+    "text": "Contenidos de la sesión\nEn la sesión de teoría presencial repasaremos los conceptos más complejos del tema y resolveremos las dudas que hayan surgido durante su estudio.",
+    "crumbs": [
+      "Índice",
+      "Sesiones teóricas",
+      "Posentrenamiento de LLMs y aprendizaje por refuerzo"
+    ]
+  },
+  {
+    "objectID": "docs/embeddings.html",
+    "href": "docs/embeddings.html",
+    "title": "Palabras, tokens y embeddings incontextuales",
+    "section": "",
+    "text": "Fecha de la sesión: 17 de septiembre de 2026\nLas redes neuronales que procesan texto son básicamente secuencias de operaciones matemáticas sobre tensores de números. Por ello, el primer paso para que una red neuronal pueda recibir texto a la entrada es convertir las palabras en vectores de números. En esta sesión veremos cómo realizar esta conversión mediante un algoritmo clásico basado en cuentas de palabras y mediante un algoritmo neuronal que aprende a representar las palabras en un espacio vectorial como resultado indirecto de entrenar la red para una tarea de clasificación de palabras. Además, como paso previo, estudiarás por qué en procesamiento del lenguaje natural no se suele trabajar con palabras, sino con tokens, y cómo se implementa un tokenizador que transforma un texto en una secuencia de tokens.\nRecuerda que esta asignatura sigue una metodología de clase invertida, por lo que antes de la sesión de teoría debes estudiar los materiales que se indican a continuación y realizar las actividades que se proponen. El tiempo medio estimado para el estudio es de unas 3 horas, aunque puede variar según tu nivel de conocimientos previos y tu experiencia en el estudio de este tipo de contenidos.",
+    "crumbs": [
+      "Índice",
+      "Sesiones teóricas",
+      "Palabras, tokens y embeddings incontextuales"
+    ]
+  },
+  {
+    "objectID": "docs/embeddings.html#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7332203e7d7d",
+    "href": "docs/embeddings.html#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7332203e7d7d",
+    "title": "Palabras, tokens y embeddings incontextuales",
+    "section": "Materiales a estudiar antes de la sesión del 17 de septiembre de 2026",
+    "text": "Materiales a estudiar antes de la sesión del 17 de septiembre de 2026\nEl contenido de esta sesión lo puedes encontrar en los siguientes apartados del libro de Jurafsky y Martin:\n\n\n\n\nCapítulo\nApartados o páginas\nContenido\n\n\n\n\nWords and tokens §2\n2.1 y 2.4\nPalabras, tokens y tokenizadores\n\n\nEmbeddings §5\n5.1 a 5.5, 5.8\nEmbeddings incontextuales neuronales y basados en cuentas",
+    "crumbs": [
+      "Índice",
+      "Sesiones teóricas",
+      "Palabras, tokens y embeddings incontextuales"
+    ]
+  },
+  {
+    "objectID": "docs/embeddings.html#actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7332203e7d7d",
+    "href": "docs/embeddings.html#actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7332203e7d7d",
+    "title": "Palabras, tokens y embeddings incontextuales",
+    "section": "Actividades previas a la sesión del 17 de septiembre de 2026",
+    "text": "Actividades previas a la sesión del 17 de septiembre de 2026\nUna vez hayas estudiado los materiales, realiza el test que puedes encontrar en el Moodle de la asignatura.\nEl plazo para realizar las actividades previas finaliza el día anterior a la sesión de teoría.",
+    "crumbs": [
+      "Índice",
+      "Sesiones teóricas",
+      "Palabras, tokens y embeddings incontextuales"
+    ]
+  },
+  {
+    "objectID": "docs/embeddings.html#evaluación-asistida-por-un-tutor-inteligente",
+    "href": "docs/embeddings.html#evaluación-asistida-por-un-tutor-inteligente",
+    "title": "Palabras, tokens y embeddings incontextuales",
+    "section": "Evaluación asistida por un tutor inteligente",
+    "text": "Evaluación asistida por un tutor inteligente\nUsa el siguiente prompt para evaluar tu comprensión de los conceptos fundamentales de esta sesión con ayuda de tu chat o agente de inteligencia artificial favorito.\n\nHola. Quiero que me ayudes a preparar la asignatura de Introducción al Procesamiento del Lenguaje Natural I de cuarto curso de un grado en Ingeniería en Inteligencia Artificial en el que estoy matriculado. Me he leído los contenidos del libro de Jurafsky y Martin (Speech and Language Processing) que te adjunto como PDF. Quiero que evalúes si soy capaz de responder con solvencia y con la misma profundidad teórica y formal con la que aparecen los contenidos en el texto.\nPara ello, actuaremos mediante un diálogo socrático guiado estricto, fundamentado en la taxonomía de Paul y Elder (clarificación de conceptos, examen de supuestos, solicitud de evidencias y análisis de casos límite). Tu comportamiento debe ajustarse sin excepción a las siguientes reglas:\n\nElige una única pregunta al azar de la lista que te proporciono al final y plantéamela para iniciar la sesión. No plantees más de una pregunta a la vez.\nEspera a que yo redacte mi respuesta.\nAnaliza críticamente mi intervención contrastándola con el contenido del libro de Jurafsky y Martin adjunto:\n\nNunca me des la respuesta correcta ni completes las explicaciones por mí, bajo ninguna circunstancia.\nSi mi respuesta es incompleta o imprecisa, hazme una pregunta de clarificación o señálame qué concepto específico debo revisar en los materiales.\nSi cometo un error conceptual, no lo corrijas directamente: plantéame un contraejemplo, una contradicción lógica en mi argumento o una pregunta sobre las consecuencias de mi razonamiento para que yo mismo descubra el fallo.\nSi mi respuesta es correcta pero superficial, exige mayor rigor formal, detalle matemático o precisión terminológica.\n\nMantén el diálogo de forma iterativa (pregunta, respuesta, repregunta) hasta que concluyas que he cubierto la cuestión con el nivel de dominio y profundidad requerido por el texto.\nSolo cuando el tema haya quedado completamente resuelto y fundamentado por mi parte, haz un breve cierre de validación y selecciona al azar la siguiente pregunta de la lista.\n\nElige una de las siguientes preguntas y comienza:\n\n¿Qué elementos comparte el algoritmo de skip-gram con el entrenamiento de un regresor logístico?\n¿Qué precauciones es necesario tomar al seleccionar las muestras positivas y negativas para entrenar un modelo de skip-gram?\n¿Qué diferencias hay entre un embedding incontextual y un embedding contextual?",
+    "crumbs": [
+      "Índice",
+      "Sesiones teóricas",
+      "Palabras, tokens y embeddings incontextuales"
+    ]
+  },
+  {
+    "objectID": "docs/embeddings.html#contenidos-de-la-sesión",
+    "href": "docs/embeddings.html#contenidos-de-la-sesión",
+    "title": "Palabras, tokens y embeddings incontextuales",
+    "section": "Contenidos de la sesión",
+    "text": "Contenidos de la sesión\nEn la sesión de teoría presencial repasaremos los conceptos más complejos del tema y resolveremos las dudas que hayan surgido durante su estudio.",
+    "crumbs": [
+      "Índice",
+      "Sesiones teóricas",
+      "Palabras, tokens y embeddings incontextuales"
+    ]
+  },
+  {
+    "objectID": "docs/abpl.html",
+    "href": "docs/abpl.html",
+    "title": "Fundamentos lingüísticos del PLN",
+    "section": "",
+    "text": "Fecha de la sesión: 29 de octubre de 2026\nEn este tema se expone un visión histórica del PLN y sus problemas básicos. Se exponenen los principales paradigmas de representación de la información lingüística y las diferentes aproximaciones a su procesamiento automático. Como caso prototípico de análisis lingüístico se estudia el análisis categorial.\nRecuerda que esta asignatura sigue una metodología de clase invertida, por lo que antes de la sesión de teoría debes estudiar los materiales que se indican a continuación y realizar las actividades que se proponen. El tiempo medio estimado para el estudio es de unas 3 horas, aunque puede variar según tu nivel de conocimientos previos y tu experiencia en el estudio de este tipo de contenidos.",
+    "crumbs": [
+      "Índice",
+      "Sesiones teóricas",
+      "Fundamentos lingüísticos del PLN"
+    ]
+  },
+  {
+    "objectID": "docs/abpl.html#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7338203e7d7d",
+    "href": "docs/abpl.html#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7338203e7d7d",
+    "title": "Fundamentos lingüísticos del PLN",
+    "section": "Materiales a estudiar antes de la sesión del 29 de octubre de 2026",
+    "text": "Materiales a estudiar antes de la sesión del 29 de octubre de 2026\nPara estudiar este tema, os propongo dos lecturas. La primera es del libro de Jurafsky y Martin (2026) sobre análisis categorial (parts of speech) y detección de entidades (named entities). La segunda lectura es un esquema con el resto de conceptos del tema que repasaremos en la sesión de teoría.\n\n\n\n\nCapítulo\nApartados o páginas\nContenido\n\n\n\n\nSequence Labeling for Parts of Speech and Named Entities\nIntroducción y secciones de 8.1 a 8.5\nAnálisis categorial, reconocimiento de entidades\n\n\nFundamentos lingüísticos del PLN: representación y procesamiento.\nCompleto\nConcepto de lengua. Procesamiento del texto. Paradigmas de representación computacional y modelos de procesamiento.",
+    "crumbs": [
+      "Índice",
+      "Sesiones teóricas",
+      "Fundamentos lingüísticos del PLN"
+    ]
+  },
+  {
+    "objectID": "docs/abpl.html#actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7338203e7d7d",
+    "href": "docs/abpl.html#actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7338203e7d7d",
+    "title": "Fundamentos lingüísticos del PLN",
+    "section": "Actividades previas a la sesión del 29 de octubre de 2026",
+    "text": "Actividades previas a la sesión del 29 de octubre de 2026\nUna vez hayas estudiado los materiales, realiza el test que puedes encontrar en el Moodle de la asignatura.\nEl plazo para realizar las actividades previas finaliza el día anterior a la sesión de teoría.",
+    "crumbs": [
+      "Índice",
+      "Sesiones teóricas",
+      "Fundamentos lingüísticos del PLN"
+    ]
+  },
+  {
+    "objectID": "docs/abpl.html#evaluación-asistida-por-un-tutor-inteligente",
+    "href": "docs/abpl.html#evaluación-asistida-por-un-tutor-inteligente",
+    "title": "Fundamentos lingüísticos del PLN",
+    "section": "Evaluación asistida por un tutor inteligente",
+    "text": "Evaluación asistida por un tutor inteligente\nUsa el siguiente prompt para evaluar tu comprensión de los conceptos fundamentales de esta sesión con ayuda de tu chat o agente de inteligencia artificial favorito.\n\nHola. Quiero que me ayudes a preparar la asignatura de Introducción al Procesamiento del Lenguaje Natural I de cuarto curso de un grado en Ingeniería en Inteligencia Artificial en el que estoy matriculado. Me he leído los contenidos del libro de Jurafsky y Martin (Speech and Language Processing) que te adjunto como PDF. Quiero que evalúes si soy capaz de responder con solvencia y con la misma profundidad teórica y formal con la que aparecen los contenidos en el texto.\nPara ello, actuaremos mediante un diálogo socrático guiado estricto, fundamentado en la taxonomía de Paul y Elder (clarificación de conceptos, examen de supuestos, solicitud de evidencias y análisis de casos límite). Tu comportamiento debe ajustarse sin excepción a las siguientes reglas:\n\nElige una única pregunta al azar de la lista que te proporciono al final y plantéamela para iniciar la sesión. No plantees más de una pregunta a la vez.\nEspera a que yo redacte mi respuesta.\nAnaliza críticamente mi intervención contrastándola con el contenido del libro de Jurafsky y Martin adjunto:\n\nNunca me des la respuesta correcta ni completes las explicaciones por mí, bajo ninguna circunstancia.\nSi mi respuesta es incompleta o imprecisa, hazme una pregunta de clarificación o señálame qué concepto específico debo revisar en los materiales.\nSi cometo un error conceptual, no lo corrijas directamente: plantéame un contraejemplo, una contradicción lógica en mi argumento o una pregunta sobre las consecuencias de mi razonamiento para que yo mismo descubra el fallo.\nSi mi respuesta es correcta pero superficial, exige mayor rigor formal, detalle matemático o precisión terminológica.\n\nMantén el diálogo de forma iterativa (pregunta, respuesta, repregunta) hasta que concluyas que he cubierto la cuestión con el nivel de dominio y profundidad requerido por el texto.\nSolo cuando el tema haya quedado completamente resuelto y fundamentado por mi parte, haz un breve cierre de validación y selecciona al azar la siguiente pregunta de la lista.\n\nElige una de las siguientes preguntas y comienza:\n\nExplica qué es el part of specch tagging o análisis categorial y cuál es el problema (lingüístico) más complejo que debe resolver.\nExplica en qué consiste la tarea denominada NER (Named Entity Recognition) y cuáles son los problemas que debe resolver.\nIndica cuál es la característica básica del modelo oculto de Markov (Hidden Markov Model) y cómo se adapta al Part of Speech tagging.\nExplica en qué se diferencian el modelo CRF (Conditional Random Field) con respecto al HMM en su aplicación a la anotación de secuencias lineales.",
+    "crumbs": [
+      "Índice",
+      "Sesiones teóricas",
+      "Fundamentos lingüísticos del PLN"
+    ]
+  },
+  {
+    "objectID": "docs/abpl.html#contenidos-de-la-sesión",
+    "href": "docs/abpl.html#contenidos-de-la-sesión",
+    "title": "Fundamentos lingüísticos del PLN",
+    "section": "Contenidos de la sesión",
+    "text": "Contenidos de la sesión\nEn la sesión de teoría presencial repasaremos los conceptos más complejos del tema y resolveremos las dudas que hayan surgido durante su estudio.",
+    "crumbs": [
+      "Índice",
+      "Sesiones teóricas",
+      "Fundamentos lingüísticos del PLN"
+    ]
+  },
+  {
+    "objectID": "docs/clasificadores.html",
+    "href": "docs/clasificadores.html",
+    "title": "Modelos de lengua para clasificación y traducción automática",
+    "section": "",
+    "text": "Fecha de la sesión: 1 de octubre de 2026\nUna de las reglas básicas a la hora de resolver problemas en el PLN es entender que no siempre es necesario usar modelos gigantescos para resolver ciertas tareas. Es cierto que los LLM tienen la interesante propiedad de poder afrontar tareas de clasificación de texto sin necesidad de ser entrenados específicamente para ello. Así, podemos instruirle mediante few-shot learning para que identifiquen el sentimiento o el tema de un texto, clasifiquen los nombres propios, o determinen las premisas y conclusiones de un argumento. Sin embargo, en muchas ocasiones podemos resolver este tipo de problemas usando una red neuronal más sencilla para obtener representaciones vectoriales de los textos y entrenando un clasificador sencillo sobre estas representaciones. Estos modelos también se denominan modelos de lengua, aunque para distinguirlos de los LLMs se suelen denominar modelos de lengua enmascarados (masked language models, en inglés), basándonos en la forma en que se suelen preentrenar.\nPor otro lado, la traducción automática es una de las tareas más exploradas en el PLN. Ya finales de los años 40 del siglo pasado, cuando los primeros computadores electrónicos acababan de aparecer, se planteó la posibilidad de usarlos para traducir textos de un idioma a otro. Aunque en la siguiente década se desarrollaron los primeros sistemas de traducción automática, no fue hasta la llegada de los modelos neuronales hacia finales de la segunda década del siglo XXI cuando la traducción automática entre lenguas con interés comercial y elevada disponibilidad de datos comenzó a tener la calidad suficiente como para no necesitar la corrección humana. No obstante, pese a estos avances, la traducción automática sigue siendo un reto en dominios como el literario o para miles de lenguas del mundo que no tienen la disponibilidad de datos suficiente para entrenar modelos de IA. La traducción automática puede abordarse con LLMs, pero también con modelos específicos más eficientes entrenados específicamente para esta tarea.\nEn esta sesión, estudiaremos tanto los modelos de lengua para clasificación como la traducción automática.\nRecuerda que esta asignatura sigue una metodología de clase invertida, por lo que antes de la sesión de teoría debes estudiar los materiales que se indican a continuación y realizar las actividades que se proponen. El tiempo medio estimado para el estudio es de unas 4 horas, aunque puede variar según tu nivel de conocimientos previos y tu experiencia en el estudio de este tipo de contenidos.",
+    "crumbs": [
+      "Índice",
+      "Sesiones teóricas",
+      "Modelos de lengua para clasificación y traducción automática"
+    ]
+  },
+  {
+    "objectID": "docs/clasificadores.html#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7334203e7d7d",
+    "href": "docs/clasificadores.html#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7334203e7d7d",
+    "title": "Modelos de lengua para clasificación y traducción automática",
+    "section": "Materiales a estudiar antes de la sesión del 1 de octubre de 2026",
+    "text": "Materiales a estudiar antes de la sesión del 1 de octubre de 2026\nEl contenido de esta sesión lo puedes encontrar en los siguientes apartados del libro de Jurafsky y Martin:\n\n\n\n\nCapítulo\nApartados o páginas\nContenido\n\n\n\n\nMasked language models §9\ncapítulo completo\nCodificadores bidireccionales, preentrenamiento y ajuste de modelos de lengua enmascarados\n\n\nMachine translation §13\ncapítulo completo\nLenguas del mundo, arquitectura codificador-descodificador, beam-search, evaluación",
+    "crumbs": [
+      "Índice",
+      "Sesiones teóricas",
+      "Modelos de lengua para clasificación y traducción automática"
+    ]
+  },
+  {
+    "objectID": "docs/clasificadores.html#actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7334203e7d7d",
+    "href": "docs/clasificadores.html#actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7334203e7d7d",
+    "title": "Modelos de lengua para clasificación y traducción automática",
+    "section": "Actividades previas a la sesión del 1 de octubre de 2026",
+    "text": "Actividades previas a la sesión del 1 de octubre de 2026\nUna vez hayas estudiado los materiales, realiza el test que puedes encontrar en el Moodle de la asignatura.\nEl plazo para realizar las actividades previas finaliza el día anterior a la sesión de teoría.",
+    "crumbs": [
+      "Índice",
+      "Sesiones teóricas",
+      "Modelos de lengua para clasificación y traducción automática"
+    ]
+  },
+  {
+    "objectID": "docs/clasificadores.html#evaluación-asistida-por-un-tutor-inteligente",
+    "href": "docs/clasificadores.html#evaluación-asistida-por-un-tutor-inteligente",
+    "title": "Modelos de lengua para clasificación y traducción automática",
+    "section": "Evaluación asistida por un tutor inteligente",
+    "text": "Evaluación asistida por un tutor inteligente\nUsa el siguiente prompt para evaluar tu comprensión de los conceptos fundamentales de esta sesión con ayuda de tu chat o agente de inteligencia artificial favorito.\n\nHola. Quiero que me ayudes a preparar la asignatura de Introducción al Procesamiento del Lenguaje Natural I de cuarto curso de un grado en Ingeniería en Inteligencia Artificial en el que estoy matriculado. Me he leído los contenidos del libro de Jurafsky y Martin (Speech and Language Processing) que te adjunto como PDF. Quiero que evalúes si soy capaz de responder con solvencia y con la misma profundidad teórica y formal con la que aparecen los contenidos en el texto.\nPara ello, actuaremos mediante un diálogo socrático guiado estricto, fundamentado en la taxonomía de Paul y Elder (clarificación de conceptos, examen de supuestos, solicitud de evidencias y análisis de casos límite). Tu comportamiento debe ajustarse sin excepción a las siguientes reglas:\n\nElige una única pregunta al azar de la lista que te proporciono al final y plantéamela para iniciar la sesión. No plantees más de una pregunta a la vez.\nEspera a que yo redacte mi respuesta.\nAnaliza críticamente mi intervención contrastándola con el contenido del libro de Jurafsky y Martin adjunto:\n\nNunca me des la respuesta correcta ni completes las explicaciones por mí, bajo ninguna circunstancia.\nSi mi respuesta es incompleta o imprecisa, hazme una pregunta de clarificación o señálame qué concepto específico debo revisar en los materiales.\nSi cometo un error conceptual, no lo corrijas directamente: plantéame un contraejemplo, una contradicción lógica en mi argumento o una pregunta sobre las consecuencias de mi razonamiento para que yo mismo descubra el fallo.\nSi mi respuesta es correcta pero superficial, exige mayor rigor formal, detalle matemático o precisión terminológica.\n\nMantén el diálogo de forma iterativa (pregunta, respuesta, repregunta) hasta que concluyas que he cubierto la cuestión con el nivel de dominio y profundidad requerido por el texto.\nSolo cuando el tema haya quedado completamente resuelto y fundamentado por mi parte, haz un breve cierre de validación y selecciona al azar la siguiente pregunta de la lista.\n\nElige una de las siguientes preguntas y comienza:\n\n¿Por qué puede interesar entrenar un modelo de lengua enmascarado y no un modelo de lengua causal?\n¿Cuáles son las diferencias a nivel de arquitectura y de la forma de trabajar con la secuencia de entrada entre un modelo de lengua enmascarado y un modelo de lengua causal?\n¿Cómo se usan máscaras a la entrada de un modelo preentrenado y cuál es su objetivo?\n¿Por qué se considera adicionalmente en ciertas ocasiones la tarea de predicción de la siguiente frase en el preentrenamiento de un modelo de lengua enmascarado?\n¿Cómo se aplica un clasificador basado en codificador bidireccional a una tarea de detección de entidades nombradas?\n¿Con qué arquitecturas basadas en el transformer se puede abordar la traducción automática y cuáles son sus diferencias?\n¿Por qué se usa la búsqueda por haz (beam search) en la descodificación de un modelo de traducción automática y no se usa la predicción de la palabra más probable en cada paso o se muestrea la distribución de probabilidad de la siguiente palabra?\n¿Por qué existen métricas neuronales y no neuronales para evaluar la calidad de la traducción automática y cuáles son sus diferencias?",
+    "crumbs": [
+      "Índice",
+      "Sesiones teóricas",
+      "Modelos de lengua para clasificación y traducción automática"
+    ]
+  },
+  {
+    "objectID": "docs/clasificadores.html#contenidos-de-la-sesión",
+    "href": "docs/clasificadores.html#contenidos-de-la-sesión",
+    "title": "Modelos de lengua para clasificación y traducción automática",
+    "section": "Contenidos de la sesión",
+    "text": "Contenidos de la sesión\nEn la sesión de teoría presencial repasaremos los conceptos más complejos del tema y resolveremos las dudas que hayan surgido durante su estudio.",
+    "crumbs": [
+      "Índice",
+      "Sesiones teóricas",
+      "Modelos de lengua para clasificación y traducción automática"
+    ]
+  },
+  {
+    "objectID": "docs/interpretabilidad.html",
+    "href": "docs/interpretabilidad.html",
+    "title": "Interpretabilidad",
+    "section": "",
+    "text": "Fecha de la sesión: 22 de octubre de 2026\nLa interpretabilidad estudia cómo los modelos neuronales representan y procesan la información, localizando los circuitos que implementan los algoritmos que resuelven una tarea concreta. El conocimiento adquirido permite, en ocasiones, la intervención externa en el comportamiento del modelo para inducir cambios en su funcionamiento. Esta sesión es un tanto especial, ya que al no existir ningún documento educativo que integre adecuadamente los conceptos de interpretabilidad, leerás un artículo de investigación que describe un experimento de interpretabilidad en el que se localiza un circuito que implementa la regla de concordancia sujeto-verbo en inglés y español. El objetivo no es solo que leas el artículo, sino que amplíes en otras fuentes los conceptos de interpretabilidad que se presentan en él (parcheo de activaciones, atribución de logits, intervención de activaciones, localización de circuitos, componentes principales, etc.).\nRecuerda que esta asignatura sigue una metodología de clase invertida, por lo que antes de la sesión de teoría debes estudiar los materiales que se indican a continuación y realizar las actividades que se proponen. El tiempo medio estimado para el estudio es de unas 3 horas, aunque puede variar según tu nivel de conocimientos previos y tu experiencia en el estudio de este tipo de contenidos.",
+    "crumbs": [
+      "Índice",
+      "Sesiones teóricas",
+      "Interpretabilidad"
+    ]
+  },
+  {
+    "objectID": "docs/interpretabilidad.html#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7337203e7d7d",
+    "href": "docs/interpretabilidad.html#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7337203e7d7d",
+    "title": "Interpretabilidad",
+    "section": "Materiales a estudiar antes de la sesión del 22 de octubre de 2026",
+    "text": "Materiales a estudiar antes de la sesión del 22 de octubre de 2026\nEl contenido de esta sesión lo puedes encontrar en el artículo siguiente, que tendrás que ampliar con otras fuentes de información sobre las técnicas de interpretabilidad que se mencionan en él.\n\n\n\n\nCapítulo\nApartados o páginas\nContenido\n\n\n\n\nOn the Similarity of Circuits across Languages: a Case Study on the Subject-verb Agreement Task\nartículo completo\nParcheo de activaciones, atribución de logits, intervención de activaciones",
+    "crumbs": [
+      "Índice",
+      "Sesiones teóricas",
+      "Interpretabilidad"
+    ]
+  },
+  {
+    "objectID": "docs/interpretabilidad.html#actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7337203e7d7d",
+    "href": "docs/interpretabilidad.html#actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7337203e7d7d",
+    "title": "Interpretabilidad",
+    "section": "Actividades previas a la sesión del 22 de octubre de 2026",
+    "text": "Actividades previas a la sesión del 22 de octubre de 2026\nUna vez hayas estudiado los materiales, realiza el test que puedes encontrar en el Moodle de la asignatura.\nEl plazo para realizar las actividades previas finaliza el día anterior a la sesión de teoría.",
+    "crumbs": [
+      "Índice",
+      "Sesiones teóricas",
+      "Interpretabilidad"
+    ]
+  },
+  {
+    "objectID": "docs/interpretabilidad.html#evaluación-asistida-por-un-tutor-inteligente",
+    "href": "docs/interpretabilidad.html#evaluación-asistida-por-un-tutor-inteligente",
+    "title": "Interpretabilidad",
+    "section": "Evaluación asistida por un tutor inteligente",
+    "text": "Evaluación asistida por un tutor inteligente\nUsa el siguiente prompt para evaluar tu comprensión de los conceptos fundamentales de esta sesión con ayuda de tu chat o agente de inteligencia artificial favorito.\n\nHola. Quiero que me ayudes a preparar la asignatura de Introducción al Procesamiento del Lenguaje Natural I de cuarto curso de un grado en Ingeniería en Inteligencia Artificial en el que estoy matriculado. Me he leído los contenidos del libro de Jurafsky y Martin (Speech and Language Processing) que te adjunto como PDF. Quiero que evalúes si soy capaz de responder con solvencia y con la misma profundidad teórica y formal con la que aparecen los contenidos en el texto.\nPara ello, actuaremos mediante un diálogo socrático guiado estricto, fundamentado en la taxonomía de Paul y Elder (clarificación de conceptos, examen de supuestos, solicitud de evidencias y análisis de casos límite). Tu comportamiento debe ajustarse sin excepción a las siguientes reglas:\n\nElige una única pregunta al azar de la lista que te proporciono al final y plantéamela para iniciar la sesión. No plantees más de una pregunta a la vez.\nEspera a que yo redacte mi respuesta.\nAnaliza críticamente mi intervención contrastándola con el contenido del libro de Jurafsky y Martin adjunto:\n\nNunca me des la respuesta correcta ni completes las explicaciones por mí, bajo ninguna circunstancia.\nSi mi respuesta es incompleta o imprecisa, hazme una pregunta de clarificación o señálame qué concepto específico debo revisar en los materiales.\nSi cometo un error conceptual, no lo corrijas directamente: plantéame un contraejemplo, una contradicción lógica en mi argumento o una pregunta sobre las consecuencias de mi razonamiento para que yo mismo descubra el fallo.\nSi mi respuesta es correcta pero superficial, exige mayor rigor formal, detalle matemático o precisión terminológica.\n\nMantén el diálogo de forma iterativa (pregunta, respuesta, repregunta) hasta que concluyas que he cubierto la cuestión con el nivel de dominio y profundidad requerido por el texto.\nSolo cuando el tema haya quedado completamente resuelto y fundamentado por mi parte, haz un breve cierre de validación y selecciona al azar la siguiente pregunta de la lista.\n\nElige una de las siguientes preguntas y comienza:\n\n¿Qué es la interpretabilidad en el contexto de los modelos de PLN?\n¿En qué consiste el parcheo de activaciones y qué nos permite aprender sobre el comportamiento de un modelo?\n¿Qué es la atribución de logits y cómo se utiliza para entender las decisiones de un modelo?\n¿Cómo se puede intervenir en las activaciones de un modelo y cómo determinamos dónde realizar dicha intervención?\n¿Qué circuito se localiza en el artículo y por qué coincide en español e inglés?",
+    "crumbs": [
+      "Índice",
+      "Sesiones teóricas",
+      "Interpretabilidad"
+    ]
+  },
+  {
+    "objectID": "docs/interpretabilidad.html#contenidos-de-la-sesión",
+    "href": "docs/interpretabilidad.html#contenidos-de-la-sesión",
+    "title": "Interpretabilidad",
+    "section": "Contenidos de la sesión",
+    "text": "Contenidos de la sesión\nEn la sesión de teoría presencial repasaremos los conceptos más complejos del tema y resolveremos las dudas que hayan surgido durante su estudio.",
+    "crumbs": [
+      "Índice",
+      "Sesiones teóricas",
+      "Interpretabilidad"
+    ]
+  },
+  {
+    "objectID": "docs/practica2.html",
+    "href": "docs/practica2.html",
+    "title": "Práctica 2: temas complejos de PLN.",
+    "section": "",
+    "text": "En esta práctica se proponen diferentes retos de procesamiento lingüístico para los que hoy día no hay una solución satisfatoria. El objetivo general de la práctica es reflexionar sobre estos problemas y proponer soluciones funcionales.\nPara cada reto el alumnado, por equipos, debe crear un script en Python que le dé solución parcial y justificar la aproximación presentada. El script debe funcionar en un cuaderno COLAB y procesar el texto que se indique en el enunciado de cada reto. A modo de ``campaña de evaluación’’, los scripts se evaluarán con respecto a un gold standard marcado a mano por expertos. Además se valorará el grado de madurez y originalidad de la propuesta implementada.",
     "crumbs": [
       "Índice",
       "Sesiones prácticas",
-      "Introducción a PyTorch"
+      "Práctica 2"
+    ]
+  },
+  {
+    "objectID": "docs/practica2.html#retos",
+    "href": "docs/practica2.html#retos",
+    "title": "Práctica 2: temas complejos de PLN.",
+    "section": "Retos",
+    "text": "Retos\n\nExtracción de personajes y resolución de correferencias en texto narrativo. Enunciado completo\n…\n…",
+    "crumbs": [
+      "Índice",
+      "Sesiones prácticas",
+      "Práctica 2"
+    ]
+  },
+  {
+    "objectID": "docs/practica2.html#escritura-de-la-memoria",
+    "href": "docs/practica2.html#escritura-de-la-memoria",
+    "title": "Práctica 2: temas complejos de PLN.",
+    "section": "Escritura de la memoria",
+    "text": "Escritura de la memoria\nTenéis que entregar una memoria de la práctica en la que se describan los problemas tratados, las soluciones propuestas, los resultados obtenidos e ideas con posibles mejoras futuras. La memoria ha de seguir el formato de los artículos de la ACL (Association for Computational Linguistics). Aunque hay una versión en formato DOCX, es recomendable que uses la plantilla para LaTeX.\nLa memoria ha de tener una longitud máxima de 4 páginas por reto, excluidas las referencias.",
+    "crumbs": [
+      "Índice",
+      "Sesiones prácticas",
+      "Práctica 2"
+    ]
+  },
+  {
+    "objectID": "docs/practica2.html#entrega",
+    "href": "docs/practica2.html#entrega",
+    "title": "Práctica 2: temas complejos de PLN.",
+    "section": "Entrega",
+    "text": "Entrega\nEl enlace al cuaderno COLAB de cada reto se entregará según se indique en el enunciado.\nLa memoria final se entregará en formato PDF a través del Moodle de la asignatura. La fecha límite de entrega es el 14 de diciembre de 2026.",
+    "crumbs": [
+      "Índice",
+      "Sesiones prácticas",
+      "Práctica 2"
+    ]
+  },
+  {
+    "objectID": "docs/pretraining.html",
+    "href": "docs/pretraining.html",
+    "title": "Transformers y preentrenamiento de modelos de lengua",
+    "section": "",
+    "text": "Fecha de la sesión: 24 de septiembre de 2026\nUn modelo de lengua es básicamente un sistema que dado un prefijo de texto, predice las probabilidades que tienen las palabas de un conjunto llamado vocabulario de ser la siguiente palabra del texto. Los modelos de lengua no son una invención reciente. Su origen se puede situar décadas antes de la llegada de los computadores electrónicos, cuando en los primeros años del siglo XX Andréi Márkov modeló los caracteres de un texto como un proceso estocástico. Claude Shannon a finales de los años 40 perfeccionó la formalización de las ideas de Markov usando el concepto de n-grama (modelos probabilísticos en los que la probabilidad de una palabra depende de las n-1 palabras anteriores) para estimar la entropía de la lengua inglesa. Ya en el siglo XXI con el auge del aprendizaje profundo los modelos de lengua basados en redes neuronales se consolidan como la alternativa más potente para modelar el lenguaje natural. Aunque ya existían modelos de lengua neuronales mucho antes de la llegada de la arquitectura transformer, es esta arquitectura la que más ha contribuido al entrenamiento masivo y popularización de los modelos de lengua en los llamados modelos de lengua masivos (LLMs, por el inglés, large language models). En esta sesión, repasarás los elementos fundamentales del transformer y estudiarás cómo se entrenan y usan los LLMs.\nRecuerda que esta asignatura sigue una metodología de clase invertida, por lo que antes de la sesión de teoría debes estudiar los materiales que se indican a continuación y realizar las actividades que se proponen. El tiempo medio estimado para el estudio es de unas 3 horas, aunque puede variar según tu nivel de conocimientos previos y tu experiencia en el estudio de este tipo de contenidos.",
+    "crumbs": [
+      "Índice",
+      "Sesiones teóricas",
+      "Transformers y preentrenamiento de modelos de lengua"
+    ]
+  },
+  {
+    "objectID": "docs/pretraining.html#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7333203e7d7d",
+    "href": "docs/pretraining.html#materiales-a-estudiar-antes-de-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7333203e7d7d",
+    "title": "Transformers y preentrenamiento de modelos de lengua",
+    "section": "Materiales a estudiar antes de la sesión del 24 de septiembre de 2026",
+    "text": "Materiales a estudiar antes de la sesión del 24 de septiembre de 2026\nEl contenido de esta sesión lo puedes encontrar en los siguientes apartados del libro de Jurafsky y Martin:\n\n\n\n\nCapítulo\nApartados o páginas\nContenido\n\n\n\n\nTransformers and pretraining §7\ncapítulo completo\nMecanismo de atención, bloques de un transformer, descodificación",
+    "crumbs": [
+      "Índice",
+      "Sesiones teóricas",
+      "Transformers y preentrenamiento de modelos de lengua"
+    ]
+  },
+  {
+    "objectID": "docs/pretraining.html#actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7333203e7d7d",
+    "href": "docs/pretraining.html#actividades-previas-a-la-sesión-del-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20766172206665636861732e74656f7269612e7333203e7d7d",
+    "title": "Transformers y preentrenamiento de modelos de lengua",
+    "section": "Actividades previas a la sesión del 24 de septiembre de 2026",
+    "text": "Actividades previas a la sesión del 24 de septiembre de 2026\nUna vez hayas estudiado los materiales, realiza el test que puedes encontrar en el Moodle de la asignatura.\nEl plazo para realizar las actividades previas finaliza el día anterior a la sesión de teoría.",
+    "crumbs": [
+      "Índice",
+      "Sesiones teóricas",
+      "Transformers y preentrenamiento de modelos de lengua"
+    ]
+  },
+  {
+    "objectID": "docs/pretraining.html#evaluación-asistida-por-un-tutor-inteligente",
+    "href": "docs/pretraining.html#evaluación-asistida-por-un-tutor-inteligente",
+    "title": "Transformers y preentrenamiento de modelos de lengua",
+    "section": "Evaluación asistida por un tutor inteligente",
+    "text": "Evaluación asistida por un tutor inteligente\nUsa el siguiente prompt para evaluar tu comprensión de los conceptos fundamentales de esta sesión con ayuda de tu chat o agente de inteligencia artificial favorito.\n\nHola. Quiero que me ayudes a preparar la asignatura de Introducción al Procesamiento del Lenguaje Natural I de cuarto curso de un grado en Ingeniería en Inteligencia Artificial en el que estoy matriculado. Me he leído los contenidos del libro de Jurafsky y Martin (Speech and Language Processing) que te adjunto como PDF. Quiero que evalúes si soy capaz de responder con solvencia y con la misma profundidad teórica y formal con la que aparecen los contenidos en el texto.\nPara ello, actuaremos mediante un diálogo socrático guiado estricto, fundamentado en la taxonomía de Paul y Elder (clarificación de conceptos, examen de supuestos, solicitud de evidencias y análisis de casos límite). Tu comportamiento debe ajustarse sin excepción a las siguientes reglas:\n\nElige una única pregunta al azar de la lista que te proporciono al final y plantéamela para iniciar la sesión. No plantees más de una pregunta a la vez.\nEspera a que yo redacte mi respuesta.\nAnaliza críticamente mi intervención contrastándola con el contenido del libro de Jurafsky y Martin adjunto:\n\nNunca me des la respuesta correcta ni completes las explicaciones por mí, bajo ninguna circunstancia.\nSi mi respuesta es incompleta o imprecisa, hazme una pregunta de clarificación o señálame qué concepto específico debo revisar en los materiales.\nSi cometo un error conceptual, no lo corrijas directamente: plantéame un contraejemplo, una contradicción lógica en mi argumento o una pregunta sobre las consecuencias de mi razonamiento para que yo mismo descubra el fallo.\nSi mi respuesta es correcta pero superficial, exige mayor rigor formal, detalle matemático o precisión terminológica.\n\nMantén el diálogo de forma iterativa (pregunta, respuesta, repregunta) hasta que concluyas que he cubierto la cuestión con el nivel de dominio y profundidad requerido por el texto.\nSolo cuando el tema haya quedado completamente resuelto y fundamentado por mi parte, haz un breve cierre de validación y selecciona al azar la siguiente pregunta de la lista.\n\nElige una de las siguientes preguntas y comienza:\n\n¿Por qué el mecanismo de atención se calcula de la forma que se calcula en un transformer y no de otras formas?\n¿Qué efecto tiene en estrategias de descodificación como top-k$ o top-p* el valor del parámetro correspondiente (k o p)? ¿Y el valor de la temperatura?\n¿Puede el contexto de un transformer ser indefinidamente largo? ¿Qué elementos influyen en ello?\n¿Cuál es el propósito de la normalización de capa?\n¿Cuál es el propósito de los embeddings posicionales?\n¿Qué papel juega el flujo residual (residual stream) en el entrenamiento y en la inferencia de un transformer?",
+    "crumbs": [
+      "Índice",
+      "Sesiones teóricas",
+      "Transformers y preentrenamiento de modelos de lengua"
+    ]
+  },
+  {
+    "objectID": "docs/pretraining.html#contenidos-de-la-sesión",
+    "href": "docs/pretraining.html#contenidos-de-la-sesión",
+    "title": "Transformers y preentrenamiento de modelos de lengua",
+    "section": "Contenidos de la sesión",
+    "text": "Contenidos de la sesión\nEn la sesión de teoría presencial repasaremos los conceptos más complejos del tema y resolveremos las dudas que hayan surgido durante su estudio.",
+    "crumbs": [
+      "Índice",
+      "Sesiones teóricas",
+      "Transformers y preentrenamiento de modelos de lengua"
+    ]
+  },
+  {
+    "objectID": "docs/repaso.html",
+    "href": "docs/repaso.html",
+    "title": "Repaso de regresores y redes feedforward",
+    "section": "",
+    "text": "Fecha de la sesión: 10 de septiembre de 2026\nEn cursos anteriores has estudiado los regresores y las redes neuronales feedforward como herramientas básicas del aprendizaje automático. En esta sesión repasaremos estas arquitecturas centrándonos en su aplicación al procesamiento del lenguaje natural (PLN). Aunque las redes neuronales que se utilizan hoy día para el PLN son más complejas (por ejemplo, los transformers), los conceptos fundamentales que se aprenden con estas otras arquitecturas se manifiestan también en las redes neuronales más avanzadas. Por ello, es importante que tengas bien consolidadas estas bases.\nEsta es la única sesión del curso en la que no seguiremos la metodología de la clase invertida, sino que se impartirá de manera tradicional.",
+    "crumbs": [
+      "Índice",
+      "Sesiones teóricas",
+      "Repaso de regresores y redes feedforward"
+    ]
+  },
+  {
+    "objectID": "docs/repaso.html#conceptos-fundamentales",
+    "href": "docs/repaso.html#conceptos-fundamentales",
+    "title": "Repaso de regresores y redes feedforward",
+    "section": "Conceptos fundamentales",
+    "text": "Conceptos fundamentales\nEl contenido de esta sesión lo puedes encontrar en los siguientes apartados del libro de Jurafsky y Martin:\n\n\n\n\nCapítulo\nApartados o páginas\nContenido\n\n\n\n\nLogistic regression §4\n4.1 a 4.11\nRegresión binaria y multinomial\n\n\nNeural networks §6\n6.1 a 6.6\nRedes feedforward\n\n\n\n\nLa figura 6.14 y la explicación de la misma en el texto principal es muy importante para prepararte para las sesiones posteriores. En ella se muestra un sencillo modelo de lengua basado en una red neuronal feedforward que predice el siguiente token a partir de los tres tokens anteriores. Aunque los modelos de lengua actuales son normalmente mucho más complejos, este ejemplo te ayudará a entender los conceptos fundamentales de los modelos de lengua y su entrenamiento.",
+    "crumbs": [
+      "Índice",
+      "Sesiones teóricas",
+      "Repaso de regresores y redes feedforward"
+    ]
+  },
+  {
+    "objectID": "docs/repaso.html#evaluación-asistida-por-un-tutor-inteligente",
+    "href": "docs/repaso.html#evaluación-asistida-por-un-tutor-inteligente",
+    "title": "Repaso de regresores y redes feedforward",
+    "section": "Evaluación asistida por un tutor inteligente",
+    "text": "Evaluación asistida por un tutor inteligente\nUsa el siguiente prompt para evaluar tu comprensión de los conceptos fundamentales de esta sesión con ayuda de tu chat o agente de inteligencia artificial favorito.\n\nHola. Quiero que me ayudes a preparar la asignatura de Introducción al Procesamiento del Lenguaje Natural I de cuarto curso de un grado en Ingeniería en Inteligencia Artificial en el que estoy matriculado. Me he leído los contenidos del libro de Jurafsky y Martin (Speech and Language Processing) que te adjunto como PDF. Quiero que evalúes si soy capaz de responder con solvencia y con la misma profundidad teórica y formal con la que aparecen los contenidos en el texto.\nPara ello, actuaremos mediante un diálogo socrático guiado estricto, fundamentado en la taxonomía de Paul y Elder (clarificación de conceptos, examen de supuestos, solicitud de evidencias y análisis de casos límite). Tu comportamiento debe ajustarse sin excepción a las siguientes reglas:\n\nElige una única pregunta al azar de la lista que te proporciono al final y plantéamela para iniciar la sesión. No plantees más de una pregunta a la vez.\nEspera a que yo redacte mi respuesta.\nAnaliza críticamente mi intervención contrastándola con el contenido del libro de Jurafsky y Martin adjunto:\n\nNunca me des la respuesta correcta ni completes las explicaciones por mí, bajo ninguna circunstancia.\nSi mi respuesta es incompleta o imprecisa, hazme una pregunta de clarificación o señálame qué concepto específico debo revisar en los materiales.\nSi cometo un error conceptual, no lo corrijas directamente: plantéame un contraejemplo, una contradicción lógica en mi argumento o una pregunta sobre las consecuencias de mi razonamiento para que yo mismo descubra el fallo.\nSi mi respuesta es correcta pero superficial, exige mayor rigor formal, detalle matemático o precisión terminológica.\n\nMantén el diálogo de forma iterativa (pregunta, respuesta, repregunta) hasta que concluyas que he cubierto la cuestión con el nivel de dominio y profundidad requerido por el texto.\nSolo cuando el tema haya quedado completamente resuelto y fundamentado por mi parte, haz un breve cierre de validación y selecciona al azar la siguiente pregunta de la lista.\n\nElige una de las siguientes preguntas y comienza:\n\n¿Qué diferencia hay entre un regresor y una red neuronal feedforward? ¿Qué ventajas tiene cada uno de ellos?\n¿Qué son la entropía y la entropía cruzada y por qué se usan como función de pérdida en problemas de clasificación?\n¿Qué papel juegan las derivadas parciales y el gradiente en el entrenamiento de una red neuronal?\n¿Por qué necesitamos evaluar la significancia estadística de los resultados de un modelo de aprendizaje automático y cómo se hace?\n¿Qué medidas se suelen usar para evaluar el rendimiento de un clasificador y por qué no hay una sola?\n¿En qué se diferencia el entrenamiento y uso de un regresor multinomial del de una red neuronal feedforward para clasificación?\n¿Cómo se implementa el entrenamiento o la inferencia de regresores y redes feedforward con un mini-batch de datos y por qué se hace así?",
+    "crumbs": [
+      "Índice",
+      "Sesiones teóricas",
+      "Repaso de regresores y redes feedforward"
     ]
   },
   {

@@ -2,50 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://jaspock.github.io/plni/index.html</loc>
-    <lastmod>2026-10-26T15:24:42.188Z</lastmod>
+    <lastmod>2026-10-31T06:23:00.813Z</lastmod>
   </url>
   <url>
-    <loc>https://jaspock.github.io/plni/docs/repaso.html</loc>
-    <lastmod>2026-10-26T15:24:42.187Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jaspock.github.io/plni/docs/pretraining.html</loc>
-    <lastmod>2026-10-26T15:24:42.187Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jaspock.github.io/plni/docs/practica2.html</loc>
-    <lastmod>2026-10-26T15:24:42.187Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jaspock.github.io/plni/docs/interpretabilidad.html</loc>
-    <lastmod>2026-10-26T15:24:42.187Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jaspock.github.io/plni/docs/clasificadores.html</loc>
-    <lastmod>2026-10-26T15:24:42.187Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jaspock.github.io/plni/docs/abpl.html</loc>
-    <lastmod>2026-10-26T15:24:42.180Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jaspock.github.io/plni/docs/embeddings.html</loc>
-    <lastmod>2026-10-26T15:24:42.187Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jaspock.github.io/plni/docs/post.html</loc>
-    <lastmod>2026-10-26T15:24:42.187Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jaspock.github.io/plni/docs/practicallm.html</loc>
-    <lastmod>2026-10-26T15:24:42.187Z</lastmod>
+    <loc>https://jaspock.github.io/plni/docs/sintaxis.html</loc>
+    <lastmod>2026-10-31T06:23:00.813Z</lastmod>
   </url>
   <url>
     <loc>https://jaspock.github.io/plni/docs/pytorch.html</loc>
-    <lastmod>2026-10-26T15:24:42.187Z</lastmod>
+    <lastmod>2026-10-31T06:23:00.813Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jaspock.github.io/plni/docs/practicallm.html</loc>
+    <lastmod>2026-10-31T06:23:00.813Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jaspock.github.io/plni/docs/post.html</loc>
+    <lastmod>2026-10-31T06:23:00.813Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jaspock.github.io/plni/docs/embeddings.html</loc>
+    <lastmod>2026-10-31T06:23:00.812Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jaspock.github.io/plni/docs/abpl.html</loc>
+    <lastmod>2026-10-31T06:23:00.807Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jaspock.github.io/plni/docs/clasificadores.html</loc>
+    <lastmod>2026-10-31T06:23:00.812Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jaspock.github.io/plni/docs/interpretabilidad.html</loc>
+    <lastmod>2026-10-31T06:23:00.812Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jaspock.github.io/plni/docs/practica2.html</loc>
+    <lastmod>2026-10-31T06:23:00.813Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jaspock.github.io/plni/docs/pretraining.html</loc>
+    <lastmod>2026-10-31T06:23:00.813Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jaspock.github.io/plni/docs/repaso.html</loc>
+    <lastmod>2026-10-31T06:23:00.813Z</lastmod>
   </url>
   <url>
     <loc>https://jaspock.github.io/plni/docs/speech.html</loc>
-    <lastmod>2026-10-26T15:24:42.188Z</lastmod>
+    <lastmod>2026-10-31T06:23:00.813Z</lastmod>
   </url>
 </urlset>
