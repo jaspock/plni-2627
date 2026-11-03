@@ -1,0 +1,219 @@
+<!-- Anotación manual de los personajes del cap. 13 de la novela _Sab_ de Gómez de Avellaneda.
+
+@ref es un identificador único por cada personaje para marcar las correferencias.
+
+Texto original (sin anotación personajes): https://github.com/COST-ELTeC/ELTeC-spa/blob/master/level1/SPA1021_GomezDeAvellaneda_Sab.xml
+
+Borja Navarro Colorado - Universidad de Alicante, 2026 -->
+
+<div type="chapter" n="SPA1021013">
+<head>Capítulo II</head>
+
+<quote>
+<l>«¿Qué haré?, ¿qué medio hallaré</l>
+<l>donde no ha de hallarse medio?,</l>
+<l>mas si el morir es remedio</l>
+<l>remedio en morir tendré.»</l>
+<p>Lope de Vega</p>
+</quote>
+
+<p>-¡Pobre <rs type="person" ref="#pr001">Sab</rs>! -exclamó <rs type="person" ref="#pr004">Teresa</rs>-, ¡cuánto habrás padecido al saber que <rs type="person" ref="#pr002">ese ángel de tus ilusiones</rs> quería entregarse a un mortal!</p>
+
+<p>-¡Indigno de <rs type="person" ref="#pr002">Carlota</rs>! -añadió con tristeza <rs type="person" ref="#pr001">el mulato</rs>-. Sí, <rs type="person" ref="#pr004">Teresa</rs>, cien veces más indigno que <rs type="person" ref="#pr001">yo</rs>, no obstante su tez de nieve y su cabellera de oro. Si no lo fuese, si <rs type="person" ref="#pr003">ese hombre</rs> mereciese el amor de <rs type="person" ref="#pr002">Carlota</rs>, <pb n="29"/> creedme, el corazón que se encierra en este pecho sería bastante generoso para no aborrecerle. «¡Hazla feliz!» le diría <rs type="person" ref="#pr001">yo</rs>, y moriría de celos bendiciendo a <rs type="person" ref="#pr003">aquel hombre</rs>. Pero no, <rs type="person" ref="#pr003">él</rs> no es digno de <rs type="person" ref="#pr002">ella</rs>: <rs type="person" ref="#pr002">ella</rs> no puede ser dichosa con <rs type="person" ref="#pr003">Enrique Otway</rs>..., ¡ved aquí el motivo de mi desesperación! <rs type="person" ref="#pr002">Carlota</rs> en brazos de un hombre era un dolor..., ¡un dolor terrible!, pero <rs type="person" ref="#pr001">yo</rs> hubiera hallado en mi alma fuerzas para soportarlo. Mas <rs type="person" ref="#pr002">Carlota</rs> entregada a un miserable... ¡oh, Dios! ¡Dios terrible!..., ¡esto es demasiado!, había aceptado el cáliz con resignación y tú quisiste emponzoñar su hiel.</p>
+
+<p>»No volví a la ciudad hasta el mes anterior al pasado. Hacía ya cerca de dos que estaba decidido el casamiento de <rs type="person" ref="#pr002">Carlota</rs>, pero nada se me dijo de él y no habiendo estado sino tres días en la ciudad, siempre ocupado en asuntos de <rs type="person" ref="#pr005">mi amo</rs>, no vi nunca a <rs type="person" ref="#pr003">Otway</rs> y volví a Bellavista sin sospechar que se preparaba  <rs type="person" ref="#pr002">la señorita de B...</rs> a un lazo indisoluble. Ni <rs type="person" ref="#pr005">mi amo</rs>, ni <rs type="person" ref="#pr018">Belén</rs>, ni <rs type="person" ref="#pr004">vos</rs>, señora..., nadie me dijo <pb n="30"/> que <rs type="person" ref="#pr002">Carlota</rs> sería en breve la esposa de un extranjero. ¡El destino quiso que recibiese el golpe de la mano aborrecida!</p>
+
+<p><rs type="person" ref="#pr001">Sab</rs>recibió entonces su primer encuentro con <rs type="person" ref="#pr003">Enrique</rs> y, como si fuese de un peso mayor que todos sus otros dolores, quedó después de dicha relación sumido en un profundo abatimiento.</p>
+
+<p>-<rs type="person" ref="#pr001">Sab</rs> -díjole <rs type="person" ref="#pr004">Teresa</rs> con acento conmovido-, <rs type="person" ref="#pr004">yo</rs> te compadezco, <rs type="person" ref="#pr001">tú</rs> lo conoces, pero, ¡ah!, ¿qué puedo hacer por <rs type="person" ref="#pr001">ti</rs>?...</p>
+
+<p>-Mucho -respondió levantando su frente, animada súbitamente de una expresión enérgica-; mucho, <rs type="person" ref="#pr004">Teresa</rs>: <rs type="person" ref="#pr004">vos</rs> podéis impedir que caiga <rs type="person" ref="#pr002">Carlota</rs> en los brazos de un inglés, y supuesto que <rs type="person" ref="#pr004">vos</rs> le amáis, sed su esposa.</p>
+
+<p>-¡<rs type="person" ref="#pr004">Yo</rs>!, ¿qué estáis diciendo, <rs type="person" ref="#pr001">pobre joven</rs>?, ¡<rs type="person" ref="#pr004">yo</rs> puedo ser esposa del <rs type="person" ref="#pr003">amante de Carlota</rs>!</p>
+
+<p>-¡Su amante! -repitió <rs type="person" ref="#pr001">él</rs> con sardónica sonrisa-; os engañáis, <rs type="person" ref="#pr004">señora</rs>, <rs type="person" ref="#pr003">Enrique Otway</rs> no ama a <rs type="person" ref="#pr002">Carlota</rs>.</p>
+
+<p>-¡No la ama!, ¿y por qué pues ha solicitado su mano?</p>
+
+<pb n="31"/>
+
+<p>-Porque entonces <rs type="person" ref="#pr002">la señorita de B...</rs> era rica -respondió <rs type="person" ref="#pr001">el mulato</rs> con acento de íntima convicción-; porque todavía no había perdido <rs type="person" ref="#pr005">su padre</rs> el pleito que le despoja de una gran parte de su fortuna; porque aún no había sido desheredada por <rs type="person" ref="#pr007">su Luis</rs>; ¿me entendéis ahora, <rs type="person" ref="#pr004">Teresa</rs>?</p>
+
+<p>-Te entiendo -dijo <rs type="person" ref="#pr004">ella</rs>-, y lo creo injusto.</p>
+
+<p>-No -repuso <rs type="person" ref="#pr001">Sab</rs>-, no escucho ni a mis celos ni a mi aborrecimiento al juzgar a <rs type="person" ref="#pr003">ese extranjero</rs>. <rs type="person" ref="#pr001">Yo</rs> he sido la sombra que por espacio de muchos días ha seguido constantemente sus pasos; <rs type="person" ref="#pr001">yo</rs> el que ha estudiado a todas horas su conducta, sus miradas, sus pensamientos..., <rs type="person" ref="#pr001">yo</rs> quien ha sorprendido las palabras que se le escapaban cuando se creía solo y aun las que profería en sus ensueños, cuando dormía: <rs type="person" ref="#pr001">yo</rs> quien ha ganado a sus esclavos para saber de ellos las conversaciones que se suscitaban entre <rs type="person" ref="#pr006">padre</rs> e <rs type="person" ref="#pr003">hijo</rs>, conversaciones que rara vez se escapan a un doméstico interior, cuando quiere oírlas. ¡No era preciso tanto, sin embargo! Desde la primera vez que examiné a <rs type="person" ref="#pr003">ese extranjero</rs>, <pb n="32"/> conocí que el alma que se encerraba en tan hermoso cuerpo era huésped mezquino de un soberbio alojamiento.</p>
+
+<p>-<rs type="person" ref="#pr001">Sab</rs>-dijo <rs type="person" ref="#pr004">Teresa</rs>-, me dejas atónita: luego <rs type="person" ref="#pr001">tú</rs> crees...</p>
+
+<p><rs type="person" ref="#pr001">El mulato</rs> no la dejó concluir:</p>
+
+<p>-Creo -respondió- que <rs type="person" ref="#pr003">Enrique</rs> está arrepentido del compromiso que lo liga a una mujer que no es ya más que un partido adocenado. Creo que <rs type="person" ref="#pr006">el padre</rs> no consentirá gustoso en esa unión, sobre todo si se presenta a <rs type="person" ref="#pr003">su hijo</rs> una boda más ventajosa, y creo, <rs type="person" ref="#pr004">Teresa</rs>, que <rs type="person" ref="#pr004">vos</rs> sois ese partido que <rs type="person" ref="#pr003">el joven</rs> y <rs type="person" ref="#pr006">el viejo</rs> aceptarán sin vacilar.</p>
+
+<p><rs type="person" ref="#pr004">Teresa</rs> creyó que soñaba.</p>
+
+<p>-«¡<rs type="person" ref="#pr004">Yo</rs>!», -repitió por tres veces.</p>
+
+<p>-<rs type="person" ref="#pr004">Vos misma</rs> -respondió <rs type="person" ref="#pr001">el mulato</rs>-. <rs type="person" ref="#pr006">Jorge Otway</rs> preferirá una dote en dinero contante (<rs type="person" ref="#pr001">yo mismo</rs> se lo he oído decir), a todas las tierras que puede llevar a <rs type="person" ref="#pr003">su hijo</rs> <rs type="person" ref="#pr002">la señorita de B...</rs>, y <rs type="person" ref="#pr004">vos</rs> podéis ofrecer a <rs type="person" ref="#pr003">Enrique</rs> con vuestra mano una dote de cuarenta mil duros en onzas de oro.</p>
+
+<p>-<rs type="person" ref="#pr001">Sab</rs>! -exclamó con amargura <rs type="person" ref="#pr004">la doncella</rs>-, no te está bien ciertamente burlarte de <pb n="33"/> una infeliz que te ha compadecido, llorando tus desgracias, aunque no llora las suyas.</p>
+
+<p>-No me burlo de <rs type="person" ref="#pr004">vos</rs>, <rs type="person" ref="#pr004">señora</rs> -respondió <rs type="person" ref="#pr001">él</rs> con solemnidad-. Decidme ¿no tenéis un billete de la lotería?, le tenéis, <rs type="person" ref="#pr001">yo</rs> lo sé: he visto en vuestro escritorio dos billetes que guardáis: el uno tiene vuestro nombre y el otro el de <rs type="person" ref="#pr002">Carlota</rs>, ambos escritos por vuestra mano. <rs type="person" ref="#pr002">Ella</rs>, demasiado ocupada de su amor, apenas se acuerda de esos billetes, pero <rs type="person" ref="#pr004">vos</rs> los conserváis cuidadosamente, porque sin duda pensáis «siendo rica sería hermosa, sería feliz...; siendo rica ninguna mujer deja de ser amada.»</p>
+
+<p>-¡Y bien! -exclamó <rs type="person" ref="#pr004">Teresa</rs> con ansiedad-, es verdad..., tengo un billete de la lotería...</p>
+
+<p>-<rs type="person" ref="#pr001">Yo</rs> tengo otro.</p>
+
+<p>-¡Y bien!</p>
+
+<p>-La fortuna puede dar a uno de los dos cuarenta mil duros.</p>
+
+<p>-Y esperas...</p>
+
+<p>-Que ellos sean la dote que llevéis a <rs type="person" ref="#pr003">Enrique</rs>. Ved aquí mi billete -añadió sacando de su cinturón un papel-, es el número 8014 y el 8014 ha obtenido cuarenta mil duros. Tomad este billete y rasgad el vuestro. Cuando dentro de algunas horas venga <rs type="person" ref="#pr001">yo</rs> <pb n="34"/> de Puerto Príncipe <rs type="person" ref="#pr005">el señor de B...</rs> recibirá de la lista de los números premiados, y <rs type="person" ref="#pr003">Enrique</rs> sabrá que ya sois más rica que <rs type="person" ref="#pr002">Carlota</rs>. Ya veis que no os he engañado cuando os dije que había para vuestro amor una esperanza, ya veis que aún podéis ser dichosa ¿consentís en ello, <rs type="person" ref="#pr004">Teresa</rs>?</p>
+
+<p><rs type="person" ref="#pr004">Teresa</rs> no respondió: una sola palabra no salió de sus labios, pero no eran necesarias las palabras. Sus ojos habían tomado súbitamente aquella enérgica expresión que tan rara vez los animaba. <rs type="person" ref="#pr001">Sab</rs>la miró y no exigió otra contestación; bajó la cabeza avergonzado y un largo intervalo de silencio reinó entre <rs type="person" ref="#pr001 #pr004">los dos</rs>.
+	
+<rs type="person" ref="#pr001">Sab</rs>lo rompió por fin con voz turbada:</p>
+
+<p>-Perdonadme, <rs type="person" ref="#pr004">Teresa</rs> -la dijo-, ¡ya lo sé!...nunca compraréis con oro un corazón envilecido, ni legaréis la posesión del vuestro a un hombre mezquino. <rs type="person" ref="#pr003">Enrique</rs> es tan indigno de <rs type="person" ref="#pr004">vos</rs> como de <rs type="person" ref="#pr002">ella</rs>; ¡lo conozco! Pero, <rs type="person" ref="#pr004">vos</rs>, podéis aparentar algunos días que os halláis dispuesta a otorgarle vuestro dote y vuestra mano, y cuando vencido por el atractivo del oro, que <pb n="35"/> es su Dios, caiga <rs type="person" ref="#pr003">el miserable</rs> a vuestros pies, cuando conozca <rs type="person" ref="#pr002">Carlota</rs> la bajeza del <rs type="person" ref="#pr003">hombre</rs> a quien ha entregado su alma, entonces abrúmenle vuestros desprecios y los suyos, entonces alejad de vosotras a <rs type="person" ref="#pr004">ese hombre</rs> indigno de miraros. ¿Consentís <rs type="person" ref="#pr004">Teresa</rs>? ¡Yo os lo pido de rodillas, en nombre de <rs type="person" ref="#pr002">vuestra amiga</rs>, de <rs type="person" ref="#pr002">la hija de vuestros bienhechores</rs>..., de esa <rs type="person" ref="#pr002">Carlota</rs> fascinada que merece vuestra compasión! No consistáis en que caiga en los brazos de un miserable <rs type="person" ref="#pr002">ese ángel de inocencia y de ternura</rs>..., no lo consistáis, <rs type="person" ref="#pr004">Teresa</rs>.</p>  
+
+<p>-En este corazón alimentado de amargura por tantos años -respondió <rs type="person" ref="#pr004">ella</rs>- no se ha sofocado, sin embargo, el sentimiento sagrado de la gratitud: no, <rs type="person" ref="#pr001">Sab</rs>, no he olvidado a <rs type="person" ref="#pr013">la angélica mujer</rs> que protegió a <rs type="person" ref="#pr004">la desvalida huérfana</rs>, ni soy ingrata a las bondades de <rs type="person" ref="#pr005">mi digno bienhechor</rs>, que es <rs type="person" ref="#pr005">padre de Carlota</rs>. ¡De <rs type="person" ref="#pr002">Carlota</rs>, a quien <rs type="person" ref="#pr004">yo</rs> he envidiado en la amargura de mi corazón, pero cuya felicidad que me hace padecer, sería un deber mío <pb n="36"/> comprar a costa de mi sangre. Pero ¡ay!..., ¿es la felicidad lo que quieres darla?...,  triste felicidad la que se funde sobre las ruinas de todas las ilusiones! <rs type="person" ref="#pr001">Tú</rs> te engañas, <rs type="person" ref="#pr001">pobre joven</rs>, o <rs type="person" ref="#pr004">yo</rs> conozco mejor que <rs type="person" ref="#pr001">tú</rs> el alma de <rs type="person" ref="#pr002">Carlota</rs>. Aquella alma tierna y apasionada se ha entregado toda entera: su amor es su existencia, quitarle el uno es quitarle la otra. <rs type="person" ref="#pr003">Enrique</rs> vil, interesado, no sería ya, es verdad, el ídolo de un corazón tan puro y tan generoso: ¿pero cómo arrancar <rs type="person" ref="#pr003">ese ídolo indigno</rs> sin despedazar aquel noble corazón?</p>
+
+<p><rs type="person" ref="#pr001">Sab</rs>cayó a sus pies como herido de un rayo.</p>
+
+<p>-¡Pues qué! -gritó con voz ahogada-; ¿ama tanto <rs type="person" ref="#pr002">Carlota</rs> a <rs type="person" ref="#pr003">ese hombre</rs>?</p>
+
+<p>-Tanto -respondió <rs type="person" ref="#pr004">Teresa</rs>-, que acaso no sobreviviría a la pérdida de su amor. <rs type="person" ref="#pr001">Sab</rs>! -prosiguió con voz llena y firme, si es cierto que amas a <rs type="person" ref="#pr002">Carlota</rs> con ese amor santo, inmenso, que me has pintado; si tu corazón es verdaderamente capaz de sentirlo; desecha para siempre un pensamiento inspirado únicamente por los <pb n="37"/> celos y el egoísmo. ¡Bárbaro!... ¿quién te da el derecho de arrancarla de sus ilusiones, de privarla de los momentos de felicidad que ellas proporcionarla?, ¿qué habrás logrado cuando la despiertes de ese sueño de amor, que es su única existencia?, ¿qué le darás en cambio de las esperanzas que le robes? ¡Oh!, desgraciado el hombre que anticipa a otro el terrible día del desengaño!</p>
+
+<p>Detúvose un momento y viendo que <rs type="person" ref="#pr001">Sab</rs>la escuchaba inmóvil añadió
+con más dulzura:</p>
+
+<p>-Tu corazón es noble y generoso, si las pasiones le extravían un momento él debe volver más recto y grande. Al presente eres libre y rico: la suerte, justa esta vez, te ha dado los medios de elevar tu destino a la altura de tu alma. <rs type="person" ref="#pr001">El bienhechor de Martina</rs> tiene oro para repartir entre los desgraciados, y la dicha de la virtud le aguarda a <rs type="person" ref="#pr001">él mismo</rs>, al término de la senda que le abre la providencia.</p>
+
+<p><rs type="person" ref="#pr001">Sab</rs> miró a <rs type="person" ref="#pr004">Teresa</rs> con ojos extraviados y como si saliese de un penoso sueño.</p>
+
+<p>-¿Dónde estoy? -exclamó-, ¿qué hacéis  <pb n="38"/> aquí?, ¿a qué habéis venido?</p>
+
+<p>-A consolarte -respondió conmovida <rs type="person" ref="#pr004">la doncella</rs>-. <rs type="person" ref="#pr001">Sab</rs>!, querido <rs type="person" ref="#pr001">Sab</rs>..., vuelve en <rs type="person" ref="#pr001">ti</rs>.</p>
+
+<p>-¡Querido! -repitió <rs type="person" ref="#pr001">él</rs> con despedazante sonrisa-: ¡querido!..., no, nunca lo he sido, nunca podré serlo..., ¿veis esta fuente, <rs type="person" ref="#pr004">señora</rs>?, ¿qué os dice ella?, ¿no notáis este color opaco y siniestro?..., es la marca de mi raza maldecida... Es el sello del oprobio y del infortunio. Y, sin embargo -añadió apretando convulsivamente contra su pecho las manos de <rs type="person" ref="#pr004">Teresa</rs>-, sin embargo, había en este corazón un germen fecundo de grandes sentimientos. Si mi destino no los hubiera sofocado, si la abyección del hombre físico no se hubiera opuesto constantemente al desarrollo del hombre moral, acaso hubiera <rs type="person" ref="#pr001">yo</rs> sido grande y virtuoso. Esclavo he debido pensar como esclavo, porque el hombre sin dignidad ni derechos, no puede conservar sentimientos nobles. ¡<rs type="person" ref="#pr004">Teresa</rs>!, debéis despreciarme..., ¿por qué estáis aquí todavía?..., huid, <rs type="person" ref="#pr004">señora</rs>, y dejadme morir.</p>
+
+<p>-¡No! -exclamó <rs type="person" ref="#pr004">ella</rs> inclinando su cabeza <pb n="39"/> sobre la del <rs type="person" ref="#pr001">mulato</rs>, arrodillado a sus pies-; no me apartaré de <rs type="person" ref="#pr001">ti</rs> sin que me jures respetar tu vida.</p>
+
+<p>Un sudor frío corría por la frente de <rs type="person" ref="#pr001">Sab</rs>, y la opresión de su corazón embargaba su voz; sin embargo, a los dulces acentos de <rs type="person" ref="#pr004">Teresa</rs> levantó a <rs type="person" ref="#pr004">ella</rs> sus ojos, llenos de gratitud.</p>
+
+<p>-¡Cuán buena sois! -la dijo-, pero ¿quién soy <rs type="person" ref="#pr001">yo</rs> para que os intereséis por mi vida?..., ¡mi vida! ¿Sabéis <rs type="person" ref="#pr004">vos</rs> lo que es mi vida?..., ¿a quién es necesaria?... <rs type="person" ref="#pr001">Yo</rs> no tengo padre ni madre..., soy solo en el mundo: nadie llorará mi muerte. No tengo tampoco una patria que defender, porque los esclavos no tienen patria; no tengo deberes que cumplir, porque los deberes del esclavo son los deberes de la bestia de carga, que anda mientras puede y se echa a tierra cuando ya no puede más. Si al menos los hombres blancos, que desechan de sus sociedades al que nació teñida la tez de un color diferente, le dejasen tranquilo en sus bosques, allá tendría patria y amores..., porque amaría a una mujer de su color, salvaje como él, <pb n="40"/> y que como él no hubiera visto jamás otros climas ni otros hombres, ni conocido la ambición, ni admirado los talentos. Pero, ¡ah!, al negro se rehúsa lo que es concedido a las bestias feroces, a quienes le igualan; porque a ellas se les deja vivir entre los montes donde nacieron y al negro se le arranca de los suyos. Esclavo envilecido legará por herencia a sus hijos esclavitud y envilecimiento, y esos hijos desgraciados pedirán en vano la vida selvática de sus padres. Para mayor tormento serán condenados a ver hombres como ellos, para los cuales la fortuna y la ambición abren mil caminos de gloria y de poder; mientras que ellos no pueden tener ambición, no pueden esperar un porvenir. En vano sentirán en su cabeza una fuerza pensadora, en vano en su pecho un corazón que palpite, «el poder y la voluntad», en vano un instinto, una convicción que les grite: «levantaos y marchad»; porque para ellos todos los caminos están cerrados, todas las esperanzas destruidas. ¡<rs type="person" ref="#pr004">Teresa</rs>!, esa es mi suerte. Superior a mi clase <pb n="41"/> por mi naturaleza, inferior a las otras por mi destino, estoy solo en el mundo.</p>
+
+<p>-Deja estos países, déjalos -exclamó con energía <rs type="person" ref="#pr004">Teresa</rs>-; ¡<rs type="person" ref="#pr001">pobre joven</rs>!, busca otro cielo, otro clima, otra existencia..., busca también otro amor...; una esposa digna de tu corazón.</p>
+
+<p>-¡Amor!, ¡esposa! -repitió tristemente <rs type="person" ref="#pr001">Sab</rs>-, no, <rs type="person" ref="#pr004">señora</rs>, no hay tampoco amor ni esposa para <rs type="person" ref="#pr001">mí</rs>: ¿no os lo he dicho ya? Una maldición terrible pesa sobre mi existencia y está impresa en mi frente. Ninguna mujer puede amarme, ninguna querrá unir su suerte a la del <rs type="person" ref="#pr001">pobre mulato</rs>, seguir sus pasos y consolar sus dolores.</p>
+
+<p><rs type="person" ref="#pr004">Teresa</rs> se puso en pie. A la trémula luz de las estrellas pudo <rs type="person" ref="#pr001">Sab</rs>ver brillar su frente altiva y pálida. El fuego del entusiasmo centelleaba en sus ojos y toda su figura tenía algo de inspirado. Estaba hermosa en aquel momento: hermosa en con aquella hermosura que proviene del alma, y que el alma conoce mejor que los ojos. <rs type="person" ref="#pr001">Sab</rs>la miraba asombrado. Tendió <rs type="person" ref="#pr004">ella</rs> sus dos manos hacia <rs type="person" ref="#pr001">él</rs> y levantando los ojos <pb n="42"/> al cielo:</p>
+
+<p>-¡<rs type="person" ref="#pr004">Yo</rs>! -exclamó-, <rs type="person" ref="#pr004">yo</rs> soy esa mujer que me confío a <rs type="person" ref="#pr001">ti</rs>; <rs type="person" ref="#pr004 #pr001">ambos</rs> somos huérfanos y desgraciados..., aislados estamos <rs type="person" ref="#pr004 #pr001">los dos</rs> sobre la tierra y necesitamos igualmente compasión, amor y felicidad. Déjame pues seguirte a remotos climas, al seno de los desiertos..., yo seré tu amiga, tu compañera, tu hermana!</p>
+
+<p><rs type="person" ref="#pr004">Ella</rs> cesó de hablar y aún parecía escucharla <rs type="person" ref="#pr001">el mulato</rs>. Asombrado e inmóvil fijaba en <rs type="person" ref="#pr004">ella</rs> los ojos, y parecía preguntarle si no le engañaba y era capaz de cumplir lo que prometía. Pero ¿debía dudarlo? Las miradas de <rs type="person" ref="#pr004">Teresa</rs> y la mano que apretaba la suya eran bastante a convencerle. <rs type="person" ref="#pr001">Sab</rs> besó sus pies, y en el exceso de su emoción sólo pudo exclamar:</p>
+
+<p>-¡Sois un ángel, <rs type="person" ref="#pr004">Teresa</rs>!</p>
+
+<p>Un torrente de lágrimas brotó en seguida de sus ojos; y sentado junto a <rs type="person" ref="#pr004">Teresa</rs>, estrechando sus manos contra su pecho, sintiose aliviado del peso enorme que le oprimía, y sus miradas se levantaron al cielo, para darle gracias de aquel momento de calma y consuelo que le había concedido. <pb n="43"/> Luego besó con efusión las manos de <rs type="person" ref="#pr004">Teresa</rs>.</p>
+
+<p>-¡<rs type="person" ref="#pr004">Sublime e incomparable mujer</rs>! -la dijo-, Dios sabrá premiarte el bien que me has hecho. Tu compasión me da un momento de dulzura que casi se asemeja a la felicidad. ¡<rs type="person" ref="#pr004">Yo</rs> te bendigo, <rs type="person" ref="#pr004">Teresa</rs>!</p>
+
+<p>Y tornando a besar sus manos añadió:</p>
+
+<p>-El mundo no te ha conocido, pero yo que te conozco debo adorarte y bendecirte. <rs type="person" ref="#pr004">Tú</rs> me seguirías!..., <rs type="person" ref="#pr004">tú</rs> me prodigarías consuelos cuando <rs type="person" ref="#pr002">ella</rs> suspirase de placer en brazos de un amante!..., ¡oh, eres una mujer sublime, <rs type="person" ref="#pr004">Teresa</rs>! No, no legaré a un corazón como el tuyo mi corazón destrozado..., toda mi alma no bastaría a pagar un suspiro de compasión que la tuya me consagrase. <rs type="person" ref="#pr001">Yo</rs> soy indigno de <rs type="person" ref="#pr004">ti</rs>!; mi amor, este amor insensato que me devora, principió con mi vida y sólo con ella puede terminar: los tormentos que me causa forman mi existencia: nada tengo fuera de él, nada sería si dejase de amar. Y <rs type="person" ref="#pr004">tú, mujer generosa</rs>, no conoces <rs type="person" ref="#pr004">tú misma</rs> a lo que te obligas, no prevés los tormentos que te preparas. El entusiasmo dicta <pb n="44"/> y ejecuta grandes sacrificios, pero pesan después con toda su gravedad sobre el alma destrozada. <rs type="person" ref="#pr001">Yo</rs> te absuelvo del cumplimiento de tu generosa e imprudente promesa. ¡Dios, sólo Dios es digno de tu grande alma! En cuanto a mí, ya he amado, ya he vivido... ¡cuántos mueren sin poder decir otro tanto!, ¡cuántas almas salen de este mundo sin haber hallado un objeto en el cual pudiesen emplear sus facultades de amar! El cielo puso a <rs type="person" ref="#pr002">Carlota</rs> sobre la tierra para que <rs type="person" ref="#pr001">yo</rs> gozase en su plenitud la ventura suprema de amar con entusiasmo; no importa que haya amado solo: mi llama ha sido pura, inmensa, inextinguible! No importa que haya padecido, pues he amado a <rs type="person" ref="#pr002">Carlota</rs>, a <rs type="person" ref="#pr002">Carlota</rs> ¡que es un ángel!, a <rs type="person" ref="#pr002">Carlota</rs>, ¡digno objeto de todo mi culto! <rs type="person" ref="#pr002">ella</rs> ha sido más desventurada que <rs type="person" ref="#pr001">yo</rs>: mi amor engrandece mi corazón y <rs type="person" ref="#pr002">ella</rs>..., ¡ah, <rs type="person" ref="#pr002">ella</rs> ha profanado el suyo! Pero <rs type="person" ref="#pr004">vos</rs> tenéis razón, <rs type="person" ref="#pr004">Teresa</rs>, sería una barbarie decirle: «<rs type="person" ref="#pr003">ese ídolo de tu corazón</rs> es un miserable incapaz de comprenderte y amarte». ¡No!, <pb n="45"/> ¡nunca!, quédese con sus ilusiones, que yo respetaré con religiosa veneración..., cásese con <rs type="person" ref="#pr003">Enrique</rs>, ¡y sea feliz!</p>
+
+<p>Calló por un momento, luego volviendo a agarrar convulsivamente las manos de <rs type="person" ref="#pr004">Teresa</rs>, que permanecía trémula y conmovida a su lado, exclamó con nueva y más dolorosa
+agitación:</p>
+
+<p>-¡Pero lo será!..., ¿podrá serlo cuando después de algunos días de error y entusiasmo vea rasgarse el velo de sus ilusiones, y se halle unida a un hombre que habrá de despreciar?... ¿Concebís todo lo que hay de horrible en la unión del alma de <rs type="person" ref="#pr002">Carlota</rs> y el alma de <rs type="person" ref="#pr003">Enrique</rs>? Tanto valdría ligar al águila con la serpiente, o a un vivo con un cadáver. ¡Y <rs type="person" ref="#pr002">ella</rs> habrá de jurar a <rs type="person" ref="#pr003">ese hombre</rs> amor y obediencia!, ¡le entregará su corazón, su porvenir, su destino entero!..., <rs type="person" ref="#pr002">ella</rs> se hará un deber de respetarle!, y <rs type="person" ref="#pr003">él</rs>..., <rs type="person" ref="#pr003">él</rs> la tomará por mujer, como a un género de género, por cálculo, por conveniencia..., haciendo una especulación vergonzosa del lazo más santo, del empeño más solemne! ¡A <rs type="person" ref="#pr002">ella</rs> que le dará su alma! <pb n="46"/> Y <rs type="person" ref="#pr003">él</rs> será su marido, el poseedor de <rs type="person" ref="#pr002">Carlota</rs>, ¡el padre de sus hijos!... ¡Oh, no! ¡No, <rs type="person" ref="#pr004">Teresa</rs>! Hay un infierno en este pensamiento..., lo veis, no puedo soportarlo..., ¡imposible!</p>
+
+<p>Y era así pues corría de su frente un helado sudor, y sus ojos desencajados expresaban el extravío de su razón. <rs type="person" ref="#pr004">Teresa</rs> le hablaba con ternura, ¡pero en vano!; un vértigo se había apoderado de <rs type="person" ref="#pr001">él</rs>.</p>
+
+<p>Parecíale que temblaba la tierra bajo sus pies y que en torno suyo giraban en desorden el río, los árboles y las rocas. Sofocábale la atmósfera y sentía un dolor violento, un dolor material como si le despedazase el corazón con dos garras de hierro, y descargaran sobre su cabeza una enorme mole de plomo.</p>
+
+<p>¡<rs type="person" ref="#pr002">Carlota</rs> esposa de <rs type="person" ref="#pr003">Enrique</rs>! <rs type="person" ref="#pr002">Ella</rs> prodigándole sus caricias! <rs type="person" ref="#pr002">Ella</rs> envileciendo su puro corazón, sus castos atractivos con el grosero amor de un miserable! Éste era su único pensamiento, y este pensamiento pesaba sobre su alma y sobre cada uno de sus miembros. No sabía dónde estaba, <pb n="47"/> ni oía a <rs type="person" ref="#pr004">Teresa</rs>, ni se acordaba de nada de cuanto había pasado, excepto de aquella idea clavada en su mente y en su corazón. Hubo un momento en que espantado <rs type="person" ref="#pr001">él mismo</rs> de lo que sufría, dudó resistiese a tanto la organización humana, y pasó por su imaginación un pensamiento confuso y extravagante. Ocurriole que había muerto, y que su alma sufría aquellos tormentos inconcebibles que la ira de Dios ha preparado a los réprobos. Porque hay dolores cuya espantosa profundidad no puede medir la vista del hombre; el cuerpo se aniquila delante de ellos y sólo el alma, porque es infinita, puede sufrirlos y comprenderlos.</p>
+
+<p><rs type="person" ref="#pr001">El desventurado Sab</rs>en aquel momento quiso levantarse, acaso para huir del pensamiento horrible que le volvía loco; pero sus tentativas fueron vanas. Su cuerpo parecía de plomo y, como sucede en una pesadilla, sus esfuerzos, agotando sus fuerzas, no acertaban a moverle de aquella peña infernal en que parecía elevado. Gritos inarticulados, que nada tenían <pb n="48"/> del humano acento, salieron entonces de su pecho, y <rs type="person" ref="#pr004">Teresa</rs> le vio girar en torno suyo miradas dementes, y fijarlas por fin en <rs type="person" ref="#pr004">ella</rs> con espantosa inmovilidad. El corazón de <rs type="person" ref="#pr004">Teresa</rs> se partía también de dolor al aspecto de <rs type="person" ref="#pr001">aquel desaventurado</rs>, y <rs type="person" ref="#pr004">ella</rs> lloraba sobre su cabeza atormentada, dirigiéndole palabras de consuelo. <rs type="person" ref="#pr001">Sab</rs>pareció por fin escucharla, porque buscó con su mano trémula la de <rs type="person" ref="#pr004">la doncella</rs> y asiéndola la apretó sobre su seno, alzando hacia sus ojos encendidos; luego haciendo un último y violento esfuerzo para levantarse, cayó a los pies de <rs type="person" ref="#pr004">Teresa</rs>, como si todos los músculos de su cuerpo se hubiesen quebrantado.</p>
+
+<p>Inclinada sobre <rs type="person" ref="#pr001">él</rs> y sosteniéndole la cabeza sobre sus rodillas, mirábale <rs type="person" ref="#pr004">la pobre mujer</rs> y sentía agitarse su corazón. «¡<rs type="person" ref="#pr001">Desventurado joven</rs>! - pensaba <rs type="person" ref="#pr004">ella</rs>-, ¿quién se acordara de tu color al verte amar tanto y sufrir tanto?». Luego pasó rápidamente por su mente un pensamiento, y se preguntó a <rs type="person" ref="#pr004">sí misma</rs> qué hubiera podido ser el hombre dotado de pasiones tan ardientes <pb n="49"/> y profundas, si bárbaras preocupaciones no le hubiesen cerrado todos los caminos de una noble ambición. Pero aquella alma poderosa obligada a devorar sus inmensos tesoros, se había entregado a la única pasión que hasta entonces había probado, y aquella pasión única la había subyugado. «No -pensaba <rs type="person" ref="#pr004">Teresa</rs>-, no debías haber nacido esclavo..., el corazón que sabe amar así no es un corazón vulgar.</p>
+
+<p>Al volver en sí <rs type="person" ref="#pr001">el mulato</rs> mirola y la reconoció:</p>
+
+<p>-<rs type="person" ref="#pr004">Señora</rs> -la dijo con desfallecida voz, ¿estáis aquí todavía?, ¿no me habéis abandonado como a un alma cobarde, que se aniquila delante de la desventura a que debiera estar tan preparada?</p>
+
+<p>-No -respondió <rs type="person" ref="#pr004">ella</rs> con emoción-, estoy aquí para compadecerte y consolarte. <rs type="person" ref="#pr001">Sab</rs>! Has sufrido mucho esta noche.</p>
+
+<p>-¡Esta noche! ¡Ah! No..., no ha sido solamente esta noche: lo que he padecido a vuestra vista una vez, eso he padecido otras mil, sin que una palabra de consuelo cayese, como gota de rocío, sobre mi corazón <pb n="50"/> abrasado; y ahora vos lloráis, <rs type="person" ref="#pr004">Teresa</rs>. ¡Bendígate Dios! No, no es esta noche la más desgraciada para <rs type="person" ref="#pr001">mí</rs>. ¡<rs type="person" ref="#pr004">Teresa</rs>! Acercaos que sienta <rs type="person" ref="#pr001">yo</rs> otra vez caer en mi frente vuestro llanto. A no ser por <rs type="person" ref="#pr004">vos</rs> yo hubiera pasado por la senda de la vida como por un desierto, sin encontrar una mirada de simpatía ni una palabra de compasión.</p>
+
+<p>Guardaron <rs type="person" ref="#pr004 #pr001">ambos</rs> un momento de silencio durante el cual <rs type="person" ref="#pr004">Teresa</rs> lloraba, y <rs type="person" ref="#pr001">Sab</rs>sentado a sus pies parecía sumergido en profundo desaliento. Por fin, <rs type="person" ref="#pr004">Teresa</rs> enjugó sus lágrimas, y reuniendo todas sus fuerzas señaló con la mano al <rs type="person" ref="#pr001">mulato</rs> el punto del horizonte en que aparecían ya las nubes ligeramente iluminadas.</p>
+
+<p>-¡Es preciso separarnos! -le dijo-. <rs type="person" ref="#pr001">Sab</rs>, toma tu billete, él te da riquezas..., puedes también encontrar algún día reposo y felicidad!</p>
+
+<p>-Cuando tomé ese billete -respondió <rs type="person" ref="#pr001">él</rs>- y quise probar la suerte, <rs type="person" ref="#pr011">Martina</rs>, <rs type="person" ref="#pr011">la pobre vieja que me llama su hijo</rs>, estaba en <pb n="51"/> la miseria: al presente goza comodidades y el oro me es inútil.</p>
+
+<p>-¡Y qué! ¿No hay otros infelices?</p>
+
+<p>-No hay en la tierra mayor infeliz que <rs type="person" ref="#pr001">yo</rs>, <rs type="person" ref="#pr004">Teresa</rs>, no puedo compadecer sino a <rs type="person" ref="#pr001">mí mismo</rs>... Sí, <rs type="person" ref="#pr001">yo</rs> me compadezco, porque lo conozco, no hay en mi corazón ni un solo deseo, una sola esperanza..., ¡la muerte!</p>
+
+<p>-<rs type="person" ref="#pr001">Sab</rs>, no te abandones así a la desesperación: acaso el cielo se dispone a ahorrarte el tormento de ver a <rs type="person" ref="#pr002">Carlota</rs> esposa de <rs type="person" ref="#pr003">Enrique</rs>. Si <rs type="person" ref="#pr006">el viejo Otway</rs> es tan codicioso como crees, si <rs type="person" ref="#pr003">su hijo</rs> no ama sino débilmente a <rs type="person" ref="#pr002">Carlota</rs>, ya saben que no es tan rica como suponían y ese enlace no se verificará.</p>
+
+<p>-Pero <rs type="person" ref="#pr004">vos</rs> me habéis dicho -exclamó con tristeza <rs type="person" ref="#pr001">Sab</rs>- que <rs type="person" ref="#pr002">ella</rs> no sobrevivirá a su amor..., vos lo habéis dicho, vos lo sabéis..., pero lo que no sabéis es que <rs type="person" ref="#pr001">yo</rs> os ofrezco el oro, para comprar la mano de <rs type="person" ref="#pr003">ese hombre</rs>, no os perdonaría nunca si lo hubieseis aceptado: ni a <rs type="person" ref="#pr003">él</rs>, ni a <rs type="person" ref="#pr001">mí mismo</rs> me perdonaría. <rs type="person" ref="#pr004">Vos</rs> no sabéis que la <pb n="52"/> sangre sacada de sus venas gota a gota, y mi propia sangre no me parecería suficiente venganza, ni mil vidas inmoladas por mi mano pagarían una sola lágrima de <rs type="person" ref="#pr002">Carlota</rs>. ¡<rs type="person" ref="#pr002">Carlota</rs> despreciada! ¡Despreciada por esos viles mercaderes! <rs type="person" ref="#pr002">Carlota</rs> que haría el orgullo de un rey!...</p>
+
+<p>-No, <rs type="person" ref="#pr004">Teresa</rs>, no me lo digáis otra vez..., <rs type="person" ref="#pr004">vos</rs> no podéis comprender las contradicciones de un corazón tan atormentado.</p>
+
+<p><rs type="person" ref="#pr004">Teresa</rs> se puso en pie y escuchó por un momento.</p>
+
+<p>-A Dios, <rs type="person" ref="#pr001">Sab</rs>-dijo luego-, paréceme que los esclavos están ya levantados y que se aproximan a los cañaverales: a Dios, no dudes nunca que tienes en <rs type="person" ref="#pr004">Teresa</rs> una amiga, una hermana.</p>
+
+<p><rs type="person" ref="#pr004">Ella</rs> aguardó en vano algunos minutos una contestación del <rs type="person" ref="#pr001">mulato</rs>. Apoyada la frente sobre una peña, inmóvil y silencioso, parecía sumido en profunda y tétrica meditación. Luego de repente brillaron sus ojos con la expresión que revela una determinación violenta y decidida, y alzose del suelo grande, resignado, heroico.</p>
+
+<pb n="53"/>
+
+<p>Los negros se acercaban. <rs type="person" ref="#pr001">Sab</rs> sólo tuvo tiempo de decir en voz baja algunas palabras a <rs type="person" ref="#pr004">Teresa</rs>, palabras que debieron sorprenderla pues exclamó al momento:</p>  <p>-¡Es posible!... ¿Y <rs type="person" ref="#pr001">tú</rs>?</p>
+
+<p>-¡Moriré! -contestó <rs type="person" ref="#pr001">él</rs> haciéndole con la mano un ademán para que se alejase.</p>
+
+<p>En efecto, <rs type="person" ref="#pr004">Teresa</rs> se ocultó entre los cañaverales al mismo tiempo que los esclavos llegaban al trabajo. Uno solamente, más perezoso que los otros, o sintiéndose con sed, dejó su azada y se adelantó hacia el río. Un fuerte tropezón que dio por poco le hace caer en tierra.</p> 
+
+<p>-Es un castigo de Dios, <rs type="person" ref="#pr020">José</rs> -le gritaron sus compañeros-, por lo holgazán que eres.</p>
+
+<p><rs type="person" ref="#pr020">José</rs> no respondía, sino que estaba estático en el sitio de que acababa de levantarse, los ojos fijos en el suelo con aire de pasmo.</p>
+
+<p>-¿Qué es eso, <rs type="person" ref="#pr020">José</rs>? -gritó uno de los negros-, ¿te habrás clavado en el suelo?</p>
+
+<p><rs type="person" ref="#pr020">José</rs> los llamó hacia a <rs type="person" ref="#pr020">él</rs>, no con la voz sino con aquellos gestos llenos de expresión que se notan en la fisonomía de los negros. <pb n="54"/> Los más curiosos corrieron a su lado y al momento los que quedaron oyeron una sola palabra repetida a la vez por muchas voces:</p>
+
+<p>-¡<rs type="person" ref="#pr001">El mayoral</rs>!</p>
+
+<p><rs type="person" ref="#pr001">Sab</rs>estaba sin sentido junto al río; los esclavos lo levantaron y lo condujeron en hombros al ingenio.</p>
+
+<p>Cuando dos horas después se levantó  <rs type="person" ref="#pr005">D.Carlos de B...</rs> oyó galopar un caballo que se alejaba.</p>
+
+<p>-¿Quién se marcha ahora? -preguntó a <rs type="person" ref="#pr021">uno de los esclavos</rs>.</p>
+
+<p>-Es <rs type="person" ref="#pr001">el mayoral</rs>, <rs type="person" ref="#pr005">mi amo</rs>, que se va a la ciudad.</p>
+
+<p>-¡Cómo tan tarde!, son las siete y yo le había encargado que se marchase al amanecer.</p>
+
+<p>-Es verdad, <rs type="person" ref="#pr005">mi amo</rs> -respondió <rs type="person" ref="#pr021">el esclavo</rs>-, pero <rs type="person" ref="#pr001">el mayoral</rs> estaba tan malo...</p>
+
+<p>-¡Estaba malo!..., ¿qué tenía pues?</p>
+
+<p>-¿El <rs type="person" ref="#pr001">mayoral</rs>, <rs type="person" ref="#pr005">mi amo</rs>?..., yo no lo sé, pero tenía la cara caliente como tenía un tizón de fuego, y luego echó sangre, mucha sangre por la boca.</p>
+
+<p>-¡Sangre por la boca! ¡Cómo! ¡Sangre por la boca y se ha marchado así! -exclamó <rs type="person" ref="#pr005">don Carlos</rs>.</p>
+
+<pb n="55"/>
+
+<p><rs type="person" ref="#pr020">José</rs>, que pasaba cargado con un haz de caña, se detuvo a oírle y echó una mirada de reconvención sobre el otro <rs type="person" ref="#pr021">negro</rs>. <rs type="person" ref="#pr020">José</rs> era el esclavo más adicto a <rs type="person" ref="#pr001">Sab</rs>, y <rs type="person" ref="#pr001">Sab</rs> le quería porque era congo, como su madre.</p>
+
+<p>-No haga caso <rs type="person" ref="#pr005">su merced</rs> de lo que dice <rs type="person" ref="#pr021">ese mentecato</rs>. <rs type="person" ref="#pr001">El mayoral</rs> está bueno, sólo que echó un poco de sangre por la nariz, y me dijo que a las tres de la tarde tendría <rs type="person" ref="#pr005">su merced</rs> las cartas del correo.</p>
+
+<p>-Vaya, eso es otra cosa -dijo <rs type="person" ref="#pr005">el señor de B...</rs>-, <rs type="person" ref="#pr021">este bruto</rs> me había asustado.</p>
+
+<p><rs type="person" ref="#pr021">el negro</rs> se alejó murmurando:</p>
+
+<p>-¡Bruto! <rs type="person" ref="#pr021">yo</rs> soy bruto porque digo la verdad!</p>  
+</div>

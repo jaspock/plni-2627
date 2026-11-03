@@ -1,0 +1,156 @@
+<!-- Anotación manual de los personajes del cap. 1 de la novela _Sab_ de Gómez de Avellaneda.
+
+@ref es un identificador único por cada personaje para marcar las correferencias.
+
+Texto original (sin anotación personajes): https://github.com/COST-ELTeC/ELTeC-spa/blob/master/level1/SPA1021_GomezDeAvellaneda_Sab.xml
+
+Borja Navarro Colorado y C. Bonmatí - Universidad de Alicante, 2026 -->
+
+<div type="chapter" n="SPA1021001">
+<head>Capítulo I</head>
+<quote>
+    <l>¿Quién eres? ¿cuál es tu patria?</l>
+	<l><gap/>.....................</l>
+	<l><gap/>.....................</l>
+	<l>Las influencias tiranas</l>
+	<l>de mi estrella, me formaron</l>
+	<l>monstruo de especies tan raras,</l>
+	<l>que gozo de heroica estirpe</l>
+	<l>allá en las dotes del alma</l>
+	<l>siendo el desprecio del mundo.</l>
+	<p>CAÑIZARES</p>
+</quote>
+
+<p>Veinte años hace, poco más o menos, que al declinar una tarde del mes de junio <rs type="person" ref="#pr003">un joven de hermosa presencia</rs> atravesaba a <pb n="8"/> caballo los campos pintorescos que riega el Tínima, y dirigía a paso corto su brioso alazán por la senda conocida en el país con el nombre de camino de Cubitas, por conducir a las aldeas de este nombre, llamadas también tierras rojas. Hallábase <rs type="person" ref="#pr003">el joven</rs> de quien hablamos a distancia de cuatro leguas de Cubitas, de donde al parecer venía, y a tres de la ciudad de Puerto Príncipe, capital de la provincia central de la isla de Cuba en aquella época, como al presente, pero que hacía entonces muy pocos años había dejado su humilde dictado de villa.</p>
+
+<p>Fuese efecto de poco conocimiento del camino que seguía, fuese por complacencia de contemplar detenidamente los paisajes que se ofrecían a su vista, <rs type="person" ref="#pr003">el viajero</rs> acortaba cada vez más el paso de su caballo y le paraba a trechos como para examinar los sitios por donde pasaba. A la verdad, era harto probable que sus repetidas detenciones sólo tuvieran por objeto admirar más a su sabor los campos fertilísimos de aquel país privilegiado, y que debían <pb n="9"/> tener mayor atractivo para <rs type="person" ref="#pr003">él</rs> si como lo indicaban su tez blanca y sonrosada, sus ojos azules, y su cabello de oro había venido al mundo en una región del Norte.</p>
+
+<p>El sol terrible de la zona tórrida se acercaba a su ocaso entre ondeantes nubes de púrpura y de plata, y sus últimos rayos, ya tibios y pálidos, vestían de un colorido melancólico los campos vírgenes de aquella joven naturaleza, cuya vigorosa y lozana vegetación parecía acoger con regocijo la brisa apacible de la tarde, que comenzaba a agitar las copas frondosas de los árboles agostados por el calor del día. Bandadas de golondrinas se cruzaban en todas direcciones buscando su albergue nocturno, y el verde papagayo con sus franjas de oro y de grana, el cao de un negro nítido y brillante, el carpintero real de férrea lengua y matizado plumaje, la alegre guacamalla, el ligero tomeguín, la tornasolada mariposa y otra infinidad de aves indígenas, posaban en las ramas del tamarindo y del mango aromático, rizando sus variadas plumas como <pb n="10"/> para recoger en ellas el soplo consolador del aura.</p>
+
+<p><rs type="person" ref="#pr003">El viajero</rs> después de haber atravesado sabanas inmensas donde la vista se pierde en los dos horizontes que forman el cielo y la tierra, y prados coronados de palmas y gigantescas ceibas, tocaba por fin en un cercado, anuncio de propiedad. En efecto, divisábase a lo lejos la fachada blanca de una casa de campo, y al momento <rs type="person" ref="#pr003">el joven</rs> dirigió su caballo hacia ella; pero lo detuvo repentinamente y apostándole a la vereda del camino pareció dispuesto a esperar a <rs type="person" ref="#pr001">un paisano del campo</rs> que se adelantaba a pie hacia aquel sitio, con mesurado paso, y cantando una canción del país cuya última estrofa pudo entender perfectamente <rs type="person" ref="#pr003">el viajero</rs>:</p>
+
+<quote>
+	<l>Una morena me mata</l>
+	<l> tened de mí compasión,</l>
+	<l> pues no la tiene la ingrata</l>
+	<l> que adora mi corazón.</l><ref target="#SPA1021N01">[1]</ref>
+</quote>
+
+<pb n="11"/>
+
+<p><rs type="person" ref="#pr001">El campesino</rs> estaba ya a tres pasos del <rs type="person" ref="#pr003">extranjero</rs> y viéndole en actitud de aguardarle detúvose frente a <rs type="person" ref="#pr003">él</rs> y <rs type="person" ref="#pr001 #pr003">ambos</rs> se miraron un momento antes de hablar. Acaso la notable hermosura del <rs type="person" ref="#pr003">extranjero</rs> causó cierta suspensión al <rs type="person" ref="#pr001">campesino</rs>, <rs type="person" ref="#pr001">el cual</rs> por su parte atrajo indudablemente las miradas de <rs type="person" ref="#pr003">aquél</rs>.</p>
+
+<p>Era <rs type="person" ref="#pr001">el recién llegado</rs> un joven de alta estatura y regulares proporciones, pero de una fisonomía particular. No parecía un criollo blanco, tampoco era negro ni podía creérsele descendiente de los primeros habitadores de las Antillas. Su rostro presentaba un compuesto singular en que se descubría el cruzamiento de dos razas diversas, y en que se amalgamaban, por decirlo así, los rasgos de la casta africana con los de la europea, sin ser no obstante un mulato perfecto.</p>
+
+<p>Era su color de un blanco amarillento  <pb n="12"/> con cierto fondo oscuro; su ancha frente se veía medio cubierta con mechones desiguales de un pelo negro y lustroso como las alas del cuervo; su nariz era aguileña pero sus labios gruesos y amoratados denotaban su procedencia africana. Tenía la barba un poco prominente y triangular, los ojos negros, grandes, rasgados, bajo cejas horizontales, brillando en ellos el fuego de la primera juventud, no obstante que surcaban su rostro algunas ligeras arrugas. El conjunto de estos rasgos formaba una fisonomía característica; una de aquellas fisonomías que fijan las miradas a primera vista y que jamás se olvidan cuando se han visto una vez.</p>
+
+<p>El traje de <rs type="person" ref="#pr001">este hombre</rs> no se separaba en nada del que usan generalmente los labriegos en toda la provincia de Puerto Príncipe, que se reduce a un pantalón de cotín de anchas rayas azules, y una camisa de hilo, también listada, ceñida a la cintura por una correa de la que pende un ancho machete, y cubierta la cabeza con un sombrero de Yarey bastante alicaído <ref target="#SPA1021N02">[2]</ref>:  <pb n="13"/> traje demasiado ligero pero cómodo y casi necesario en un clima abrasador.</p>
+
+<p><rs type="person" ref="#pr003">El extranjero</rs> rompió el silencio y hablando en castellano con una pureza y facilidad que parecían desmentir su fisonomía septentrional, dijo al <rs type="person" ref="#pr001">labriego</rs>:</p> 
+
+<p>-<rs type="person" ref="#pr001">Buen amigo</rs>, tendrá <rs type="person" ref="#pr001">Vd.</rs> la bondad de decirme si la casa que desde aquí se divisa es la del Ingenio <ref target="#SPA1021N03">[3]</ref> de Bellavista, perteneciente a <rs type="person" ref="#pr005">don Carlos de B...</rs></p>
+
+<p><rs type="person" ref="#pr001">El campesino</rs> hizo una reverencia y contestó:</p>  <p>-Sí señor, todas las tierras que se ven allá abajo, pertenecen al señor <rs type="person" ref="#pr005">don Carlos</rs>.</p>
+
+<p>-Sin duda es Vd. vecino de <rs type="person" ref="#pr005">ese caballero</rs> y podrá decirme si ha llegado ya a su ingenio con su familia.</p>
+
+<p>-Desde esta mañana están aquí los dueños,  <pb n="14"/> y puedo servir a <rs type="person" ref="#pr003">Vd.</rs> de guía si quiere visitarlos.</p>
+
+<p><rs type="person" ref="#pr003">El extranjero</rs> manifestó con un movimiento de cabeza que aceptaba el ofrecimiento, y sin aguardar otra respuesta <rs type="person" ref="#pr001">el labriego</rs> se volvió en ademán de querer conducirle a la casa, ya vecina. Pero tal vez no deseaba llegar tan pronto <rs type="person" ref="#pr003">el extranjero</rs>, pues haciendo andar muy despacio a su caballo volvió a entablar con <rs type="person" ref="#pr001">su guía</rs> la conversación, mientras examinaba con miradas curiosas el sitio en que se encontraba.</p>
+
+<p>-¿Dice <rs type="person" ref="#pr001">Vd.</rs> que pertenecen al <rs type="person" ref="#pr005">señor de B...</rs> todas estas tierras?</p>
+
+<p>-Sí <rs type="person" ref="#pr003">señor</rs>.</p>
+
+<p>-Parecen muy feraces.</p>
+
+<p>-Lo son en efecto.</p>
+
+<p>-Esta finca debe producir mucho a <rs type="person" ref="#pr005">su dueño</rs>.</p>
+
+<p>-Tiempos ha habido, según he llegado a entender -dijo <rs type="person" ref="#pr001">el labriego</rs> deteniéndose para echar una ojeada hacia las tierras objeto de la conversación-, en que este ingenio daba a <rs type="person" ref="#pr005">su dueño</rs> doce mil arrobas de azúcar cada año, porque entonces más de cien negros trabajaban en sus cañaverales; pero los tiempos han variado y <rs type="person" ref="#pr005">el propietario actual</rs> de Bellavista no tiene en él sino cincuenta negros, ni excede <pb n="15"/> su Zafra <ref target="#SPA1021N04">[4]</ref> de seis mil panes de azúcar.</p>
+
+<p>-Vida muy fatigosa deben de tener los esclavos en estas fincas -observó <rs type="person" ref="#pr003">el extranjero</rs>-, y no me admira se disminuya tan considerablemente su número.</p>
+
+<p>-Es una vida terrible a la verdad -respondió <rs type="person" ref="#pr001">el labrador</rs> arrojando a <rs type="person" ref="#pr003">su interlocutor</rs> una mirada de simpatía-: bajo este cielo de fuego el esclavo casi desnudo trabaja toda la mañana sin descanso, y a la hora terrible del mediodía jadeando, abrumado bajo el peso de la leña y de la caña que conduce sobre sus espaldas, y abrasado por los rayos del sol que tuesta su cutis, llega el infeliz a gozar todos los placeres que tiene para él la vida: dos horas de sueño y una escasa ración. Cuando la noche viene con sus brisas y sus sombras a consolar a la tierra abrasada, y toda la naturaleza descansa, el esclavo va a regar <pb n="16"/> con su sudor y con sus lágrimas al recinto donde la noche no tiene sombras, ni la brisa frescura: porque allí el fuego de la leña ha sustituido al fuego del sol, y el infeliz negro girando sin cesar en torno de la máquina que arranca a la caña su dulce jugo, y de las calderas de metal en las que este jugo se convierte en miel a la acción del fuego, ve pasar horas tras horas, y el sol que torna le encuentra todavía allí... ¡Ah!, sí; es un cruel espectáculo la vista de la humanidad degradada, de hombres convertidos en brutos, que llevan en su frente la marca de la esclavitud y en su alma la desesperación del infierno.</p>
+
+<p><rs type="person" ref="#pr001">El labriego</rs> se detuvo de repente como si echase de ver que había hablado demasiado, y bajando los ojos, y dejando asomar a sus labios una sonrisa melancólica, añadió con prontitud:</p>
+
+<p>-Pero no es la muerte de los esclavos causa principal de la decadencia del Ingenio de Bellavista: se han vendido muchos, como también tierras, y sin embargo
+aún es una finca de bastante valor.</p>
+
+<pb n="17"/>
+
+<p>Dichas estas palabras tornó a andar con dirección a la casa, pero detúvose a pocos pasos notando que <rs type="person" ref="#pr003">el extranjero</rs> no le seguía, y al volverse hacia <rs type="person" ref="#pr003">él</rs>, sorprendió una mirada fija en su rostro con notable expresión de sorpresa. En efecto, el aire de <rs type="person" ref="#pr001">aquel labriego</rs> parecía revelar algo de grande y noble que llamaba la atención, y lo que acababa de oírle <rs type="person" ref="#pr003">el extranjero</rs>, en un lenguaje y con una expresión que no correspondían a la clase que denotaba su traje pertenecer, acrecentó su admiración y curiosidad. Habíase aproximado <rs type="person" ref="#pr001">el joven campesino</rs> al caballo de <rs type="person" ref="#pr003">nuestro viajero</rs> con el semblante de un hombre que espera una pregunta que adivina se le va a dirigir, y no se engañaba, pues <rs type="person" ref="#pr003">el extranjero</rs> no pudiendo reprimir su curiosidad le dijo:</p>
+
+<p>-Presumo que tengo el gusto de estar hablando con algún distinguido propietario de estas cercanías. No ignoro que los criollos cuando están en sus haciendas de campo, gustan vestirse como simples labriegos, y sentiría ignorar por más tiempo el nombre del sujeto que con tanta cortesía se ha ofrecido  <pb n="18"/> a guiarme. Si no me engaño es <rs type="person" ref="#pr001">usted</rs> amigo y vecino de <rs type="person" ref="#pr005">D. Carlos de B...</rs></p>
+
+<p>El rostro de <rs type="person" ref="#pr001">aquel a quien se dirigían estas palabras</rs> no mostró al oírlas la menor extrañeza, pero fijó en <rs type="person" ref="#pr003">el que hablaba</rs> una mirada penetrante: luego, como si la dulce y graciosa fisonomía del <rs type="person" ref="#pr003">extranjero</rs> dejase satisfecha su mirada indagadora, respondió bajando los ojos:</p>
+
+<p>-No soy propietario, <rs type="person" ref="#pr003">señor forastero</rs>, y aunque sienta latir en mi pecho un corazón pronto siempre a sacrificarse por <rs type="person" ref="#pr005">D. Carlos</rs> no puedo llamarme amigo suyo. Pertenezco -prosiguió con sonrisa amarga-, a aquella raza desventurada sin derechos de hombres... soy mulato y esclavo.</p>
+
+<p>-¿Conque eres mulato? -dijo <rs type="person" ref="#pr003">el extranjero</rs> tomando, oída la declaración de <rs type="person" ref="#pr001">su interlocutor</rs>, el tono de despreciativa familiaridad que se usa con los esclavos-: bien lo sospeché al principio; pero tienes un aire tan poco común en tu clase, que luego mudé de pensamiento.</p>
+
+<p><rs type="person" ref="#pr001">El esclavo</rs> continuaba sonriéndose; pero su sonrisa era cada vez más melancólica y <pb n="19"/> en aquel momento tenía también algo de desdeñosa.</p>
+
+<p>-Es -dijo volviendo a fijar los ojos en <rs type="person" ref="#pr003">el extranjero</rs>-, que a veces es libre y noble el alma, aunque el cuerpo sea esclavo y villano. Pero ya es de noche y voy a conducir a <rs type="person" ref="#pr003">su merced</rs> <ref target="#SPA1021N05">[5]</ref> al ingenio ya próximo.</p>
+
+<p>La observación del <rs type="person" ref="#pr001">mulato</rs> era exacta. El sol, como arrancado violentamente del hermoso cielo de Cuba, había cesado de alumbrar aquel país que ama, aunque sus altares estén ya destruídos, y la luna pálida y melancólica se acercaba lentamente a tomar posesión de sus dominios.</p>
+
+<p><rs type="person" ref="#pr003">El extranjero</rs> siguió a <rs type="person" ref="#pr001">su guía</rs> sin interrumpir la conversación:</p>
+
+<p>-¿Conque eres esclavo de <rs type="person" ref="#pr005">don Carlos</rs>?</p>
+
+<p>-Tengo el honor de ser su mayoral <ref target="#SPA1021N06">[6]</ref> <pb n="20"/> en este ingenio.</p>
+
+<p>-¿Cómo te llamas?</p>
+
+<p>-Mi nombre de bautismo es <rs type="person" ref="#pr001">Bernabé</rs>, <rs type="person" ref="#pr012">mi madre</rs> me llamó siempre <rs type="person" ref="#pr001">Sab</rs>, y así me han llamado luego mis amos.</p>
+
+<p>-¿<rs type="person" ref="#pr012">Tu madre</rs> era negra, o mulata como <rs type="person" ref="#pr001">tú</rs>?</p>
+
+<p>-<rs type="person" ref="#pr012">Mi madre</rs> vino al mundo en un país donde su color no era un signo de esclavitud: <rs type="person" ref="#pr012">mi madre</rs> -repitió con cierto orgullo-, nació libre y princesa. Bien lo saben todos aquellos que fueron como <rs type="person" ref="#pr012">ella</rs> conducidos aquí de las costas del Congo por los traficantes de carne humana. Pero princesa en su país fue vendida en éste como esclava.</p>
+
+<p><rs type="person" ref="#pr003">El caballero</rs> sonrió con disimulo al oír el título de princesa que <rs type="person" ref="#pr001">Sab</rs> daba a <rs type="person" ref="#pr012">su madre</rs>, pero como al parecer le interesase la conversación de <rs type="person" ref="#pr001">aquel esclavo</rs>, quiso prolongarla:</p>
+
+<p>-<rs type="person" ref="#pr007">Tu padre</rs> sería blanco indudablemente.</p>
+
+<p>-¡<rs type="person" ref="#pr007">Mi padre</rs>!... yo no le he conocido jamás. Salía <rs type="person" ref="#pr012">mi madre</rs> apenas de la infancia cuando fue vendida al <rs type="person" ref="#pr018">señor don Félix de B...</rs> padre de <rs type="person" ref="#pr005">mi amo actual</rs>, y de otros cuatro hijos. Dos años gimió inconsolable <rs type="person" ref="#pr012">la infeliz</rs> sin poder resignarse a la horrible mudanza de su suerte; pero un  <pb n="21"/> trastorno repentino se verificó en <rs type="person" ref="#pr012">ella</rs> pasado este tiempo, y de nuevo cobró amor a la vida porque <rs type="person" ref="#pr012">mi madre</rs> amó. Una pasión absoluta se encendió con toda su actividad en aquel corazón africano. A pesar de su color era <rs type="person" ref="#pr012">mi madre</rs> hermosa, y sin duda tuvo correspondencia su pasión pues salí al mundo por entonces. El nombre de <rs type="person" ref="#pr007">mi padre</rs> fue un secreto que jamás quiso revelar.</p>
+
+<p>-Tu suerte, <rs type="person" ref="#pr001">Sab</rs>, será menos digna de lástima que la de los otros esclavos, pues el cargo que desempeñas en Bellavista prueba la estimación y afecto que te dispensa <rs type="person" ref="#pr005">tu amo</rs>.</p>
+
+<p>-Sí, señor, jamás he sufrido el trato duro que se da generalmente a los negros, ni he sido condenado a largos y fatigosos trabajos. Tenía solamente tres años cuando murió <rs type="person" ref="#pr007">mi protector don Luis</rs> el más joven de los hijos del difunto <rs type="person" ref="#pr008">don Félix de B...</rs> pero dos horas antes de dejar este mundo <rs type="person" ref="#pr007">aquel excelente joven</rs> tuvo una larga y secreta conferencia con su hermano <rs type="person" ref="#pr005">don Carlos</rs>, y según se conoció después, me dejó recomendado a su bondad. Así hallé en <rs type="person" ref="#pr005">mi amo actual</rs> <pb n="22"/> el corazón bueno y piadoso del <rs type="person" ref="#pr007">amable protector</rs> que había perdido. Casose algún tiempo después con una mujer... ¡un ángel! y me llevó consigo. Seis años tenía yo cuando mecía la cuna de <rs type="person" ref="#pr002">la señorita Carlota</rs>, fruto primero de aquel feliz matrimonio. Más tarde fui el compañero de sus juegos y estudios, porque hija única por espacio de cinco años, su inocente corazón no medía la distancia que nos separaba y me concedía el cariño de un hermano. Con <rs type="person" ref="#pr002">ella</rs> aprendí a leer y a escribir, porque nunca quiso recibir lección alguna sin que estuviese a su lado <rs type="person" ref="#pr001">su pobre mulato Sab</rs>. Por <rs type="person" ref="#pr002">ella</rs> cobré afición a la lectura, sus libros y aun los de su padre han estado siempre a mi disposición, han sido mi recreo en estos páramos, aunque también muchas veces han suscitado en mi alma ideas aflictivas y amargas cavilaciones.</p>
+
+<p>Interrumpíase <rs type="person" ref="#pr001">el esclavo</rs> no pudiendo ocultar la profunda emoción que a pesar suyo revelaba su voz. Mas hízose al momento señor de sí mismo; pasose la mano por la frente, sacudió ligeramente la cabeza, y añadió <pb n="23"/> con más serenidad:</p>
+
+<p>-Por mi propia elección fui algunos años calesero, luego quise dedicarme al campo, y hace dos que asisto en este ingenio.</p>
+
+<p><rs type="person" ref="#pr003">El extranjero</rs> sonreía con malicia desde que <rs type="person" ref="#pr001">Sab</rs> habló de la conferencia secreta que tuviera <rs type="person" ref="#pr007">el difunto don Luis</rs> con <rs type="person" ref="#pr005">su hermano</rs>, y cuando <rs type="person" ref="#pr001">el mulato</rs> cesó de hablar le dijo:</p>
+
+<p>-Es extraño que no seas libre, pues habiéndote querido tanto <rs type="person" ref="#pr007">don Luis de B...</rs> parece natural te otorgase <rs type="person" ref="#pr008">su padre</rs> la libertad, o te la diese posteriormente <rs type="person" ref="#pr005">don Carlos</rs>.</p>
+
+<p>-¡Mi libertad!... sin duda es cosa muy dulce la libertad... pero <rs type="person" ref="#pr001">yo</rs> nací esclavo: era esclavo desde el vientre de <rs type="person" ref="#pr012">mi madre</rs>, y ya...</p>
+
+<p>-Estás acostumbrado a la esclavitud -interrumpió <rs type="person" ref="#pr003">el extranjero</rs>, muy satisfecho con acabar de expresar el pensamiento que suponía al <rs type="person" ref="#pr001">mulato</rs>-.</p>
+
+<p>No le contradijo <rs type="person" ref="#pr001">éste</rs>; pero se sonrió con amargura, y añadió a media voz y como si se recrease con las palabras que profería lentamente:</p>
+
+<p>-Desde mi infancia fui escriturado a <rs type="person" ref="#pr002">la señorita Carlota</rs>: <pb n="24"/> soy esclavo suyo, y quiero vivir y morir en su servicio.</p>
+
+<p><rs type="person" ref="#pr003">El extranjero</rs> picó un poco con la espuela
+a su caballo: <rs type="person" ref="#pr001">Sab</rs> andaba delante apresurando el paso a proporción que caminaba más de prisa el hermoso alazán de raza normanda en que iba <rs type="person" ref="#pr003">su interlocutor</rs>.</p>
+
+<p>-Ese afecto y buena ley te honran mucho, <rs type="person" ref="#pr001">Sab</rs>, pero <rs type="person" ref="#pr002">Carlota de B...</rs> va a casarse y acaso la dependencia de un amo no te será tan grata como la de <rs type="person" ref="#pr002">tu joven señorita</rs>.</p>
+
+<p><rs type="person" ref="#pr001">El esclavo</rs> se paró de repente, y volvió sus ojos negros y penetrantes hacia <rs type="person" ref="#pr003">el extranjero</rs> que prosiguió, deteniendo también un momento su caballo:</p>
+
+<p>-Siendo un sirviente que gozas la confianza de tus dueños, no ignorarás que <rs type="person" ref="#pr002">Carlota</rs> tiene tratado su casamiento con <rs type="person" ref="#pr003">Enrique Otway</rs>, hijo único de uno de los más ricos comerciantes de Puerto Príncipe.</p>
+
+<p>Siguiose a estas palabras un momento de silencio, durante el cual es indudable que se verificó en el alma del esclavo un incomprensible trastorno. Cubriose su frente <pb n="25"/> de arrugas verticales, lanzaron sus ojos un resplandor siniestro, como la luz del relámpago que brilla entre nubes oscuras, y como si una idea repentina aclarase sus dudas, exclamó después de un instante de reflexión:</p>
+
+<p>-¡<rs type="person" ref="#pr003">Enrique Otway</rs>! Ese nombre lo mismo que vuestra fisonomía indican un origen extranjero... ¡<rs type="person" ref="#pr003">Vos</rs> <ref target="#SPA1021N07">[7]</ref> sois pues, sin duda <rs type="person" ref="#pr003">el futuro esposo de la señorita de B...</rs>!</p>
+
+<p>-No te engañas, <rs type="person" ref="#pr001">joven</rs>, <rs type="person" ref="#pr003">yo</rs> soy en efecto <rs type="person" ref="#pr003">Enrique Otway</rs>, <rs type="person" ref="#pr003">futuro esposo de Carlota</rs>, y el mismo que procurará no sea un mal para <rs type="person" ref="#pr001">ti</rs> su unión con <rs type="person" ref="#pr002">tu señorita</rs>: lo mismo que <rs type="person" ref="#pr002">ella</rs>, te prometo hacer menos dura tu triste condición de esclavo. Pero he aquí la taranquela <ref target="#SPA1021N08">[8]</ref>: ya no necesito guía. A  <pb n="26"/> Dios, <rs type="person" ref="#pr001">Sab</rs>, puedes continuar tu camino.</p>
+
+<p><rs type="person" ref="#pr003">Enrique</rs> metió espuelas a su caballo, que atravesando la taranquela partió a galope. <rs type="person" ref="#pr001">El esclavo</rs> le siguió con la vista hasta que le vio llegar delante de la puerta de la casa blanca. Entonces clavó los ojos en el cielo, dio un profundo gemido, y se dejó caer sobre un ribazo.</p>  
+</div>
