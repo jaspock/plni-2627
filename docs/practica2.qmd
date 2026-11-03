@@ -8,7 +8,8 @@ Para cada reto el alumnado, por equipos, debe crear un *script* en Python que le
 
 ## Retos
 
-1. Extracción de personajes y resolución de correferencias en texto narrativo. [Enunciado completo](assets/pdfs/Reto1.pdf)
+1. Extracción de personajes y resolución de correferencias en texto narrativo.
+    1. [Enunciado completo](assets/pdfs/Reto1.pdf)
     1. [Descarga del corpus](https://raw.githubusercontent.com/COST-ELTeC/ELTeC-spa/refs/heads/master/level1/SPA1021_GomezDeAvellaneda_Sab.xml). Está en formato XML siguiente el estándar [TEI](https://tei-c.org/release/doc/tei-p5-doc/en/html/index.html). La novela forma parte de la [European Literary Text Collection (ELTeC)](https://github.com/COST-ELTeC). Otras novelas de la colección en español [aquí](https://github.com/COST-ELTeC/ELTeC-spa/tree/master/level1).
     1. Fragmentos del corpus anotados a mano para hacer pruebas: [Capítulo 1](https://raw.githubusercontent.com/jaspock/plni-2627/refs/heads/main/docs/assets/resources/GomezDeAvellaneda_Sab_Cap01_AnotacionPersonajes.xml)
     1. Fragmentos del corpus anotados a mano para hacer pruebas: [Capítulo 13](https://raw.githubusercontent.com/jaspock/plni-2627/refs/heads/main/docs/assets/resources/GomezDeAvellaneda_Sab_Cap13_AnotacionPersonajes.xml)
