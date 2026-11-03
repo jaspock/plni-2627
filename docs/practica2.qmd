@@ -9,11 +9,9 @@ Para cada reto el alumnado, por equipos, debe crear un *script* en Python que le
 ## Retos
 
 1. Extracción de personajes y resolución de correferencias en texto narrativo. [Enunciado completo](assets/pdfs/Reto1.pdf)
-  
-  1.1. Fragmentos del corpus anotados a mano para hacer pruebas: [Capítulo 1](assets/resources/GomezDeAvellaneda_Sab_Cap01_AnotacionPersonajes.xml)
-  1.2. Fragmentos del corpus anotados a mano para hacer pruebas: [Capítulo 13](assets/resources/GomezDeAvellaneda_Sab_Cap013_AnotacionPersonajes.xml)
-  1.3. [Guía de anotación (manual)](assets/resources/GuiaDeAnotacion_Personajes.pdf)
-
+    1. Fragmentos del corpus anotados a mano para hacer pruebas: [Capítulo 1](assets/resources/GomezDeAvellaneda_Sab_Cap01_AnotacionPersonajes.xml)
+    2. Fragmentos del corpus anotados a mano para hacer pruebas: [Capítulo 13](assets/resources/GomezDeAvellaneda_Sab_Cap013_AnotacionPersonajes.xml)
+    3. [Guía de anotación (manual)](assets/resources/GuiaDeAnotacion_Personajes.pdf)
 2. ...
 3. ...
 
