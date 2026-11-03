@@ -1,0 +1,73 @@
+<!-- Lista de personajes de la novela _Sab_ de Gómez de Avellaneda.
+ 
+Formato XML-TEI: https://www.tei-c.org/Vault/P5/1.5.0/doc/tei-p5-doc/en/html/ref-listPerson.html
+
+Texto original de la novela: https://github.com/COST-ELTeC/ELTeC-spa/blob/master/level1/SPA1021_GomezDeAvellaneda_Sab.xml
+
+Borja Navarro Colorado - Universidad de Alicante, 2026 -->
+
+<listPerson>
+  <person xml:id="pr001">
+    <persName>Sab (Bernabé)</persName>
+  </person>
+  <person xml:id="pr002">
+    <persName>Carlota de B...</persName>
+  </person>
+  <person xml:id="pr003">
+    <persName>Enrique Otway</persName>
+  </person>
+  <person xml:id="pr004">
+    <persName>Teresa</persName>
+  </person>
+  <person xml:id="pr005">
+    <persName>Don Carlos de B...</persName>
+  </person>
+  <person xml:id="pr006">
+    <persName>Jorge Otway</persName>
+  </person>
+  <person xml:id="pr007">
+    <persName>Don Luis de B... (supuesto padre de Sab)</persName>
+  </person>
+  <person xml:id="pr008">
+    <persName>Don Félix de B...</persName>
+  </person>
+  <person xml:id="pr009">
+    <persName>Don Agustín de B...</persName>
+  </person>
+  <person xml:id="pr10">
+    <persName>Eugenio de B...</persName>
+  </person>
+  <person xml:id="pr011">
+    <persName>Martina (la vieja india)</persName>
+  </person>
+  <person xml:id="pr012">
+    <persName>La madre de Sab (Princesa africana del Congo)</persName>
+  </person>
+  <person xml:id="pr013">
+    <persName>La madre de Carlota (Señora de B...)</persName>
+  </person>
+  <person xml:id="pr014">
+    <persName>Hermana de Carlota 1</persName>
+  </person>
+  <person xml:id="pr015">
+    <persName>Hermana de Carlota 2</persName>
+  </person>
+  <person xml:id="pr016">
+    <persName>Hermana de Carlota 3</persName>
+  </person>
+  <person xml:id="pr017">
+    <persName>Hermana de Carlota 4</persName>
+  </person>
+  <person xml:id="pr018">
+    <persName>Belén, esclava</persName>
+  </person>
+  <person xml:id="pr019">
+    <persName>Dos catalanes, socios de Jorge Otway</persName>
+  </person>
+  <person xml:id="pr020">
+    <persName>José, esclavo</persName>
+  </person>
+  <person xml:id="pr021">
+    <persName>esclavo sin nombre</persName>
+  </person>
+</listPerson>
