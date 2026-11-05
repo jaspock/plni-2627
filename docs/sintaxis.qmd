@@ -20,6 +20,8 @@ Para estudiar este tema, os propongo una única lectura sobre análisis de depen
 
 :::
 
+Las transparencias utilizadas en clase están [aquí](assets/pdfs/Tema9_SintaxisComputacional.pdf).
+
 ## Actividades previas a la sesión del {{< var fechas.teoria.s9 >}}
 
 Una vez hayas estudiado los materiales, realiza el test que puedes encontrar en el [Moodle de la asignatura]({{< var moodle.url >}}).
