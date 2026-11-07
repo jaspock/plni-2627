@@ -83,7 +83,7 @@ website:
             href: docs/abpl.qmd
           - text: "Sintaxis computacional"
             href: docs/sintaxis.qmd
-          - text: "Sintaxis computacional"
+          - text: "Semántica léxica"
             href: docs/semanticaLexica.qmd
             
       - section: "Sesiones prácticas"
