@@ -39,6 +39,8 @@ website:
             href: docs/abpl.qmd
           - text: "Sintaxis computacional"
             href: docs/sintaxis.qmd
+          - text: "Semántica léxica"
+            href: docs/semanticaLexica.qmd
       - text: "Prácticas"
         menu:
           - text: "Introducción a PyTorch"
@@ -81,6 +83,9 @@ website:
             href: docs/abpl.qmd
           - text: "Sintaxis computacional"
             href: docs/sintaxis.qmd
+          - text: "Sintaxis computacional"
+            href: docs/semanticaLexica.qmd
+            
       - section: "Sesiones prácticas"
         contents:
           - text: "Introducción a PyTorch"
