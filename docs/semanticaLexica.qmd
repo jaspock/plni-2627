@@ -1,0 +1,51 @@
+---
+title: "Semántica léxica"
+---
+
+Fecha de la sesión: {{< var fechas.teoria.s10 >}}
+
+La semántica léxica incluye todo lo realtivo al significado de las palabras. En el tema se aclarán, primero, diversos conceptos semánticos (significado y sentido, significado connotativo, significado distribucional, etc.), de donde derivan diferentes tareas de PLN como *word sense disambiguation* o *sentiment analysis*, así como conceptos tan relevantes hoy día en PLN como *word embedding*. Se hará especial hincapié en cómo modelan los LLM el significado léxico (a nivel de *token* o inferior) y sus implicaciones en PLN.
+
+Recuerda que esta asignatura sigue una metodología de clase invertida, por lo que antes de la sesión de teoría debes estudiar los materiales que se indican a continuación y realizar las actividades que se proponen. El tiempo medio estimado para el estudio es de unas 3 horas, aunque puede variar según tu nivel de conocimientos previos y tu experiencia en el estudio de este tipo de contenidos.
+
+## Materiales a estudiar antes de la sesión del {{< var fechas.teoria.s10 >}} 
+
+Para estudiar este tema, os propongo una lectura sobre la relevancia (o no) de la desambiguación léxica en el PLN actual, basado en LLMs. Es una cofenrencia del investigador R. Navigli de 2026. Otros conceptos relevantes, como el singificado denotativo (análisis de sentimientos), se verán en clase.
+
+::: {.tabla-80}
+
+|Capítulo|Apartados o páginas|Contenido|
+|---|---|---|
+|[Is Word Sense Disambiguation Dead in the LLM Era?](https://ojs.aaai.org/index.php/AAAI/article/view/41331)|Completo|Desambiguación léxica tradicional (*word sense disambiguation*) y representación del significado en los LLMs|
+
+:::
+
+Las transparencias utilizadas en clase las pondré [aquí]() en breve.
+
+## Actividades previas a la sesión del {{< var fechas.teoria.s10 >}}
+
+Una vez hayas estudiado los materiales, realiza el test que puedes encontrar en el [Moodle de la asignatura]({{< var moodle.url >}}).
+
+El plazo para realizar las actividades previas finaliza la mañana de la sesión de teoría.
+
+## Evaluación asistida por un tutor inteligente
+
+Usa el siguiente prompt para evaluar tu comprensión de los conceptos fundamentales de esta sesión con ayuda de tu chat o agente de inteligencia artificial favorito.
+
+<div style="border: 1px solid #888; font-size: 0.9em; padding: 1em;">
+
+{{< include _socratic.md >}}
+
+1. Para reflexionar: ¿Crees que el significado distribucional propio de los LLM es sufiente para sistemas de PLN de propósito general, o sería necesario incluir de alguna manera significado de tipo conceptual? 
+2. Para reflexionar: Sea una palabra con un mismo significado que aparece en dos contexto distintos, pero en ambos el significado de la palabra es exactamente el mismo (por ejemplo, "banco" en la oraciones de ejemplo). BERT y sus derivados asignan el mismo ID de entrada a esa palabra, pero sus capas internas devuelven vectores distintos para cada aparición debido a las diferencias en los contextos. ¿Significa esto que para la BERT son al final son dos palabras distintas, pues su vector resultante (y por tanto la representación de su significado) es distinto)? Razona tu respuesta.
+
+Dos casos de ejemplo
+
+> "Ayer en el _banco_ me enconté a tu hermana, que ya han firmado la hipoteca de su casa"
+> "No me funciona el bizzum por un problema con la cuenta, así que tendré que ir al _banco_ mañana."
+
+</div>
+
+## Contenidos de la sesión 
+
+En la sesión de teoría presencial repasaremos los conceptos más complejos del tema y resolveremos las dudas que hayan surgido durante su estudio. También se verán conceptos y problemas computacionales sobre semántica léxica que no están en la lectura propuesta. 
