@@ -8,7 +8,7 @@ En este tema se expone los conceptos básicos del análisis sintáctico computac
 
 Recuerda que esta asignatura sigue una metodología de clase invertida, por lo que antes de la sesión de teoría debes estudiar los materiales que se indican a continuación y realizar las actividades que se proponen. El tiempo medio estimado para el estudio es de unas 3 horas, aunque puede variar según tu nivel de conocimientos previos y tu experiencia en el estudio de este tipo de contenidos.
 
-## Materiales a estudiar antes de la sesión del {{< var fechas.teoria.s8 >}} 
+## Materiales a estudiar antes de la sesión del {{< var fechas.teoria.s9 >}} 
 
 Para estudiar este tema, os propongo una única lectura sobre análisis de dependencias y las dependencias universales. El resto de conceptos se verán en clase.
 
