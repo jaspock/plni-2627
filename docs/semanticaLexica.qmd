@@ -39,7 +39,7 @@ Usa el siguiente prompt para evaluar tu comprensión de los conceptos fundamenta
 1. Para reflexionar: ¿Crees que el significado distribucional propio de los LLM es sufiente para sistemas de PLN de propósito general, o sería necesario incluir de alguna manera significado de tipo conceptual? 
 2. Para reflexionar: Sea una palabra con un mismo significado que aparece en dos contexto distintos, pero en ambos el significado de la palabra es exactamente el mismo (por ejemplo, "banco" en la oraciones de ejemplo). BERT y sus derivados asignan el mismo ID de entrada a esa palabra, pero sus capas internas devuelven vectores distintos para cada aparición debido a las diferencias en los contextos. ¿Significa esto que para la BERT al final son dos palabras distintas, pues sus vectores resultantes (y por tanto la representación de su significado) son distintos)? Razona tu respuesta.
 
-  > - "Ayer en el *banco* me enconté a tu hermana, que ya han firmado la hipoteca de su casa"
+  > - "Ayer en el *banco* me enconté a tu hermana, que ya ha firmado la hipoteca de su casa"
   > - "No me funciona el bizzum por un problema con la cuenta, así que tendré que ir al *banco* mañana."
 
 </div>
