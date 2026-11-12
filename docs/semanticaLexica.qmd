@@ -20,7 +20,7 @@ Para estudiar este tema, os propongo una lectura sobre la relevancia (o no) de l
 
 :::
 
-Las transparencias utilizadas en clase las pondré [aquí]() en breve.
+Las transparencias utilizadas en clase están [aquí](assets/pdfs/T10_SemanticaLexica.pdf).
 
 ## Actividades previas a la sesión del {{< var fechas.teoria.s10 >}}
 
