@@ -39,7 +39,7 @@ Usa el siguiente prompt para evaluar tu comprensión de los conceptos fundamenta
 1. Según tu opinión, para un sistema de IA genérico, que busca una interpretación precisas y ajustada de la semántica oracional (entendida como expresión de un evento), ¿qué modelo sería más apropiado, el que tiende a roles abstractos como PropBank, o el que tiende a roles muy dependientes de la semántica específica del verbo como FrameNet? Valora qué ventajas y problemas presenta cada propuesta. 
 2. Para reflexionar: Si la relación de un verbo con sus argumento se basa en preferencias de selección semántica (donde la semántica del verbo "selecciona" unos argumentos u otros con unos rasgos semánticos determinados), y asumiendo que el verbo "comer" selecciona un argumento tema (o Arg1) con el rasgo semántico "comible" (capacidad de ser comido), ¿cómo es posible que consideremos correcta e podamos interpretar la siguiente oración? (razona tu respuesta):
 
-> "¡Me voy a comer el mundo!"
+  > "¡Me voy a comer el mundo!"
 
 </div>
 
