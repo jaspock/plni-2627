@@ -1,0 +1,48 @@
+---
+title: "Roles Semánticos (Semantic Role Labeling)"
+---
+
+Fecha de la sesión: {{< var fechas.teoria.s11 >}}
+
+La interpretación semántica de la oración implica determinar qué relación semántica se establece entre sus componentes. Desde los inicios del PLN se han propuesto diferentes formalismos, destacando la representación de la semántica oracional mediante lógica de predicados, que es el formalismo tradicional. En los últimos 25 años, sin embargo, en PLN se ha impuesto el modelo eventivo: se asume que la oración, en general, expresa un evento (del inglés *event*, algo que ocurre o sucede) en el que participan diferentes entidades. En este marco se inserta el análisis de roles semánticos (*semantic role labeling*), que aplica al análisis semántico computacional la teoría de los roles semánticos. La acción expresada por el verbo viene acompañada en la oración por otros elementos (los roles) que completan la semántica del evento expresado: el agente que realiza la acción, el paciente (o tema) que la recibe, el instrumento con que se realiza, el lugar y tiempo de realización, etc.
+
+En este tema se explicará primero los fundamentos de la teoría de los roles semánticos y los problemas que presenta. Luego se mostrarán los principales modelos computacionales para su representación, así como los principales algoritmos de análisis, tanto simbólicos como neuronales. Finalmente se comentarán algunas propuestas recientes y otros modelos alternativos de representación de la semántica oracional.
+
+Recuerda que esta asignatura sigue una metodología de clase invertida, por lo que antes de la sesión de teoría debes estudiar los materiales que se indican a continuación y realizar las actividades que se proponen. El tiempo medio estimado para el estudio es de unas 3 horas, aunque puede variar según tu nivel de conocimientos previos y tu experiencia en el estudio de este tipo de contenidos.
+
+## Materiales a estudiar antes de la sesión del {{< var fechas.teoria.s11 >}} 
+
+::: {.tabla-80}
+
+|Capítulo|Apartados o páginas|Contenido|
+|---|---|---|
+|[Semantic Role Labeling](https://web.stanford.edu/~jurafsky/slp3/22.pdf)|Completo|Fundamentos teóricos, modelos de representación (PropBank y FrameNet), principales algoritmos y tareas relacionadas.|
+
+:::
+
+Las transparencias utilizadas en clase las pondré [aquí]() en breve.
+
+## Actividades previas a la sesión del {{< var fechas.teoria.s11 >}}
+
+Una vez hayas estudiado los materiales, realiza el test que puedes encontrar en el [Moodle de la asignatura]({{< var moodle.url >}}).
+
+El plazo para realizar las actividades previas finaliza la mañana de la sesión de teoría.
+
+## Evaluación asistida por un tutor inteligente
+
+Usa el siguiente prompt para evaluar tu comprensión de los conceptos fundamentales de esta sesión con ayuda de tu chat o agente de inteligencia artificial favorito.
+
+<div style="border: 1px solid #888; font-size: 0.9em; padding: 1em;">
+
+{{< include _socratic.md >}}
+
+1. Según tu opinión, para un sistema de IA genérico, que busca una interpretación precisas y ajustada de la semántica oracional (entendida como expresión de un evento), ¿qué modelo sería más apropiado, el que tiende a roles abstractos como PropBank, o el que tiende a roles muy dependientes de la semántica específica del verbo como FrameNet? Valora qué ventajas y problemas presenta cada propuesta. 
+2. Para reflexionar: Si la relación de un verbo con sus argumento se basa en preferencias de selección semántica (donde la semántica del verbo "selecciona" unos argumentos u otros con unos rasgos semánticos determinados), y asumiendo que el verbo "comer" selecciona un argumento tema (o Arg1) con el rasgo semántico "comible" (capacidad de ser comido), ¿cómo es posible que consideremos correcta e podamos interpretar la siguiente oración? (razona tu respuesta):
+
+> "¡Me voy a comer el mundo!"
+
+</div>
+
+## Contenidos de la sesión 
+
+En la sesión de teoría presencial repasaremos los conceptos más complejos del tema y resolveremos las dudas que hayan surgido durante su estudio. También se verán, para completar el tema, otros modelos computacional y problemas sobre semántica oracional que no están en la lectura propuesta. 
