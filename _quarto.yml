@@ -41,6 +41,8 @@ website:
             href: docs/sintaxis.qmd
           - text: "Semántica léxica"
             href: docs/semanticaLexica.qmd
+          - text: "Semántica oracional (1)"
+            href: docs/srl.qmd
       - text: "Prácticas"
         menu:
           - text: "Introducción a PyTorch"
