@@ -20,7 +20,7 @@ Recuerda que esta asignatura sigue una metodología de clase invertida, por lo q
 
 :::
 
-Las transparencias utilizadas en clase están [aquí](assets/pdfs/T10_SemanticaLexica.pdf).
+Las transparencias utilizadas en clase están [aquí](assets/pdfs/srl.pdf).
 
 ## Actividades previas a la sesión del {{< var fechas.teoria.s11 >}}
 
