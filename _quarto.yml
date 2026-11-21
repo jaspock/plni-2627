@@ -43,6 +43,8 @@ website:
             href: docs/semanticaLexica.qmd
           - text: "Semántica oracional (1)"
             href: docs/srl.qmd
+          - text: "Semántica oracional (2)"
+            href: docs/events.qmd
       - text: "Prácticas"
         menu:
           - text: "Introducción a PyTorch"
@@ -89,6 +91,8 @@ website:
             href: docs/semanticaLexica.qmd
           - text: "Semántica oracional (1)"
             href: docs/srl.qmd
+         - text: "Semántica oracional (2)"
+            href: docs/events.qmd
             
       - section: "Sesiones prácticas"
         contents:
