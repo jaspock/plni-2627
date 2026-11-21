@@ -35,8 +35,7 @@ Usa el siguiente prompt para evaluar tu comprensión de los conceptos fundamenta
 
 {{< include _socratic.md >}}
 
-1.¿Hasta qué punto la identificación de un evento debe depender de la categoría gramatical (verbo) frente a la semántica del contexto? Por un lado, hay nombres que denotan evento (normalmente nombres que derivan de verbos como "el incremento" de "incrementar"); por otro lado, hay verbos de apoyo (o "light verbs") como "hacer", "ir" o "tener" que en sí mismo no expresan el evento completo (como en "tomar un vuelo", "tengo que trabajar" o "voy a estudiar" cuando indica que se va a iniciar la acción). ¿Es necesaria la sintaxis para detectar evento? ¿O con el modelado del contexto de un LLM, por ejemplo, sería necesario para detectar y categorizar eventos? 
-
+1.¿Hasta qué punto la identificación de un evento debe depender de la categoría gramatical (verbo) frente a la semántica del contexto? Por un lado, hay nombres que denotan evento (normalmente nombres que derivan de verbos como "el incremento" de "incrementar"); por otro lado, hay verbos de apoyo (o "light verbs") como "hacer", "ir" o "tener" que en sí mismo no expresan el evento completo (como en "tomar un vuelo", "tengo que trabajar" o "voy a estudiar" cuando indica que se va a iniciar la acción). ¿Es necesaria la sintaxis para detectar evento? ¿O con el modelado del contexto de un LLM, por ejemplo, sería necesario para detectar y categorizar eventos?
 2. Según tu opinión, ¿cómo debería analizar un sistema de extracción de conocimiento eventos que aparece mencionados en el texto pero dentro de un contexto modal, dudoso o negado? Verbos como "prometer", "intentar", "evitar" o "negar" subordinan otros eventos que no necesariamente han ocurrido en el mundo real. Por ejemplo, en "Juan evitó el divorcio", el evento "divorcio" no ha sido finalmente realizado. ¿Cómo debería tratar un sistemas de extracción de conocimiento estos casos para que no cometa errores de veracidad?
 
 </div>
