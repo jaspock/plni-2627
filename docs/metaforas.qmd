@@ -1,0 +1,55 @@
+---
+title: "Procesamiento de metáforas"
+---
+
+Fecha de la sesión: {{< var fechas.teoria.s13 >}}
+
+La metáfora no es tanto un fenómeno lingüístico como un fenómeno cognitivo. Es la mente humana la que trabaja con metáforas, que luego se reflejan en los textos. Desde el punto de vista lingüístico, una metáfora es la utilización de un término con un sentido y en un contexto diferente al habitual. Un caso común de uso de metáforas es hablar de conceptos abstractos con términos propios de un dominio concreto. Al hablar del tiempo, por ejemplo, que es un dominio muy abstracto, se suelen utilizar términos de otros dominios más concretos como es el dinero. Mira los siguientes ejemplos:
+
+> "Ese proyecto me costó tres meses de trabajo continuo, pero valió cada minuto invertido."
+> "No pienso malgastar ni un segundo de mi tiempo en discutir tonterías."
+
+En ambos casos se está hablando del tiempo. Al ser un dominio tan abstracto, la mente utiliza términos del dominio de la economía, que es más concreto:"costar", "valer", "invertir", "malgastar". Estos dos ejemplos se basan en la relación metafórica "tiempo es dinero".
+
+Metáforas aparecen en cualquier tipo de texto. No son una excepción ni una ``desviación'' del lenguaje. Por ello, los sistemas de PLN deben interpertarlas. El principal problema en PLN es que las técnicas habituales (determinar el sentido a partir del contexto de uso habitual o determinarlo por el sentido codificado en un diccionario) no son, en principio, las más apropiadas por el propio carácter de la metáfora: su significado no está codificado en un diccionario y la palabra se utiliza en un contexto que no es el habitual. Se han propuesto varios métodos para detectar e interpretar metáforas, que se expondrán en clase.
+
+El tema de debate en la actualidad es si lo LLM son capaces de aprender y utilizar los usos metafóricos de las palabras. Como lectura de esta semana tenéis dos artículos reciente que analizan si los LLM entienden y generan metáforas. Realizan el análisis desde dos puntos de vista diferentes. En clase debatiremos sobre esta cuestión y sobre cómo abordar el procesamiento de la metáfora.
+
+Recuerda que esta asignatura sigue una metodología de clase invertida, por lo que antes de la sesión de teoría debes estudiar los materiales que se indican a continuación y realizar las actividades que se proponen. El tiempo medio estimado para el estudio es de unas 3 horas, aunque puede variar según tu nivel de conocimientos previos y tu experiencia en el estudio de este tipo de contenidos. En clase se repasarán los conceptos de las lecturas y se profundizará en algunos puntos concretos.
+
+## Materiales a estudiar antes de la sesión del {{< var fechas.teoria.s13 >}} 
+
+::: {.tabla-80}
+
+|Capítulo|Apartados o páginas|Contenido|
+|---|---|---|
+|[Sanchez-Bayona y Agerri (2025) Metaphor and Large Language Models: When Surface Features Matter
+More than Deep Understanding](https://aclanthology.org/2025.findings-acl.898/)|Completo|Análisis de metáforas y LLMs.|
+|[Li, Andersen y Lewis (2026) The Geometry of Metaphor: Probing and Steering Metaphor
+Representations in Large Language Models](https://aclanthology.org/2026.blackboxnlp-1.54/)|Completo|Análisis mecanicista de metáforas en LLMs|
+
+:::
+
+<!-- Las transparencias utilizadas en clase están [aquí](assets/pdfs/T10b_events.pdf). -->
+
+## Actividades previas a la sesión del {{< var fechas.teoria.s13 >}}
+
+Una vez hayas estudiado los materiales, realiza el test que puedes encontrar en el [Moodle de la asignatura]({{< var moodle.url >}}).
+
+El plazo para realizar las actividades previas finaliza la mañana de la sesión de teoría.
+
+## Evaluación asistida por un tutor inteligente
+
+Usa el siguiente prompt para evaluar tu comprensión de los conceptos fundamentales de esta sesión con ayuda de tu chat o agente de inteligencia artificial favorito.
+
+<div style="border: 1px solid #888; font-size: 0.9em; padding: 1em;">
+
+{{< include _socratic.md >}}
+
+1. Dado que en todos los texto hay metáforas, los LLM han aprendido ya su uso contextual. Quizá por eso las entieden y las utilizan al generar nuevos textos. ¿Es consciente un LLM de que utiliza metáforas? ¿Y un ser humano?
+
+</div>
+
+## Contenidos de la sesión 
+
+En la sesión de teoría presencial repasaremos los conceptos más complejos del tema y resolveremos las dudas que hayan surgido durante su estudio. Se verán, para completar el tema, otros modelos computacional y problemas sobre procesamiento de metáforas que no están en las lecturas propuestas.
