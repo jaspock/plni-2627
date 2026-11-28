@@ -62,7 +62,7 @@ La siguiente tabla muestra las 15 semanas del curso, con los contenidos que se t
 | 10 | {{< var fechas.lunes.s10 >}} | [Tema 10](docs/semanticaLexica.qmd): semántica léxica |  |  |
 | 11 | {{< var fechas.lunes.s11 >}} | [Tema 11](docs/srl.qmd): semántica oracional 1: roles semánticos. |  |  |
 | 12 | {{< var fechas.lunes.s12 >}} | [Tema 12](docs/events.qmd): semántica oracional 2: eventos y relaciones temporales. |  |  |
-| 13 | {{< var fechas.lunes.s13 >}} |  |  |  |
+| 13 | {{< var fechas.lunes.s13 >}} | [Tema 13](docs/metaforas.qmd): procesamiento de metáforas. |  |  |
 | 14 | {{< var fechas.lunes.s14 >}} |  |  |  |
 | 15 | {{< var fechas.lunes.s15 >}} |  |  |  |
 
