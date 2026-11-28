@@ -45,6 +45,8 @@ website:
             href: docs/srl.qmd
           - text: "Semántica oracional (2)"
             href: docs/events.qmd
+          - text: "Procesamiento de metáforas"
+            href: docs/metaforas.qmd
       - text: "Prácticas"
         menu:
           - text: "Introducción a PyTorch"
@@ -93,6 +95,8 @@ website:
             href: docs/srl.qmd
           - text: "Semántica oracional (2)"
             href: docs/events.qmd
+          - text: "Procesamiento de metáforas"
+            href: docs/metaforas.qmd
             
       - section: "Sesiones prácticas"
         contents:
